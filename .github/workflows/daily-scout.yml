@@ -1,0 +1,76 @@
+name: Daily Pan-India Entry-Level Job Scout
+
+on:
+  schedule:
+    # 3:30 AM UTC = 9:00 AM IST (Asia/Kolkata)
+    - cron: '30 3 * * *'
+  workflow_dispatch: # Allows manual trigger from GitHub UI anytime
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  scout-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: npm ci || npm install
+
+      - name: Run Daily Scout
+        run: node run-daily-scout.js
+
+      - name: Prepare GitHub Pages Artifact
+        run: |
+          mkdir -p public
+          cp output/dashboard.html public/index.html
+          if [ -d "output/cover_letters" ]; then
+            cp -r output/cover_letters public/
+          fi
+
+      - name: Generate GitHub Actions Job Summary
+        run: |
+          echo "## 🚀 Daily Pan-India Entry-Level Job Scout Summary" >> $GITHUB_STEP_SUMMARY
+          echo "Run completed at **$(date)**" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### 🌐 Live Dashboard" >> $GITHUB_STEP_SUMMARY
+          echo "View and apply on your phone/browser: [Open Live Dashboard](https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/)" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### 📊 Application Database Status" >> $GITHUB_STEP_SUMMARY
+          echo "- Filter: **0-1 Year Experience (Internship Profile)**" >> $GITHUB_STEP_SUMMARY
+          echo "- Scope: **Pan-India (Bengaluru, Hyderabad, Pune, Mumbai, Delhi-NCR, Remote)**" >> $GITHUB_STEP_SUMMARY
+
+      - name: Commit & Push Updated Tracker Database
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add applications.json output/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update daily job applications [skip ci]" && git push)
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'public'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,95 @@
+{
+  "profile": {
+    "experience": "1 year of internship experience",
+    "experienceLevel": "Entry Level / Fresher / 0-1 Years",
+    "targetRoles": [
+      "Data Analyst",
+      "Junior Data Analyst",
+      "Entry Level Data Analyst",
+      "Associate Data Analyst",
+      "Graduate Data Analyst",
+      "Data Analyst Intern",
+      "Junior BI Analyst",
+      "Business Intelligence Analyst",
+      "Junior Data Scientist",
+      "Associate Data Scientist",
+      "Data Science Intern"
+    ],
+    "skills": [
+      "SQL",
+      "Python",
+      "Excel",
+      "Advanced Excel",
+      "Power BI",
+      "Tableau",
+      "Pandas",
+      "NumPy",
+      "Data Cleaning",
+      "Data Visualization",
+      "Exploratory Data Analysis",
+      "EDA",
+      "Statistics",
+      "Business Intelligence",
+      "MySQL",
+      "PostgreSQL"
+    ],
+    "locations": [
+      "Pan India",
+      "India",
+      "Bengaluru",
+      "Bangalore",
+      "Hyderabad",
+      "Pune",
+      "Mumbai",
+      "Delhi NCR",
+      "Gurugram",
+      "Gurgaon",
+      "Noida",
+      "Chennai",
+      "Kolkata",
+      "Remote (India)"
+    ],
+    "workArrangement": "Pan India (On-site / Hybrid / Remote within India)"
+  },
+  "filters": {
+    "strictEntryLevelOnly": true,
+    "maxYearsExperience": 1,
+    "excludeKeywords": [
+      "senior",
+      "sr.",
+      "lead",
+      "principal",
+      "staff",
+      "manager",
+      "director",
+      "head of",
+      "architect",
+      "3+ years",
+      "4+ years",
+      "5+ years",
+      "6+ years",
+      "7+ years",
+      "8+ years",
+      "10+ years"
+    ],
+    "includeKeywords": [
+      "entry level",
+      "fresher",
+      "junior",
+      "intern",
+      "internship",
+      "associate",
+      "graduate",
+      "trainee",
+      "0-1",
+      "0-2 years",
+      "1 year"
+    ]
+  },
+  "settings": {
+    "minMatchScore": 40,
+    "maxDailyJobs": 25,
+    "saveCoverLetters": true,
+    "outputDir": "./output"
+  }
+}

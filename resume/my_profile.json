@@ -1,0 +1,37 @@
+{
+  "name": "Candidate",
+  "email": "candidate@example.com",
+  "phone": "+91-XXXXXXXXXX",
+  "location": "India (Open to Pan India / Hybrid / Relocation / Remote)",
+  "experienceSummary": "Data Analyst with 1 year of hands-on internship experience in data processing, SQL querying, building Power BI/Tableau dashboards, and performing exploratory data analysis using Python.",
+  "experienceYears": 1,
+  "experienceDetails": [
+    {
+      "role": "Data Analyst Intern",
+      "duration": "1 Year",
+      "highlights": [
+        "Wrote complex SQL queries, joins, and aggregations to extract insights from relational databases.",
+        "Built automated dashboards and reports using Power BI and Excel to track key business KPIs.",
+        "Cleaned and manipulated large datasets with Python (Pandas, NumPy), reducing data preprocessing time.",
+        "Collaborated with cross-functional teams to translate business requirements into actionable data visualizations."
+      ]
+    }
+  ],
+  "skills": [
+    "SQL",
+    "Python",
+    "Advanced Excel (VLOOKUP, Pivot Tables, Macros)",
+    "Power BI",
+    "Tableau",
+    "Pandas",
+    "NumPy",
+    "Data Cleaning & Preprocessing",
+    "Data Visualization",
+    "Exploratory Data Analysis (EDA)",
+    "MySQL",
+    "PostgreSQL",
+    "Git"
+  ],
+  "noticePeriod": "Immediate / 0 days",
+  "workPreference": "Pan India / Hybrid / Remote / On-site"
+}
