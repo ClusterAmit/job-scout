@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-29T15:31:17.232Z",
-  "totalTracked": 51,
+  "lastUpdated": "2026-10-29T16:25:58.953Z",
+  "totalTracked": 52,
   "appliedCount": 0,
   "jobs": {
     "li_4483233380": {
@@ -1031,7 +1031,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-10-29",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-10-29"
     },
     "yc_20763487": {
       "id": "yc_20763487",
@@ -1061,7 +1062,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-10-29",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-10-29"
     },
     "ishala_aHR0cHM6Ly9pbnRl": {
       "id": "ishala_aHR0cHM6Ly9pbnRl",
@@ -1117,7 +1119,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-10-29",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-10-29"
     },
     "yc_37519487": {
       "id": "yc_37519487",
@@ -1145,7 +1148,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-10-29",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-10-29"
     },
     "yc_37284488": {
       "id": "yc_37284488",
@@ -1173,7 +1177,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-10-29",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-10-29"
     },
     "yc_33453992": {
       "id": "yc_33453992",
@@ -1201,7 +1206,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-10-29",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-10-29"
     },
     "yc_33439432": {
       "id": "yc_33439432",
@@ -1229,7 +1235,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-10-29",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-10-29"
     },
     "yc_33265128": {
       "id": "yc_33265128",
@@ -1257,7 +1264,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-10-29",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-10-29"
     },
     "yc_33027160": {
       "id": "yc_33027160",
@@ -1285,7 +1293,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-10-29",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-10-29"
     },
     "yc_32855041": {
       "id": "yc_32855041",
@@ -1313,7 +1322,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-10-29",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-10-29"
     },
     "yc_32512211": {
       "id": "yc_32512211",
@@ -1341,7 +1351,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-10-29",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-10-29"
     },
     "yc_32117221": {
       "id": "yc_32117221",
@@ -1369,7 +1380,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-10-29",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-10-29"
     },
     "yc_27287278": {
       "id": "yc_27287278",
@@ -1397,7 +1409,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-10-29",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-10-29"
     },
     "yc_24924103": {
       "id": "yc_24924103",
@@ -1425,7 +1438,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-10-29",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-10-29"
     },
     "yc_22361157": {
       "id": "yc_22361157",
@@ -1453,7 +1467,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-10-29",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-10-29"
     },
     "yc_40004357": {
       "id": "yc_40004357",
@@ -1471,6 +1486,35 @@
       "coverLetterData": {
         "coverLetter": "Dear Hiring Team at YC Startup,\n\nI am writing to express my strong enthusiasm for the Evidence (YC S21) is hiring an analytics intern opportunity at YC Startup. As a data-driven professional with 1 year of hands-on internship experience at Ai Variant (Bengaluru), I specialize in translating complex business processes into actionable dashboards and analytical solutions.\n\nDuring my 1-year internship, I delivered measurable results across business intelligence and data operations:\n• Built and deployed 12+ interactive Power BI and Tableau dashboards, reducing manual reporting cycles by 40%.\n• Wrote optimized MySQL queries (leveraging CTEs, joins, and window functions) across 50,000+ transactional records, boosting data validation accuracy by 25%.\n• Spearheaded requirement gathering sessions, authored comprehensive BRDs/FRDs, and guided User Acceptance Testing (UAT) cycles in Agile sprints.\n• Conducted exploratory data analysis (EDA) using Python (Pandas, NumPy) and Advanced Excel (Pivot Tables, XLOOKUP).\n\nYour Evidence (YC S21) is hiring an analytics intern opening aligns perfectly with my background in SQL (CTEs, Window functions), Power BI (DAX), Tableau, and Advanced Excel. Having completed end-to-end projects in financial risk monitoring, healthcare analytics, and retail intelligence, I can ramp up quickly and contribute from day one. I am currently based in Bengaluru, fully open to Pan-India opportunities (On-site, Hybrid, or Remote), and available to join immediately.\n\nThank you for your time and consideration. I would love the opportunity to discuss how my analytical skills and dedication can support YC Startup's growth.\n\nWarm regards,\n\nAMIT KUMAR SAINI\nPhone: +91 7903838926\nEmail: clusterdistracted@gmail.com\nLinkedIn: https://linkedin.com/in/amitsaini-business-analyst\nGitHub: https://github.com/ClusterAmit\n",
         "shortPitch": "Hi Hiring Team, I came across your opening for Evidence (YC S21) is hiring an analytics intern at YC Startup. I have 1 year of hands-on internship experience in data & business analytics (Ai Variant), where I built 12+ Power BI/Tableau dashboards and wrote optimized MySQL/Python queries. I am based in India, open to Pan-India/Hybrid/Remote setups, and available to join immediately. Would love to connect!",
+        "screeningAnswers": {
+          "Total Experience": "1 Year (Hands-on Business & Data Analytics Internship at Ai Variant)",
+          "Notice Period": "Immediate / 0 Days (Ready to join immediately)",
+          "Current Location & Mobility": "Bengaluru, Karnataka (Flexible for Pan-India relocation / Hybrid / Remote)",
+          "Primary Technical Skills": "SQL (MySQL, CTEs, Window Functions), Power BI (DAX), Tableau, Advanced Excel (XLOOKUP, Pivot Tables), Python (Pandas, NumPy)",
+          "Why should we hire you?": "During my 1-year internship, I didn't just study data—I automated reports, authored BRD/FRD documents, and improved reporting accuracy by 25%. I bring practical, production-level SQL and dashboarding skills with a relentless desire to learn and deliver."
+        }
+      },
+      "status": "New",
+      "dateDiscovered": "2026-10-29",
+      "notes": "",
+      "lastSeen": "2026-10-29"
+    },
+    "li_4483663079": {
+      "id": "li_4483663079",
+      "title": "Machine Learning Developer",
+      "company": "Data Eminence",
+      "location": "India",
+      "link": "https://in.linkedin.com/jobs/view/machine-learning-developer-at-data-eminence-4483663079",
+      "datePosted": "2 days ago",
+      "source": "LinkedIn (Pan-India Entry Level)",
+      "description": "Machine Learning Developer at Data Eminence in India. Entry-level / Fresher opportunity in India.",
+      "score": 40,
+      "matchedSkills": [],
+      "reason": "Targeted entry-level/fresher role in India matching your 1-year internship. Matched key skills: Analytics basics.",
+      "isEntryLevelVerified": true,
+      "coverLetterData": {
+        "coverLetter": "Dear Hiring Team at Data Eminence,\n\nI am writing to express my strong enthusiasm for the Machine Learning Developer opportunity at Data Eminence. As a data-driven professional with 1 year of hands-on internship experience at Ai Variant (Bengaluru), I specialize in translating complex business processes into actionable dashboards and analytical solutions.\n\nDuring my 1-year internship, I delivered measurable results across business intelligence and data operations:\n• Built and deployed 12+ interactive Power BI and Tableau dashboards, reducing manual reporting cycles by 40%.\n• Wrote optimized MySQL queries (leveraging CTEs, joins, and window functions) across 50,000+ transactional records, boosting data validation accuracy by 25%.\n• Spearheaded requirement gathering sessions, authored comprehensive BRDs/FRDs, and guided User Acceptance Testing (UAT) cycles in Agile sprints.\n• Conducted exploratory data analysis (EDA) using Python (Pandas, NumPy) and Advanced Excel (Pivot Tables, XLOOKUP).\n\nYour Machine Learning Developer opening aligns perfectly with my background in SQL (CTEs, Window functions), Power BI (DAX), Tableau, and Advanced Excel. Having completed end-to-end projects in financial risk monitoring, healthcare analytics, and retail intelligence, I can ramp up quickly and contribute from day one. I am currently based in Bengaluru, fully open to Pan-India opportunities (On-site, Hybrid, or Remote), and available to join immediately.\n\nThank you for your time and consideration. I would love the opportunity to discuss how my analytical skills and dedication can support Data Eminence's growth.\n\nWarm regards,\n\nAMIT KUMAR SAINI\nPhone: +91 7903838926\nEmail: clusterdistracted@gmail.com\nLinkedIn: https://linkedin.com/in/amitsaini-business-analyst\nGitHub: https://github.com/ClusterAmit\n",
+        "shortPitch": "Hi Hiring Team, I came across your opening for Machine Learning Developer at Data Eminence. I have 1 year of hands-on internship experience in data & business analytics (Ai Variant), where I built 12+ Power BI/Tableau dashboards and wrote optimized MySQL/Python queries. I am based in India, open to Pan-India/Hybrid/Remote setups, and available to join immediately. Would love to connect!",
         "screeningAnswers": {
           "Total Experience": "1 Year (Hands-on Business & Data Analytics Internship at Ai Variant)",
           "Notice Period": "Immediate / 0 Days (Ready to join immediately)",
