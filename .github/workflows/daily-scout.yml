@@ -5,6 +5,11 @@ on:
     # 3:30 AM UTC = 9:00 AM IST (Asia/Kolkata)
     - cron: '30 3 * * *'
   workflow_dispatch: # Allows manual trigger from GitHub UI anytime
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - 'README.md'
 
 permissions:
   contents: write
