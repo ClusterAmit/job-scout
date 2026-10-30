@@ -1,5 +1,5 @@
 JOB: Data Analyst with SQL, Python, Data visualization at Citi (Haryana, India)
-LINK: https://in.linkedin.com/jobs/view/data-analyst-with-sql-python-data-visualization-at-citi-4483214992
+LINK: https://in.linkedin.com/jobs/view/data-analyst-with-sql-python-data-visualization-at-citi-4483230422
 MATCH SCORE: 75%
 SOURCE: LinkedIn (Pan-India Entry Level)
 
