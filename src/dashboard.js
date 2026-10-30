@@ -24,6 +24,11 @@ function generateDashboardHtml(allJobsList, profile) {
 
   const jobsJson = JSON.stringify(allJobsList).replace(/</g, '\\u003c').replace(/>/g, '\\u003e');
 
+  const now = new Date();
+  const dateFormatted = now.toLocaleDateString('en-IN', { timeZone: 'Asia/Kolkata', day: 'numeric', month: 'short', year: 'numeric' });
+  const timeFormatted = now.toLocaleTimeString('en-IN', { timeZone: 'Asia/Kolkata', hour: '2-digit', minute: '2-digit' });
+  const lastUpdatedStr = `${dateFormatted} at ${timeFormatted} IST`;
+
   const html = `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -69,6 +74,7 @@ function generateDashboardHtml(allJobsList, profile) {
     .badge-fresher { background: rgba(56, 189, 248, 0.15); color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.3); }
     .badge-location { background: rgba(52, 211, 153, 0.15); color: #34d399; border: 1px solid rgba(52, 211, 153, 0.3); margin-left: 8px; }
     .badge-user { background: rgba(168, 85, 247, 0.15); color: #c084fc; border: 1px solid rgba(168, 85, 247, 0.3); margin-left: 8px; }
+    .badge-date { background: rgba(245, 158, 11, 0.15); color: #fbbf24; border: 1px solid rgba(245, 158, 11, 0.3); margin-left: 8px; }
 
     h1 { font-size: 1.8rem; font-weight: 700; margin: 12px 0 6px 0; color: #fff; }
     p.subtitle { color: var(--text-muted); font-size: 0.95rem; }
@@ -365,9 +371,10 @@ function generateDashboardHtml(allJobsList, profile) {
       <span class="badge-pill badge-fresher">🎯 Entry Level Only (1-Year Internship Profile)</span>
       <span class="badge-pill badge-location">📍 Pan-India Search Active</span>
       <span class="badge-pill badge-user">👤 Amit Kumar Saini (Ai Variant)</span>
+      <span class="badge-pill badge-date">🕒 Updated: ${lastUpdatedStr}</span>
     </div>
     <h1>Pan-India Entry Level Data Analytics Job Scout</h1>
-    <p class="subtitle">Multi-platform automated engine scouting entry-level data & BI roles across LinkedIn, Internshala, Y Combinator, Instahyre, HiringCafe, Welcome to the Jungle, and Naukri.</p>
+    <p class="subtitle">Multi-platform automated engine scouting entry-level data & BI roles across LinkedIn, Internshala, Y Combinator, Instahyre, HiringCafe, Welcome to the Jungle, and Naukri. <span style="color: #38bdf8; font-weight: 500;">Last scouted: ${lastUpdatedStr}</span></p>
     
     <div class="stats-grid">
       <div class="stat-card">

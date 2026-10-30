@@ -22,11 +22,15 @@ concurrency:
 
 jobs:
   scout-and-deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
         with:
+          ref: main
           fetch-depth: 0
 
       - name: Set up Node.js
@@ -49,25 +53,6 @@ jobs:
             cp -r output/cover_letters public/
           fi
 
-      - name: Generate GitHub Actions Job Summary
-        run: |
-          echo "## 🚀 Daily Pan-India Entry-Level Job Scout Summary" >> $GITHUB_STEP_SUMMARY
-          echo "Run completed at **$(date)**" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "### 🌐 Live Dashboard" >> $GITHUB_STEP_SUMMARY
-          echo "View and apply on your phone/browser: [Open Live Dashboard](https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/)" >> $GITHUB_STEP_SUMMARY
-          echo "" >> $GITHUB_STEP_SUMMARY
-          echo "### 📊 Application Database Status" >> $GITHUB_STEP_SUMMARY
-          echo "- Filter: **0-1 Year Experience (Internship Profile)**" >> $GITHUB_STEP_SUMMARY
-          echo "- Scope: **Pan-India (Bengaluru, Hyderabad, Pune, Mumbai, Delhi-NCR, Remote)**" >> $GITHUB_STEP_SUMMARY
-
-      - name: Commit & Push Updated Tracker Database
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add applications.json output/
-          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update daily job applications [skip ci]" && git push)
-
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
@@ -79,3 +64,31 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Generate GitHub Actions Job Summary
+        if: always()
+        run: |
+          echo "## 🚀 Daily Pan-India Entry-Level Job Scout Summary" >> $GITHUB_STEP_SUMMARY
+          echo "Run completed at **$(date)**" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### 🌐 Live Dashboard" >> $GITHUB_STEP_SUMMARY
+          echo "View and apply on your phone/browser: [Open Live Dashboard](https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name || 'job-scout' }}/)" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### 📊 Application Database Status" >> $GITHUB_STEP_SUMMARY
+          echo "- Filter: **0-1 Year Experience (Internship Profile)**" >> $GITHUB_STEP_SUMMARY
+          echo "- Scope: **Pan-India (Bengaluru, Hyderabad, Pune, Mumbai, Delhi-NCR, Remote)**" >> $GITHUB_STEP_SUMMARY
+
+      - name: Commit & Push Updated Tracker Database
+        if: always()
+        continue-on-error: true
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git fetch origin main
+          git checkout main || true
+          git add applications.json output/
+          if ! git diff --staged --quiet; then
+            git commit -m "Auto-update daily job applications [skip ci]"
+            git pull --rebase origin main || true
+            git push origin HEAD:main || echo "Push warning: continuing without push"
+          fi
