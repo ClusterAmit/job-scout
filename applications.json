@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-30T07:06:49.550Z",
-  "totalTracked": 65,
+  "lastUpdated": "2026-10-30T07:10:09.671Z",
+  "totalTracked": 66,
   "appliedCount": 0,
   "jobs": {
     "li_4483233380": {
@@ -1556,7 +1556,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-10-30",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-10-30"
     },
     "li_4484533060": {
       "id": "li_4484533060",
@@ -1587,7 +1588,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-10-30",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-10-30"
     },
     "li_4484175437": {
       "id": "li_4484175437",
@@ -1618,7 +1620,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-10-30",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-10-30"
     },
     "li_4484199738": {
       "id": "li_4484199738",
@@ -1646,7 +1649,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-10-30",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-10-30"
     },
     "li_4485297505": {
       "id": "li_4485297505",
@@ -1674,7 +1678,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-10-30",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-10-30"
     },
     "li_4485306011": {
       "id": "li_4485306011",
@@ -1702,7 +1707,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-10-30",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-10-30"
     },
     "li_4484813495": {
       "id": "li_4484813495",
@@ -1758,7 +1764,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-10-30",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-10-30"
     },
     "li_4483549063": {
       "id": "li_4483549063",
@@ -1786,7 +1793,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-10-30",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-10-30"
     },
     "li_4483545280": {
       "id": "li_4483545280",
@@ -1814,7 +1822,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-10-30",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-10-30"
     },
     "li_4484817494": {
       "id": "li_4484817494",
@@ -1842,7 +1851,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-10-30",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-10-30"
     },
     "li_4483057615": {
       "id": "li_4483057615",
@@ -1870,7 +1880,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-10-30",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-10-30"
     },
     "instahyre_448400": {
       "id": "instahyre_448400",
@@ -1888,6 +1899,35 @@
       "coverLetterData": {
         "coverLetter": "Dear Hiring Team at International Management Consultancy,\n\nI am writing to express my strong enthusiasm for the Admissions Counsellor opportunity at International Management Consultancy. As a data-driven professional with 1 year of hands-on internship experience at Ai Variant (Bengaluru), I specialize in translating complex business processes into actionable dashboards and analytical solutions.\n\nDuring my 1-year internship, I delivered measurable results across business intelligence and data operations:\n• Built and deployed 12+ interactive Power BI and Tableau dashboards, reducing manual reporting cycles by 40%.\n• Wrote optimized MySQL queries (leveraging CTEs, joins, and window functions) across 50,000+ transactional records, boosting data validation accuracy by 25%.\n• Spearheaded requirement gathering sessions, authored comprehensive BRDs/FRDs, and guided User Acceptance Testing (UAT) cycles in Agile sprints.\n• Conducted exploratory data analysis (EDA) using Python (Pandas, NumPy) and Advanced Excel (Pivot Tables, XLOOKUP).\n\nYour Admissions Counsellor opening aligns perfectly with my background in SQL (CTEs, Window functions), Power BI (DAX), Tableau, and Advanced Excel. Having completed end-to-end projects in financial risk monitoring, healthcare analytics, and retail intelligence, I can ramp up quickly and contribute from day one. I am currently based in Bengaluru, fully open to Pan-India opportunities (On-site, Hybrid, or Remote), and available to join immediately.\n\nThank you for your time and consideration. I would love the opportunity to discuss how my analytical skills and dedication can support International Management Consultancy's growth.\n\nWarm regards,\n\nAMIT KUMAR SAINI\nPhone: +91 7903838926\nEmail: clusterdistracted@gmail.com\nLinkedIn: https://linkedin.com/in/amitsaini-business-analyst\nGitHub: https://github.com/ClusterAmit\n",
         "shortPitch": "Hi Hiring Team, I came across your opening for Admissions Counsellor at International Management Consultancy. I have 1 year of hands-on internship experience in data & business analytics (Ai Variant), where I built 12+ Power BI/Tableau dashboards and wrote optimized MySQL/Python queries. I am based in India, open to Pan-India/Hybrid/Remote setups, and available to join immediately. Would love to connect!",
+        "screeningAnswers": {
+          "Total Experience": "1 Year (Hands-on Business & Data Analytics Internship at Ai Variant)",
+          "Notice Period": "Immediate / 0 Days (Ready to join immediately)",
+          "Current Location & Mobility": "Bengaluru, Karnataka (Flexible for Pan-India relocation / Hybrid / Remote)",
+          "Primary Technical Skills": "SQL (MySQL, CTEs, Window Functions), Power BI (DAX), Tableau, Advanced Excel (XLOOKUP, Pivot Tables), Python (Pandas, NumPy)",
+          "Why should we hire you?": "During my 1-year internship, I didn't just study data—I automated reports, authored BRD/FRD documents, and improved reporting accuracy by 25%. I bring practical, production-level SQL and dashboarding skills with a relentless desire to learn and deliver."
+        }
+      },
+      "status": "New",
+      "dateDiscovered": "2026-10-30",
+      "notes": "",
+      "lastSeen": "2026-10-30"
+    },
+    "li_4484822031": {
+      "id": "li_4484822031",
+      "title": "Data Analyst Intern",
+      "company": "Dexterz Technology",
+      "location": "India",
+      "link": "https://in.linkedin.com/jobs/view/data-analyst-intern-at-dexterz-technology-4484822031",
+      "datePosted": "2 hours ago",
+      "source": "LinkedIn (Pan-India Entry Level)",
+      "description": "Data Analyst Intern at Dexterz Technology in India. Entry-level / Fresher opportunity in India.",
+      "score": 65,
+      "matchedSkills": [],
+      "reason": "Targeted entry-level/fresher role in India matching your 1-year internship. Matched key skills: Analytics basics.",
+      "isEntryLevelVerified": true,
+      "coverLetterData": {
+        "coverLetter": "Dear Hiring Team at Dexterz Technology,\n\nI am writing to express my strong enthusiasm for the Data Analyst Intern opportunity at Dexterz Technology. As a data-driven professional with 1 year of hands-on internship experience at Ai Variant (Bengaluru), I specialize in translating complex business processes into actionable dashboards and analytical solutions.\n\nDuring my 1-year internship, I delivered measurable results across business intelligence and data operations:\n• Built and deployed 12+ interactive Power BI and Tableau dashboards, reducing manual reporting cycles by 40%.\n• Wrote optimized MySQL queries (leveraging CTEs, joins, and window functions) across 50,000+ transactional records, boosting data validation accuracy by 25%.\n• Spearheaded requirement gathering sessions, authored comprehensive BRDs/FRDs, and guided User Acceptance Testing (UAT) cycles in Agile sprints.\n• Conducted exploratory data analysis (EDA) using Python (Pandas, NumPy) and Advanced Excel (Pivot Tables, XLOOKUP).\n\nYour Data Analyst Intern opening aligns perfectly with my background in SQL (CTEs, Window functions), Power BI (DAX), Tableau, and Advanced Excel. Having completed end-to-end projects in financial risk monitoring, healthcare analytics, and retail intelligence, I can ramp up quickly and contribute from day one. I am currently based in Bengaluru, fully open to Pan-India opportunities (On-site, Hybrid, or Remote), and available to join immediately.\n\nThank you for your time and consideration. I would love the opportunity to discuss how my analytical skills and dedication can support Dexterz Technology's growth.\n\nWarm regards,\n\nAMIT KUMAR SAINI\nPhone: +91 7903838926\nEmail: clusterdistracted@gmail.com\nLinkedIn: https://linkedin.com/in/amitsaini-business-analyst\nGitHub: https://github.com/ClusterAmit\n",
+        "shortPitch": "Hi Hiring Team, I came across your opening for Data Analyst Intern at Dexterz Technology. I have 1 year of hands-on internship experience in data & business analytics (Ai Variant), where I built 12+ Power BI/Tableau dashboards and wrote optimized MySQL/Python queries. I am based in India, open to Pan-India/Hybrid/Remote setups, and available to join immediately. Would love to connect!",
         "screeningAnswers": {
           "Total Experience": "1 Year (Hands-on Business & Data Analytics Internship at Ai Variant)",
           "Notice Period": "Immediate / 0 Days (Ready to join immediately)",
