@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T15:30:29.759Z",
+  "lastUpdated": "2026-10-31T15:31:48.032Z",
   "totalTracked": 137,
   "appliedCount": 0,
   "jobs": {
@@ -3645,7 +3645,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-10-31",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-10-31"
     },
     "li_4485632979": {
       "id": "li_4485632979",
@@ -3678,7 +3679,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-10-31",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-10-31"
     },
     "li_4485678722": {
       "id": "li_4485678722",
@@ -3714,7 +3716,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-10-31",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-10-31"
     },
     "li_4485916144": {
       "id": "li_4485916144",
@@ -3747,7 +3750,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-10-31",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-10-31"
     },
     "li_4485642686": {
       "id": "li_4485642686",
@@ -3782,7 +3786,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-10-31",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-10-31"
     },
     "li_4": {
       "id": "li_4",
@@ -3815,7 +3820,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-10-31",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-10-31"
     },
     "li_4485643288": {
       "id": "li_4485643288",
@@ -3848,7 +3854,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-10-31",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-10-31"
     },
     "li_4485629997": {
       "id": "li_4485629997",
@@ -3881,7 +3888,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-10-31",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-10-31"
     },
     "li_4485358594": {
       "id": "li_4485358594",
@@ -3914,7 +3922,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-10-31",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-10-31"
     },
     "li_4485355578": {
       "id": "li_4485355578",
@@ -3947,7 +3956,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-10-31",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-10-31"
     },
     "li_4485169016": {
       "id": "li_4485169016",
@@ -3980,7 +3990,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-10-31",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-10-31"
     },
     "li_4485662806": {
       "id": "li_4485662806",
@@ -4013,7 +4024,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-10-31",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-10-31"
     },
     "li_4477431479": {
       "id": "li_4477431479",
@@ -4046,7 +4058,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-10-31",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-10-31"
     },
     "li_4467845416": {
       "id": "li_4467845416",
@@ -4079,7 +4092,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-10-31",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-10-31"
     },
     "li_4485386064": {
       "id": "li_4485386064",
@@ -4112,7 +4126,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-10-31",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-10-31"
     },
     "li_4458750580": {
       "id": "li_4458750580",
@@ -4145,7 +4160,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-10-31",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-10-31"
     },
     "li_27": {
       "id": "li_27",
@@ -4178,7 +4194,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-10-31",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-10-31"
     },
     "li_4476299416": {
       "id": "li_4476299416",
@@ -4213,7 +4230,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-10-31",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-10-31"
     }
   }
 }

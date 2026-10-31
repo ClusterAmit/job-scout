@@ -3,7 +3,7 @@ TIER: Tier 1
 LINK: https://in.linkedin.com/jobs/view/business-analytics-analyst-at-citi-4484851943
 MATCH SCORE: 45%
 SOURCE: LinkedIn (India)
-POSTED: 21 hours ago
+POSTED: 22 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Citi,
