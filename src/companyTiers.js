@@ -1,7 +1,8 @@
-// Tier Classification for Pan-India Data & Business Analytics Employers
+// Tier & Startup Classification for Pan-India Data & Business Analytics Employers
 // Tier 1: Global Tech Giants, Tier-1 Investment Banks/GCCs, MBB/Big-4 Analytics, Top Unicorns
-// Tier 2: Established Tech Enterprises, Tier-1 IT Services & Analytics Consultancies, Well-Funded Tech
-// Tier 3: Legitimate registered tech companies, verified SMBs, and authentic growth startups
+// Tier 2: Established Tech Enterprises, Tier-1 IT Services & Analytics Consultancies
+// Startup: High-growth tech startups, VC-backed ventures (YC, Peak XV, Accel, Lightspeed, etc.)
+// Tier 3: Legitimate registered tech companies & boutique analytics firms
 // Disqualified: Unverified agencies, certificate mills, spam internship outfits
 
 const TIER_1_COMPANIES = [
@@ -42,6 +43,16 @@ const TIER_2_COMPANIES = [
   'rakuten', 'sony', 'hitachi', 'honeywell', 'dell', 'hp', 'lenovo', 'qualcomm'
 ];
 
+const RECOGNIZED_STARTUPS = [
+  'flexiple', 'unfilterstory', 'pricesenz', 'ascendion', 'invoidea', 'infovision', 'madison logic',
+  'rapidclaims', 'upgrad', 'licious', 'spinny', 'porter', 'shadowfax', 'dunzo', 'khatabook',
+  'bharatpe', 'fi', 'jupiter', 'clear', 'cleartax', 'rebel foods', 'cure.fit', 'cult.fit',
+  'cardekho', 'coindcx', 'coinswitch', 'pristyn care', 'leadsquared', 'darwinbox', 'postman',
+  'hasura', 'browserstack', 'loconav', 'classplus', 'yellow.ai', 'shiprocket', 'scaler',
+  'interviewbit', 'apna', 'jar', 'pocket fm', 'kuku fm', 'bluestone', 'ather energy',
+  'ola electric', 'ultrahuman', 'pocket52', 'slice', 'plum', 'navi', 'rupeek', 'credgenics'
+];
+
 // Unverified / Fake Internship Mills / Certificate Sellers / Generic Spam Agencies to Disqualify
 const DISQUALIFIED_COMPANIES_OR_KEYWORDS = [
   'webs it solution',
@@ -58,9 +69,9 @@ const DISQUALIFIED_COMPANIES_OR_KEYWORDS = [
   'pivotroots'
 ];
 
-function classifyCompanyTier(companyName, source = '') {
+function classifyCompanyTier(companyName, source = '', isStartupHint = false) {
   if (!companyName) {
-    return { tier: 'Tier 3', label: 'Tier 3 (Verified SMB)', isDisqualified: false, scoreBonus: 0 };
+    return { tier: 'Tier 3', label: 'Tier 3 (Verified SMB)', badge: '🚀 Tier 3 Company', badgeClass: 'tier-3', isDisqualified: false, scoreBonus: 5 };
   }
 
   const cleanName = companyName.toLowerCase().trim();
@@ -78,7 +89,7 @@ function classifyCompanyTier(companyName, source = '') {
     }
   }
 
-  // 2. Check Tier 1
+  // 2. Check Tier 1 Giants & Unicorns
   for (const t1 of TIER_1_COMPANIES) {
     const pattern = new RegExp(`\\b${t1.replace(/[.*+?^${}()|[\\]\\]/g, '\\$&')}\\b`, 'i');
     if (pattern.test(cleanName) || cleanName === t1) {
@@ -93,7 +104,44 @@ function classifyCompanyTier(companyName, source = '') {
     }
   }
 
-  // 3. Check Tier 2
+  // 3. Check Recognized Startups & Startup Hints (YC / Instahyre / Startup queries)
+  for (const st of RECOGNIZED_STARTUPS) {
+    const pattern = new RegExp(`\\b${st.replace(/[.*+?^${}()|[\\]\\]/g, '\\$&')}\\b`, 'i');
+    if (pattern.test(cleanName) || cleanName === st) {
+      return {
+        tier: 'Startup',
+        label: 'High-Growth Tech Startup',
+        badge: '🚀 Tech Startup',
+        badgeClass: 'tier-startup',
+        isDisqualified: false,
+        scoreBonus: 15
+      };
+    }
+  }
+
+  if (source.includes('Y Combinator') || cleanName.includes('(yc') || isStartupHint) {
+    return {
+      tier: 'Startup',
+      label: 'YC / Tech Startup',
+      badge: '🚀 Tech Startup',
+      badgeClass: 'tier-startup',
+      isDisqualified: false,
+      scoreBonus: 15
+    };
+  }
+
+  if (source.includes('Instahyre')) {
+    return {
+      tier: 'Startup',
+      label: 'Instahyre Tech Startup',
+      badge: '🚀 Tech Startup',
+      badgeClass: 'tier-startup',
+      isDisqualified: false,
+      scoreBonus: 15
+    };
+  }
+
+  // 4. Check Tier 2
   for (const t2 of TIER_2_COMPANIES) {
     const pattern = new RegExp(`\\b${t2.replace(/[.*+?^${}()|[\\]\\]/g, '\\$&')}\\b`, 'i');
     if (pattern.test(cleanName) || cleanName === t2) {
@@ -106,29 +154,6 @@ function classifyCompanyTier(companyName, source = '') {
         scoreBonus: 10
       };
     }
-  }
-
-  // 4. If sourced from Y Combinator or Instahyre, it's a verified tech startup / firm (Tier 2 or Tier 3)
-  if (source.includes('Y Combinator')) {
-    return {
-      tier: 'Tier 2',
-      label: 'Tier 2 (YC Backed Startup)',
-      badge: '🚀 Tier 2 (YC Startup)',
-      badgeClass: 'tier-2',
-      isDisqualified: false,
-      scoreBonus: 10
-    };
-  }
-
-  if (source.includes('Instahyre')) {
-    return {
-      tier: 'Tier 3',
-      label: 'Tier 3 (Verified Tech Employer)',
-      badge: '🚀 Tier 3 Company',
-      badgeClass: 'tier-3',
-      isDisqualified: false,
-      scoreBonus: 5
-    };
   }
 
   // Default to Tier 3 verified SMB
@@ -146,5 +171,6 @@ module.exports = {
   classifyCompanyTier,
   TIER_1_COMPANIES,
   TIER_2_COMPANIES,
+  RECOGNIZED_STARTUPS,
   DISQUALIFIED_COMPANIES_OR_KEYWORDS
 };

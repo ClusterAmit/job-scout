@@ -41,13 +41,13 @@ function isMumbaiLocation(location) {
 }
 
 // 1. LINKEDIN INDIA ENTRY-LEVEL SCRAPER (STRICT 24H: f_TPR=r86400)
-async function scrapeLinkedInJobs(keyword, location = 'India') {
+async function scrapeLinkedInJobs(keyword, location = 'India', isStartup = false) {
   const jobs = [];
   try {
     const encodedKW = encodeURIComponent(keyword);
     const encodedLoc = encodeURIComponent(location);
     // f_TPR=r86400 = Strictly past 24 hours (86400 seconds)
-    // f_E=1,2 = Internship (1) / Entry Level (2) -> we will filter out any internship title
+    // f_E=2 = Entry Level
     const url = `https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/search?keywords=${encodedKW}&location=${encodedLoc}&f_E=2&f_TPR=r86400`;
 
     const res = await fetch(url, {
@@ -93,7 +93,8 @@ async function scrapeLinkedInJobs(keyword, location = 'India') {
         link: cleanLink,
         datePosted: dateText,
         isPast24Hours: true,
-        source: 'LinkedIn (Pan-India Entry Level)',
+        isStartup: Boolean(isStartup),
+        source: isStartup ? 'LinkedIn (Tech Startup)' : 'LinkedIn (Pan-India Entry Level)',
         description: `${title} at ${company} in ${jobLocation}. Full-time entry-level opportunity posted within 24 hours in India.`
       });
     });
@@ -229,7 +230,7 @@ async function fetchInstahyreJobs() {
           if (isMumbaiLocation(location)) continue;
 
           const id = 'instahyre_' + item.id;
-          const company = (item.employer && item.employer.company_name) ? item.employer.company_name : 'Tech Company';
+          const company = (item.employer && item.employer.company_name) ? item.employer.company_name : 'Tech Startup';
           const keywords = Array.isArray(item.keywords) ? item.keywords.join(', ') : '';
 
           jobs.push({
@@ -240,7 +241,8 @@ async function fetchInstahyreJobs() {
             link: item.public_url || `https://www.instahyre.com/job-${item.id}/`,
             datePosted: 'Fresh active listing',
             isPast24Hours: true,
-            source: 'Instahyre (India Tech)',
+            isStartup: true,
+            source: 'Instahyre (Tech Startup)',
             description: `${title} at ${company} in ${location}. Skills: ${keywords}`
           });
         }
@@ -311,21 +313,26 @@ async function fetchAllPanIndiaJobs() {
     }
   }
 
-  // 1. LinkedIn India (Full-time entry/junior data & business analytics only)
+  // 1. LinkedIn India (Full-time entry/junior data & business analytics + startups)
   const searchQueries = [
-    'junior data analyst',
-    'associate data analyst',
-    'data analyst fresher',
-    'entry level data analyst',
-    'junior business analyst',
-    'associate business analyst',
-    'business intelligence analyst fresher'
+    { q: 'junior data analyst', isStartup: false },
+    { q: 'associate data analyst', isStartup: false },
+    { q: 'data analyst fresher', isStartup: false },
+    { q: 'entry level data analyst', isStartup: false },
+    { q: 'junior business analyst', isStartup: false },
+    { q: 'associate business analyst', isStartup: false },
+    { q: 'business intelligence analyst fresher', isStartup: false },
+    // Dedicated Startup searches
+    { q: 'data analyst startup', isStartup: true },
+    { q: 'business analyst startup', isStartup: true },
+    { q: 'operations analyst startup', isStartup: true },
+    { q: 'analytics startup India', isStartup: true }
   ];
-  for (const query of searchQueries) {
-    console.log(`[JobScraper] Searching LinkedIn (24h Window): "${query}" in India...`);
-    const results = await scrapeLinkedInJobs(query, 'India');
+  for (const item of searchQueries) {
+    console.log(`[JobScraper] Searching LinkedIn (24h Window): "${item.q}" in India...`);
+    const results = await scrapeLinkedInJobs(item.q, 'India', item.isStartup);
     addJobs(results);
-    await new Promise(r => setTimeout(r, 400));
+    await new Promise(r => setTimeout(r, 350));
   }
 
   // 2. Internshala (Full-Time Fresher Jobs Only - No Internships)

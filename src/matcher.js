@@ -78,8 +78,8 @@ function evaluateJobMatch(job, profile) {
     };
   }
 
-  // 6. Company Tier Classification & Spam/Scam Mill Disqualification (Tier 1 to Tier 3 target)
-  const tierInfo = classifyCompanyTier(job.company, job.source || '');
+  // 6. Company Tier / Startup Classification & Spam Disqualification
+  const tierInfo = classifyCompanyTier(job.company, job.source || '', Boolean(job.isStartup));
   if (tierInfo.isDisqualified) {
     return {
       matched: false,
@@ -139,7 +139,9 @@ function evaluateJobMatch(job, profile) {
 
   // Generate tailored highlight reason
   let reason = '';
-  if (tierInfo.tier === 'Tier 1' || tierInfo.tier === 'Tier 2') {
+  if (tierInfo.tier === 'Startup') {
+    reason = `[Startup] High-growth tech startup opportunity at ${job.company}. Matches your hands-on 1-year internship in ${matchedSkills.slice(0, 3).join(', ') || 'Analytics'}.`;
+  } else if (tierInfo.tier === 'Tier 1' || tierInfo.tier === 'Tier 2') {
     reason = `[${tierInfo.tier}] Verified opportunity at ${job.company}. Matches your 1-year internship in ${matchedSkills.slice(0, 3).join(', ') || 'Analytics'}.`;
   } else if (hasEntryMarker) {
     reason = `[${tierInfo.tier}] Targeted entry-level role matching your 1-year internship profile. Matched skills: ${matchedSkills.slice(0, 4).join(', ') || 'Analytics basics'}.`;

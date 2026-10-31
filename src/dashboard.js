@@ -287,6 +287,11 @@ function generateDashboardHtml(allJobsList, profile) {
       color: #6ee7b7;
       border: 1px solid rgba(16, 185, 129, 0.4);
     }
+    .tier-badge.tier-startup {
+      background: linear-gradient(135deg, rgba(168, 85, 247, 0.28), rgba(126, 34, 206, 0.18));
+      color: #c084fc;
+      border: 1px solid rgba(168, 85, 247, 0.45);
+    }
 
     .job-meta-row {
       display: flex;
@@ -479,14 +484,19 @@ function generateDashboardHtml(allJobsList, profile) {
       <span class="badge-pill badge-nointern">🚫 No Internships • No Data Science</span>
       <span class="badge-pill badge-location">📍 Pan-India (Excl. Mumbai)</span>
       <span class="badge-pill badge-user">👤 Amit Kumar Saini (Ai Variant)</span>
+      <span class="badge-pill badge-user" style="background: rgba(168, 85, 247, 0.15); color: #c084fc; border-color: rgba(168, 85, 247, 0.3);">🚀 Startups & Tier 1-3 Included</span>
     </div>
     <h1>Pan-India Entry Level Data & BI Job Scout</h1>
-    <p class="subtitle">Daily automated radar tracking full-time entry-level Data Analyst and Business Analyst openings across Tier 1, 2, and 3 employers. Filtered strictly for fresh postings within 24 hours. <span style="color: #38bdf8; font-weight: 600;">Last Scouted: ${lastUpdatedStr}</span></p>
+    <p class="subtitle">Daily automated radar tracking full-time entry-level Data Analyst and Business Analyst openings across Startups, Tier 1, 2, and 3 employers. Filtered strictly for fresh postings within 24 hours. <span style="color: #38bdf8; font-weight: 600;">Last Scouted: ${lastUpdatedStr}</span></p>
     
     <div class="stats-grid">
       <div class="stat-card">
         <div class="label">Fresh 24h Opportunities</div>
         <div class="val" id="totalActiveVal">0</div>
+      </div>
+      <div class="stat-card">
+        <div class="label">🚀 Tech Startups</div>
+        <div class="val" id="startupCountVal" style="color: #c084fc;">0</div>
       </div>
       <div class="stat-card">
         <div class="label">Tier 1 & Tier 2 Targets</div>
@@ -510,11 +520,14 @@ function generateDashboardHtml(allJobsList, profile) {
       <a href="https://www.linkedin.com/jobs/search/?keywords=data%20analyst&location=India&f_TPR=r86400&f_E=2" target="_blank" rel="noopener" class="launcher-btn cafe-btn">
         💼 LinkedIn (24h Full-Time)
       </a>
-      <a href="https://hiring.cafe/?searchState=%7B%22searchQuery%22%3A%22Data+Analyst%22%7D" target="_blank" rel="noopener" class="launcher-btn cafe-btn">
-        ☕ HiringCafe (Data Analyst)
+      <a href="https://wellfound.com/jobs?roles=data-analyst&location=India" target="_blank" rel="noopener" class="launcher-btn yc-btn">
+        🌱 Wellfound (AngelList Startups)
       </a>
       <a href="https://www.workatastartup.com/jobs?roles=data_analyst" target="_blank" rel="noopener" class="launcher-btn yc-btn">
         🚀 Y Combinator (Startups)
+      </a>
+      <a href="https://hiring.cafe/?searchState=%7B%22searchQuery%22%3A%22Data+Analyst%22%7D" target="_blank" rel="noopener" class="launcher-btn cafe-btn">
+        ☕ HiringCafe (Data Analyst)
       </a>
       <a href="https://www.naukri.com/data-analyst-jobs-in-india?experience=0" target="_blank" rel="noopener" class="launcher-btn naukri-btn">
         🔍 Naukri (0-1 Yr Pan-India)
@@ -544,11 +557,12 @@ function generateDashboardHtml(allJobsList, profile) {
     </div>
     
     <div class="filters-row">
-      <span class="filter-label">Company:</span>
-      <button class="filter-btn active tier-btn" onclick="setTierFilter('all')">All Tiers</button>
+      <span class="filter-label">Category:</span>
+      <button class="filter-btn active tier-btn" onclick="setTierFilter('all')">All Companies & Startups</button>
+      <button class="filter-btn tier-btn" onclick="setTierFilter('Startup')">🚀 Tech Startups Only</button>
       <button class="filter-btn tier-btn" onclick="setTierFilter('Tier 1')">⭐ Tier 1 Only</button>
       <button class="filter-btn tier-btn" onclick="setTierFilter('Tier 1 & 2')">🏢 Tier 1 & 2</button>
-      <button class="filter-btn tier-btn" onclick="setTierFilter('Tier 3')">🚀 Tier 3</button>
+      <button class="filter-btn tier-btn" onclick="setTierFilter('Tier 3')">🏢 Tier 3</button>
     </div>
 
     <div class="filters-row">
@@ -619,6 +633,7 @@ function generateDashboardHtml(allJobsList, profile) {
     document.getElementById('appliedTabCount').innerText = appliedJobs.length;
     document.getElementById('highScoreVal').innerText = activeJobs.filter(j => j.score >= 70).length;
     document.getElementById('tierTargetVal').innerText = activeJobs.filter(j => j.companyTier === 'Tier 1' || j.companyTier === 'Tier 2').length;
+    document.getElementById('startupCountVal').innerText = activeJobs.filter(j => j.companyTier === 'Startup' || j.isStartup).length;
   }
 
   function switchView(view) {
@@ -659,9 +674,10 @@ function generateDashboardHtml(allJobsList, profile) {
       if (currentView === 'active' && applied) return false;
       if (currentView === 'applied' && !applied) return false;
 
-      // Tier Filter
+      // Tier & Startup Filter
       let matchTier = true;
-      if (currentTier === 'Tier 1') matchTier = (job.companyTier === 'Tier 1');
+      if (currentTier === 'Startup') matchTier = (job.companyTier === 'Startup' || job.isStartup);
+      else if (currentTier === 'Tier 1') matchTier = (job.companyTier === 'Tier 1');
       else if (currentTier === 'Tier 1 & 2') matchTier = (job.companyTier === 'Tier 1' || job.companyTier === 'Tier 2');
       else if (currentTier === 'Tier 3') matchTier = (job.companyTier === 'Tier 3');
 
@@ -702,8 +718,9 @@ function generateDashboardHtml(allJobsList, profile) {
       const skillsHtml = (job.matchedSkills || []).map(s => '<span class="skill-tag">' + s + '</span>').join('');
       const applied = isJobApplied(job.id) || job.isApplied;
       const tier = job.companyTier || 'Tier 3';
-      const tierBadgeClass = tier === 'Tier 1' ? 'tier-1' : (tier === 'Tier 2' ? 'tier-2' : 'tier-3');
-      const tierBadgeLabel = job.tierBadge || (tier === 'Tier 1' ? '⭐ Tier 1 Company' : (tier === 'Tier 2' ? '🏢 Tier 2 Company' : '🚀 Tier 3 Company'));
+      const isSt = (tier === 'Startup' || job.isStartup);
+      const tierBadgeClass = isSt ? 'tier-startup' : (tier === 'Tier 1' ? 'tier-1' : (tier === 'Tier 2' ? 'tier-2' : 'tier-3'));
+      const tierBadgeLabel = isSt ? '🚀 Tech Startup' : (job.tierBadge || (tier === 'Tier 1' ? '⭐ Tier 1 Company' : (tier === 'Tier 2' ? '🏢 Tier 2 Company' : '🏢 Tier 3 Company')));
 
       return \`
         <div class="job-card" id="card_\${job.id}">
