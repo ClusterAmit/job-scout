@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/cx-product-operations-analyst-at-ethos-4459342546
 MATCH SCORE: 50%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 2 hours ago
+POSTED: 6 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Ethos,

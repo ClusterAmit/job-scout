@@ -3,7 +3,7 @@ TIER: Tier 2
 LINK: https://in.linkedin.com/jobs/view/power-bi-consultant-at-infosys-4476299416
 MATCH SCORE: 45%
 SOURCE: LinkedIn (India)
-POSTED: 1 hour ago
+POSTED: 5 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Infosys,

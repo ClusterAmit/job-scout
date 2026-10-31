@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/business-analyst-%E2%80%93-pre-sales-at-invoidea-4485146548
 MATCH SCORE: 75%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 5 hours ago
+POSTED: 9 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at InvoIdea,

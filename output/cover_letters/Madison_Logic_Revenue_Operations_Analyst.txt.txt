@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/revenue-operations-analyst-at-madison-logic-4445997335
 MATCH SCORE: 50%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 1 hour ago
+POSTED: 5 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Madison Logic,
