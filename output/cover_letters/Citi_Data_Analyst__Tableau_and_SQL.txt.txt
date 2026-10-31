@@ -3,7 +3,7 @@ TIER: Tier 1
 LINK: https://in.linkedin.com/jobs/view/data-analyst-tableau-and-sql-at-citi-4476858437
 MATCH SCORE: 85%
 SOURCE: LinkedIn (Chennai)
-POSTED: 42 minutes ago
+POSTED: 49 minutes ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Citi,
