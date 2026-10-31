@@ -2,8 +2,12 @@ name: Daily Pan-India Entry-Level Job Scout
 
 on:
   schedule:
-    # 3:30 AM UTC = 9:00 AM IST (Asia/Kolkata)
-    - cron: '30 3 * * *'
+    # Runs automatically every 6 hours aligned to IST (Asia/Kolkata UTC+5:30):
+    # 03:30 UTC = 09:00 AM IST (Morning wave)
+    # 09:30 UTC = 03:00 PM IST (Midday recruiter wave)
+    # 15:30 UTC = 09:00 PM IST (Evening post-work wave)
+    # 21:30 UTC = 03:00 AM IST (Overnight startup postings)
+    - cron: '30 3,9,15,21 * * *'
   workflow_dispatch: # Allows manual trigger from GitHub UI anytime
   push:
     branches:

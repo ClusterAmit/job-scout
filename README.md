@@ -2,12 +2,20 @@
 
 Automated daily scout and application accelerator customized for **Amit Kumar Saini** (1-Year Business & Data Analytics Internship at Ai Variant, Bengaluru).
 
-## What This System Does Every Day at 9:00 AM IST
+## Automated Schedule (Every 6 Hours Aligned to IST)
 
-1. **Scrapes Fresh Postings (Past 24 Hours)**:
-   - Scans LinkedIn and remote data feeds for entry-level, fresher, and internship roles.
-   - Filters strictly for **Pan-India** (Bengaluru, Hyderabad, Pune, Mumbai, Delhi-NCR, Gurgaon, Noida, Chennai, Kolkata, Remote India).
-   - Strictly excludes senior, lead, manager, and 3+ year positions.
+Runs autonomously 4 times a day via GitHub Actions:
+- **09:00 AM IST** (Morning corporate wave)
+- **03:00 PM IST** (Midday recruiter postings)
+- **09:00 PM IST** (Evening post-work startup wave)
+- **03:00 AM IST** (Overnight global & remote postings)
+
+1. **Scrapes Fresh Postings (Strict 24-Hour Window)**:
+   - Scans LinkedIn, Instahyre, Y Combinator, and remote data feeds.
+   - Filters strictly for **Pan-India (Bengaluru, Hyderabad, Pune, Delhi-NCR, Gurgaon, Noida, Chennai, Kolkata, Remote India - Excluded Mumbai)**.
+   - Targets **Startups and Tier 1 to Tier 3 Companies**; eliminates scam/unverified mills.
+   - Strictly excludes internships, trainees, data scientist roles, and senior/lead positions.
+   - **Hides Applied Jobs**: Once marked "Applied", jobs are automatically removed from the active feed.
 
 2. **Scores & Matches Against Your Profile**:
    - Parses [Amit_BA_Resume_Updated.pdf](file:///c:/Users/User/Desktop/ANTIGRAVITY%20PROJECTS/Job/resume/Amit_BA_Resume_Updated.pdf).
