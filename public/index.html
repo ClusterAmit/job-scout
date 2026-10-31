@@ -1,0 +1,806 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pan-India Entry Level Data & BI Job Scout (24h) | Amit Kumar Saini</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #0b1120;
+      --card-bg: #151f32;
+      --card-hover: #1e2c46;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+      --primary: #38bdf8;
+      --primary-hover: #0ea5e9;
+      --success: #34d399;
+      --warning: #fbbf24;
+      --border: #24344d;
+      --gold: #f59e0b;
+      --purple: #a855f7;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Inter', sans-serif; }
+    body { background-color: var(--bg); color: var(--text); padding: 24px; min-height: 100vh; }
+    .container { max-width: 1240px; margin: 0 auto; }
+    
+    header {
+      background: linear-gradient(135deg, #16243b 0%, #0c1527 100%);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 24px;
+      margin-bottom: 20px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    }
+    .badge-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      padding: 4px 12px;
+      border-radius: 9999px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.03em;
+      margin-bottom: 8px;
+    }
+    .badge-fresher { background: rgba(56, 189, 248, 0.15); color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.3); }
+    .badge-location { background: rgba(52, 211, 153, 0.15); color: #34d399; border: 1px solid rgba(52, 211, 153, 0.3); margin-left: 6px; }
+    .badge-user { background: rgba(168, 85, 247, 0.15); color: #c084fc; border: 1px solid rgba(168, 85, 247, 0.3); margin-left: 6px; }
+    .badge-date { background: rgba(245, 158, 11, 0.15); color: #fbbf24; border: 1px solid rgba(245, 158, 11, 0.3); margin-left: 6px; }
+    .badge-nointern { background: rgba(239, 68, 68, 0.15); color: #f87171; border: 1px solid rgba(239, 68, 68, 0.3); margin-left: 6px; }
+
+    h1 { font-size: 1.85rem; font-weight: 800; margin: 10px 0 6px 0; color: #fff; letter-spacing: -0.02em; }
+    p.subtitle { color: var(--text-muted); font-size: 0.95rem; line-height: 1.5; }
+
+    .launchers-card {
+      background: rgba(21, 31, 50, 0.7);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px 20px;
+      margin-bottom: 20px;
+    }
+    .launchers-title {
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: #38bdf8;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 12px;
+    }
+    .launchers-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .launcher-btn {
+      padding: 8px 14px;
+      border-radius: 8px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      text-decoration: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: all 0.2s;
+    }
+    .cafe-btn { background: #b45309; color: #fff; }
+    .wttj-btn { background: #059669; color: #fff; }
+    .yc-btn { background: #ea580c; color: #fff; }
+    .naukri-btn { background: #004c8f; color: #fff; }
+    .indeed-btn { background: #2164f3; color: #fff; }
+    .internshala-btn { background: #1295c9; color: #fff; }
+    .launcher-btn:hover { opacity: 0.9; transform: translateY(-1px); box-shadow: 0 4px 12px rgba(0,0,0,0.3); }
+
+    .stats-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 16px;
+      margin: 18px 0 6px 0;
+    }
+    .stat-card {
+      background: rgba(11, 17, 32, 0.6);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 14px 18px;
+    }
+    .stat-card .label { font-size: 0.78rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.04em; }
+    .stat-card .val { font-size: 1.5rem; font-weight: 700; color: #fff; margin-top: 4px; }
+
+    /* View Switcher Tabs */
+    .view-tabs {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 18px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 12px;
+    }
+    .tab-btn {
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+      padding: 10px 20px;
+      border-radius: 10px;
+      font-size: 0.92rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: all 0.2s;
+    }
+    .tab-btn .tab-count {
+      padding: 2px 8px;
+      border-radius: 9999px;
+      font-size: 0.75rem;
+      background: rgba(255,255,255,0.1);
+      color: #fff;
+    }
+    .tab-btn.active {
+      background: #1e293b;
+      color: var(--primary);
+      border-color: var(--primary);
+      box-shadow: 0 0 15px rgba(56, 189, 248, 0.2);
+    }
+    .tab-btn.active .tab-count {
+      background: var(--primary);
+      color: #0b1120;
+      font-weight: 700;
+    }
+
+    .controls-bar {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      margin-bottom: 20px;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 16px 20px;
+    }
+    .search-row {
+      display: flex;
+      gap: 12px;
+    }
+    .search-input {
+      flex: 1;
+      background: #0b1120;
+      border: 1px solid var(--border);
+      padding: 11px 16px;
+      border-radius: 10px;
+      color: #fff;
+      font-size: 0.95rem;
+    }
+    .search-input:focus { outline: none; border-color: var(--primary); }
+
+    .filters-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+    }
+    .filter-label { font-size: 0.8rem; font-weight: 600; color: var(--text-muted); margin-right: 4px; min-width: 65px; }
+    .filter-btn {
+      background: #0b1120;
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+      padding: 6px 14px;
+      border-radius: 8px;
+      font-size: 0.82rem;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+    .filter-btn.active, .filter-btn:hover {
+      background: var(--primary);
+      color: #0b1120;
+      font-weight: 700;
+      border-color: var(--primary);
+    }
+
+    .jobs-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .job-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 22px;
+      transition: transform 0.2s, border-color 0.2s, opacity 0.3s;
+      position: relative;
+    }
+    .job-card:hover {
+      border-color: #3b82f6;
+      background: var(--card-hover);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+    }
+
+    .job-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 16px;
+    }
+    .job-title { font-size: 1.25rem; font-weight: 700; color: #fff; }
+    .job-company-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-top: 4px;
+    }
+    .job-company { color: #38bdf8; font-weight: 600; font-size: 1rem; }
+    
+    /* Tier Badges */
+    .tier-badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 3px 10px;
+      border-radius: 6px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+    }
+    .tier-badge.tier-1 {
+      background: linear-gradient(135deg, rgba(245, 158, 11, 0.25), rgba(217, 119, 6, 0.15));
+      color: #fbbf24;
+      border: 1px solid rgba(245, 158, 11, 0.4);
+    }
+    .tier-badge.tier-2 {
+      background: linear-gradient(135deg, rgba(99, 102, 241, 0.25), rgba(79, 70, 229, 0.15));
+      color: #a5b4fc;
+      border: 1px solid rgba(99, 102, 241, 0.4);
+    }
+    .tier-badge.tier-3 {
+      background: linear-gradient(135deg, rgba(16, 185, 129, 0.25), rgba(5, 150, 105, 0.15));
+      color: #6ee7b7;
+      border: 1px solid rgba(16, 185, 129, 0.4);
+    }
+
+    .job-meta-row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 12px;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-top: 6px;
+    }
+    .job-time-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      background: rgba(245, 158, 11, 0.12);
+      color: #fbbf24;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      border: 1px solid rgba(245, 158, 11, 0.25);
+    }
+    .source-badge {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.72rem;
+      background: rgba(51, 65, 85, 0.7);
+      color: #cbd5e1;
+      border: 1px solid #475569;
+      font-weight: 500;
+    }
+
+    .score-badge {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-width: 72px;
+      height: 72px;
+      border-radius: 12px;
+      font-weight: 800;
+      border: 1px solid transparent;
+    }
+    .score-high { background: rgba(52, 211, 153, 0.15); color: #34d399; border-color: rgba(52, 211, 153, 0.4); }
+    .score-med { background: rgba(56, 189, 248, 0.15); color: #38bdf8; border-color: rgba(56, 189, 248, 0.4); }
+    .score-fair { background: rgba(251, 191, 36, 0.15); color: #fbbf24; border-color: rgba(251, 191, 36, 0.4); }
+    .score-badge .num { font-size: 1.35rem; line-height: 1; }
+    .score-badge .lbl { font-size: 0.65rem; text-transform: uppercase; margin-top: 3px; }
+
+    .match-reason {
+      margin: 14px 0 10px 0;
+      padding: 10px 14px;
+      border-radius: 8px;
+      background: rgba(11, 17, 32, 0.7);
+      border-left: 3px solid var(--primary);
+      font-size: 0.88rem;
+      color: #cbd5e1;
+      line-height: 1.45;
+    }
+
+    .skills-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin: 10px 0 16px 0;
+    }
+    .skill-tag {
+      background: rgba(51, 65, 85, 0.8);
+      color: #e2e8f0;
+      padding: 3px 10px;
+      border-radius: 6px;
+      font-size: 0.75rem;
+      font-weight: 500;
+    }
+
+    .card-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      padding-top: 14px;
+      border-top: 1px solid rgba(51, 65, 85, 0.5);
+    }
+    .btn {
+      padding: 9px 16px;
+      border-radius: 8px;
+      font-size: 0.88rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      text-decoration: none;
+      transition: all 0.15s ease-in-out;
+      border: none;
+    }
+    .btn-primary { background: var(--primary); color: #0b1120; }
+    .btn-primary:hover { background: var(--primary-hover); transform: translateY(-1px); }
+    
+    .btn-secondary { background: #1e293b; color: #f1f5f9; border: 1px solid var(--border); }
+    .btn-secondary:hover { background: #334155; }
+
+    .btn-outline { background: transparent; border: 1px solid var(--border); color: #cbd5e1; }
+    .btn-outline:hover { background: #1e293b; border-color: #64748b; }
+
+    .btn-applied { background: #065f46; color: #34d399; border: 1px solid #059669; }
+    .btn-applied:hover { background: #047857; }
+
+    .toast {
+      position: fixed;
+      bottom: 24px;
+      right: 24px;
+      background: #10b981;
+      color: #fff;
+      padding: 12px 20px;
+      border-radius: 8px;
+      font-weight: 600;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+      display: none;
+      z-index: 1000;
+      border: 1px solid rgba(255,255,255,0.2);
+    }
+
+    /* Modal */
+    .modal-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.78);
+      backdrop-filter: blur(4px);
+      display: none;
+      justify-content: center;
+      align-items: center;
+      z-index: 999;
+      padding: 20px;
+    }
+    .modal-content {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      width: 100%;
+      max-width: 720px;
+      max-height: 85vh;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+    }
+    .modal-header {
+      padding: 18px 24px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .modal-body {
+      padding: 20px 24px;
+      overflow-y: auto;
+      font-size: 0.9rem;
+      line-height: 1.6;
+      white-space: pre-wrap;
+      color: #e2e8f0;
+      background: #0b1120;
+      margin: 16px 24px;
+      border-radius: 8px;
+      border: 1px solid #24344d;
+    }
+    .modal-footer {
+      padding: 16px 24px;
+      border-top: 1px solid var(--border);
+      display: flex;
+      justify-content: flex-end;
+      gap: 12px;
+    }
+    .close-btn {
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      font-size: 1.5rem;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <header>
+    <div>
+      <span class="badge-pill badge-date">⏱️ Posted in Last 24 Hours Only</span>
+      <span class="badge-pill badge-fresher">🎯 Full-Time Entry Level (0-1 Yrs)</span>
+      <span class="badge-pill badge-nointern">🚫 No Internships • No Data Science</span>
+      <span class="badge-pill badge-location">📍 Pan-India (Excl. Mumbai)</span>
+      <span class="badge-pill badge-user">👤 Amit Kumar Saini (Ai Variant)</span>
+    </div>
+    <h1>Pan-India Entry Level Data & BI Job Scout</h1>
+    <p class="subtitle">Daily automated radar tracking full-time entry-level Data Analyst and Business Analyst openings across Tier 1, 2, and 3 employers. Filtered strictly for fresh postings within 24 hours. <span style="color: #38bdf8; font-weight: 600;">Last Scouted: 31 Oct 2026 at 07:26 pm IST</span></p>
+    
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="label">Fresh 24h Opportunities</div>
+        <div class="val" id="totalActiveVal">0</div>
+      </div>
+      <div class="stat-card">
+        <div class="label">Tier 1 & Tier 2 Targets</div>
+        <div class="val" id="tierTargetVal">0</div>
+      </div>
+      <div class="stat-card">
+        <div class="label">High Match (70%+)</div>
+        <div class="val" id="highScoreVal">0</div>
+      </div>
+      <div class="stat-card">
+        <div class="label">Applied So Far</div>
+        <div class="val" id="appliedCountVal" style="color: #34d399;">0</div>
+      </div>
+    </div>
+  </header>
+
+  <!-- 1-Click Platform Launchers (Targeting Full-Time Pan-India) -->
+  <div class="launchers-card">
+    <div class="launchers-title">⚡ 1-Click Direct Live Portals (Pre-Filtered 24h / 0-1 Yr Experience)</div>
+    <div class="launchers-grid">
+      <a href="https://www.linkedin.com/jobs/search/?keywords=data%20analyst&location=India&f_TPR=r86400&f_E=2" target="_blank" rel="noopener" class="launcher-btn cafe-btn">
+        💼 LinkedIn (24h Full-Time)
+      </a>
+      <a href="https://hiring.cafe/?searchState=%7B%22searchQuery%22%3A%22Data+Analyst%22%7D" target="_blank" rel="noopener" class="launcher-btn cafe-btn">
+        ☕ HiringCafe (Data Analyst)
+      </a>
+      <a href="https://www.workatastartup.com/jobs?roles=data_analyst" target="_blank" rel="noopener" class="launcher-btn yc-btn">
+        🚀 Y Combinator (Startups)
+      </a>
+      <a href="https://www.naukri.com/data-analyst-jobs-in-india?experience=0" target="_blank" rel="noopener" class="launcher-btn naukri-btn">
+        🔍 Naukri (0-1 Yr Pan-India)
+      </a>
+      <a href="https://in.indeed.com/jobs?q=data+analyst&l=India&explvl=entry_level&fromage=1" target="_blank" rel="noopener" class="launcher-btn indeed-btn">
+        🔍 Indeed India (24h Entry Level)
+      </a>
+      <a href="https://internshala.com/jobs/data-analytics-jobs/" target="_blank" rel="noopener" class="launcher-btn internshala-btn">
+        🔍 Internshala (Fresher Jobs)
+      </a>
+    </div>
+  </div>
+
+  <!-- View Switcher Tabs -->
+  <div class="view-tabs">
+    <button class="tab-btn active" id="activeTabBtn" onclick="switchView('active')">
+      ⚡ Active Opportunities <span class="tab-count" id="activeTabCount">0</span>
+    </button>
+    <button class="tab-btn" id="appliedTabBtn" onclick="switchView('applied')">
+      ✅ Applied Jobs <span class="tab-count" id="appliedTabCount">0</span>
+    </button>
+  </div>
+
+  <div class="controls-bar">
+    <div class="search-row">
+      <input type="text" id="searchInput" class="search-input" placeholder="Search by company name, role title, or skills (e.g., SQL, Power BI, Tableau, Python)..." oninput="filterJobs()">
+    </div>
+    
+    <div class="filters-row">
+      <span class="filter-label">Company:</span>
+      <button class="filter-btn active tier-btn" onclick="setTierFilter('all')">All Tiers</button>
+      <button class="filter-btn tier-btn" onclick="setTierFilter('Tier 1')">⭐ Tier 1 Only</button>
+      <button class="filter-btn tier-btn" onclick="setTierFilter('Tier 1 & 2')">🏢 Tier 1 & 2</button>
+      <button class="filter-btn tier-btn" onclick="setTierFilter('Tier 3')">🚀 Tier 3</button>
+    </div>
+
+    <div class="filters-row">
+      <span class="filter-label">City:</span>
+      <button class="filter-btn active city-btn" onclick="setCityFilter('all')">All Pan India (Excl. Mumbai)</button>
+      <button class="filter-btn city-btn" onclick="setCityFilter('Bengaluru')">Bengaluru</button>
+      <button class="filter-btn city-btn" onclick="setCityFilter('Hyderabad')">Hyderabad</button>
+      <button class="filter-btn city-btn" onclick="setCityFilter('Pune')">Pune</button>
+      <button class="filter-btn city-btn" onclick="setCityFilter('Delhi')">Delhi / NCR</button>
+      <button class="filter-btn city-btn" onclick="setCityFilter('Remote')">Remote</button>
+    </div>
+
+    <div class="filters-row">
+      <span class="filter-label">Platform:</span>
+      <button class="filter-btn active source-btn" onclick="setSourceFilter('all')">All Platforms</button>
+      <button class="filter-btn source-btn" onclick="setSourceFilter('LinkedIn')">LinkedIn</button>
+      <button class="filter-btn source-btn" onclick="setSourceFilter('Internshala')">Internshala</button>
+      <button class="filter-btn source-btn" onclick="setSourceFilter('Y Combinator')">Y Combinator</button>
+      <button class="filter-btn source-btn" onclick="setSourceFilter('Instahyre')">Instahyre</button>
+    </div>
+  </div>
+
+  <div class="jobs-grid" id="jobsContainer">
+    <!-- Populated by JS -->
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal-overlay" id="coverModal">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h3 id="modalTitle">Tailored Application Material</h3>
+      <button class="close-btn" onclick="closeModal()">&times;</button>
+    </div>
+    <div class="modal-body" id="modalText"></div>
+    <div class="modal-footer">
+      <button class="btn btn-secondary" onclick="closeModal()">Close</button>
+      <button class="btn btn-primary" onclick="copyModalContent()">📋 Copy to Clipboard</button>
+    </div>
+  </div>
+</div>
+
+<div class="toast" id="toastMsg">Notification</div>
+
+<script>
+  const rawJobs = [{"id":"li_4476806452","title":"DX Associate Business Analyst","company":"Cognizant","location":"Hyderabad, Telangana, India","link":"https://in.linkedin.com/jobs/view/dx-associate-business-analyst-at-cognizant-4476806452","datePosted":"21 hours ago","isPast24Hours":true,"source":"LinkedIn (Pan-India Entry Level)","description":"DX Associate Business Analyst at Cognizant in Hyderabad, Telangana, India. Full-time entry-level opportunity posted within 24 hours in India.","score":75,"companyTier":"Tier 2","tierBadge":"🏢 Tier 2 Company","tierLabel":"Tier 2 (Enterprise Tech / Top IT)","matchedSkills":[],"reason":"[Tier 2] Verified opportunity at Cognizant. Matches your 1-year internship in Analytics.","isEntryLevelVerified":true,"coverLetterData":{"coverLetter":"Dear Hiring Team at Cognizant,\n\nI am writing to express my strong enthusiasm for the DX Associate Business Analyst opportunity at Cognizant. As a data-driven professional with 1 year of hands-on internship experience at Ai Variant (Bengaluru), I specialize in translating complex business processes into actionable dashboards and analytical solutions.\n\nDuring my 1-year internship, I delivered measurable results across business intelligence and data operations:\n• Built and deployed 12+ interactive Power BI and Tableau dashboards, reducing manual reporting cycles by 40%.\n• Wrote optimized MySQL queries (leveraging CTEs, joins, and window functions) across 50,000+ transactional records, boosting data validation accuracy by 25%.\n• Spearheaded requirement gathering sessions, authored comprehensive BRDs/FRDs, and guided User Acceptance Testing (UAT) cycles in Agile sprints.\n• Conducted exploratory data analysis (EDA) using Python (Pandas, NumPy) and Advanced Excel (Pivot Tables, XLOOKUP).\n\nYour DX Associate Business Analyst opening aligns perfectly with my background in SQL (CTEs, Window functions), Power BI (DAX), Tableau, and Advanced Excel. Having completed end-to-end projects in financial risk monitoring, healthcare analytics, and retail intelligence, I can ramp up quickly and contribute from day one. I am currently based in Bengaluru, fully open to Pan-India opportunities (On-site, Hybrid, or Remote), and available to join immediately.\n\nThank you for your time and consideration. I would love the opportunity to discuss how my analytical skills and dedication can support Cognizant's growth.\n\nWarm regards,\n\nAMIT KUMAR SAINI\nPhone: +91 7903838926\nEmail: clusterdistracted@gmail.com\nLinkedIn: https://linkedin.com/in/amitsaini-business-analyst\nGitHub: https://github.com/ClusterAmit\n","shortPitch":"Hi Hiring Team, I came across your opening for DX Associate Business Analyst at Cognizant. I have 1 year of hands-on internship experience in data & business analytics (Ai Variant), where I built 12+ Power BI/Tableau dashboards and wrote optimized MySQL/Python queries. I am based in India, open to Pan-India/Hybrid/Remote setups, and available to join immediately. Would love to connect!","screeningAnswers":{"Total Experience":"1 Year (Hands-on Business & Data Analytics Internship at Ai Variant)","Notice Period":"Immediate / 0 Days (Ready to join immediately)","Current Location & Mobility":"Bengaluru, Karnataka (Flexible for Pan-India relocation / Hybrid / Remote)","Primary Technical Skills":"SQL (MySQL, CTEs, Window Functions), Power BI (DAX), Tableau, Advanced Excel (XLOOKUP, Pivot Tables), Python (Pandas, NumPy)","Why should we hire you?":"During my 1-year internship, I didn't just study data—I automated reports, authored BRD/FRD documents, and improved reporting accuracy by 25%. I bring practical, production-level SQL and dashboarding skills with a relentless desire to learn and deliver."}},"status":"New","isApplied":false},{"id":"li_4485387885","title":"Business Analyst - Payments, Business Analyst - Payments","company":"Amazon","location":"Bengaluru, Karnataka, India","link":"https://in.linkedin.com/jobs/view/business-analyst-payments-business-analyst-payments-at-amazon-4485387885","datePosted":"18 hours ago","isPast24Hours":true,"source":"LinkedIn (Pan-India Entry Level)","description":"Business Analyst - Payments, Business Analyst - Payments at Amazon in Bengaluru, Karnataka, India. Full-time entry-level opportunity posted within 24 hours in India.","score":70,"companyTier":"Tier 1","tierBadge":"⭐ Tier 1 Company","tierLabel":"Tier 1 (Global Product / Top GCC)","matchedSkills":[],"reason":"[Tier 1] Verified opportunity at Amazon. Matches your 1-year internship in Analytics.","isEntryLevelVerified":false,"coverLetterData":{"coverLetter":"Dear Hiring Team at Amazon,\n\nI am writing to express my strong enthusiasm for the Business Analyst - Payments, Business Analyst - Payments opportunity at Amazon. As a data-driven professional with 1 year of hands-on internship experience at Ai Variant (Bengaluru), I specialize in translating complex business processes into actionable dashboards and analytical solutions.\n\nDuring my 1-year internship, I delivered measurable results across business intelligence and data operations:\n• Built and deployed 12+ interactive Power BI and Tableau dashboards, reducing manual reporting cycles by 40%.\n• Wrote optimized MySQL queries (leveraging CTEs, joins, and window functions) across 50,000+ transactional records, boosting data validation accuracy by 25%.\n• Spearheaded requirement gathering sessions, authored comprehensive BRDs/FRDs, and guided User Acceptance Testing (UAT) cycles in Agile sprints.\n• Conducted exploratory data analysis (EDA) using Python (Pandas, NumPy) and Advanced Excel (Pivot Tables, XLOOKUP).\n\nYour Business Analyst - Payments, Business Analyst - Payments opening aligns perfectly with my background in SQL (CTEs, Window functions), Power BI (DAX), Tableau, and Advanced Excel. Having completed end-to-end projects in financial risk monitoring, healthcare analytics, and retail intelligence, I can ramp up quickly and contribute from day one. I am currently based in Bengaluru, fully open to Pan-India opportunities (On-site, Hybrid, or Remote), and available to join immediately.\n\nThank you for your time and consideration. I would love the opportunity to discuss how my analytical skills and dedication can support Amazon's growth.\n\nWarm regards,\n\nAMIT KUMAR SAINI\nPhone: +91 7903838926\nEmail: clusterdistracted@gmail.com\nLinkedIn: https://linkedin.com/in/amitsaini-business-analyst\nGitHub: https://github.com/ClusterAmit\n","shortPitch":"Hi Hiring Team, I came across your opening for Business Analyst - Payments, Business Analyst - Payments at Amazon. I have 1 year of hands-on internship experience in data & business analytics (Ai Variant), where I built 12+ Power BI/Tableau dashboards and wrote optimized MySQL/Python queries. I am based in India, open to Pan-India/Hybrid/Remote setups, and available to join immediately. Would love to connect!","screeningAnswers":{"Total Experience":"1 Year (Hands-on Business & Data Analytics Internship at Ai Variant)","Notice Period":"Immediate / 0 Days (Ready to join immediately)","Current Location & Mobility":"Bengaluru, Karnataka (Flexible for Pan-India relocation / Hybrid / Remote)","Primary Technical Skills":"SQL (MySQL, CTEs, Window Functions), Power BI (DAX), Tableau, Advanced Excel (XLOOKUP, Pivot Tables), Python (Pandas, NumPy)","Why should we hire you?":"During my 1-year internship, I didn't just study data—I automated reports, authored BRD/FRD documents, and improved reporting accuracy by 25%. I bring practical, production-level SQL and dashboarding skills with a relentless desire to learn and deliver."}},"status":"New","isApplied":false},{"id":"li_4485119379","title":"Data Analyst","company":"S&P Global","location":"Hyderabad, Telangana, India","link":"https://in.linkedin.com/jobs/view/data-analyst-at-s-p-global-4485119379","datePosted":"14 hours ago","isPast24Hours":true,"source":"LinkedIn (Pan-India Entry Level)","description":"Data Analyst at S&P Global in Hyderabad, Telangana, India. Full-time entry-level opportunity posted within 24 hours in India.","score":70,"companyTier":"Tier 1","tierBadge":"⭐ Tier 1 Company","tierLabel":"Tier 1 (Global Product / Top GCC)","matchedSkills":[],"reason":"[Tier 1] Verified opportunity at S&P Global. Matches your 1-year internship in Analytics.","isEntryLevelVerified":false,"coverLetterData":{"coverLetter":"Dear Hiring Team at S&P Global,\n\nI am writing to express my strong enthusiasm for the Data Analyst opportunity at S&P Global. As a data-driven professional with 1 year of hands-on internship experience at Ai Variant (Bengaluru), I specialize in translating complex business processes into actionable dashboards and analytical solutions.\n\nDuring my 1-year internship, I delivered measurable results across business intelligence and data operations:\n• Built and deployed 12+ interactive Power BI and Tableau dashboards, reducing manual reporting cycles by 40%.\n• Wrote optimized MySQL queries (leveraging CTEs, joins, and window functions) across 50,000+ transactional records, boosting data validation accuracy by 25%.\n• Spearheaded requirement gathering sessions, authored comprehensive BRDs/FRDs, and guided User Acceptance Testing (UAT) cycles in Agile sprints.\n• Conducted exploratory data analysis (EDA) using Python (Pandas, NumPy) and Advanced Excel (Pivot Tables, XLOOKUP).\n\nYour Data Analyst opening aligns perfectly with my background in SQL (CTEs, Window functions), Power BI (DAX), Tableau, and Advanced Excel. Having completed end-to-end projects in financial risk monitoring, healthcare analytics, and retail intelligence, I can ramp up quickly and contribute from day one. I am currently based in Bengaluru, fully open to Pan-India opportunities (On-site, Hybrid, or Remote), and available to join immediately.\n\nThank you for your time and consideration. I would love the opportunity to discuss how my analytical skills and dedication can support S&P Global's growth.\n\nWarm regards,\n\nAMIT KUMAR SAINI\nPhone: +91 7903838926\nEmail: clusterdistracted@gmail.com\nLinkedIn: https://linkedin.com/in/amitsaini-business-analyst\nGitHub: https://github.com/ClusterAmit\n","shortPitch":"Hi Hiring Team, I came across your opening for Data Analyst at S&P Global. I have 1 year of hands-on internship experience in data & business analytics (Ai Variant), where I built 12+ Power BI/Tableau dashboards and wrote optimized MySQL/Python queries. I am based in India, open to Pan-India/Hybrid/Remote setups, and available to join immediately. Would love to connect!","screeningAnswers":{"Total Experience":"1 Year (Hands-on Business & Data Analytics Internship at Ai Variant)","Notice Period":"Immediate / 0 Days (Ready to join immediately)","Current Location & Mobility":"Bengaluru, Karnataka (Flexible for Pan-India relocation / Hybrid / Remote)","Primary Technical Skills":"SQL (MySQL, CTEs, Window Functions), Power BI (DAX), Tableau, Advanced Excel (XLOOKUP, Pivot Tables), Python (Pandas, NumPy)","Why should we hire you?":"During my 1-year internship, I didn't just study data—I automated reports, authored BRD/FRD documents, and improved reporting accuracy by 25%. I bring practical, production-level SQL and dashboarding skills with a relentless desire to learn and deliver."}},"status":"New","isApplied":false},{"id":"li_4485145430","title":"Associate - Reporting & Analytics - Hyderabad","company":"Deloitte","location":"Hyderabad, Telangana, India","link":"https://in.linkedin.com/jobs/view/associate-reporting-analytics-hyderabad-at-deloitte-4485145430","datePosted":"8 hours ago","isPast24Hours":true,"source":"LinkedIn (Pan-India Entry Level)","description":"Associate - Reporting & Analytics - Hyderabad at Deloitte in Hyderabad, Telangana, India. Full-time entry-level opportunity posted within 24 hours in India.","score":60,"companyTier":"Tier 1","tierBadge":"⭐ Tier 1 Company","tierLabel":"Tier 1 (Global Product / Top GCC)","matchedSkills":[],"reason":"[Tier 1] Verified opportunity at Deloitte. Matches your 1-year internship in Analytics.","isEntryLevelVerified":true,"coverLetterData":{"coverLetter":"Dear Hiring Team at Deloitte,\n\nI am writing to express my strong enthusiasm for the Associate - Reporting & Analytics - Hyderabad opportunity at Deloitte. As a data-driven professional with 1 year of hands-on internship experience at Ai Variant (Bengaluru), I specialize in translating complex business processes into actionable dashboards and analytical solutions.\n\nDuring my 1-year internship, I delivered measurable results across business intelligence and data operations:\n• Built and deployed 12+ interactive Power BI and Tableau dashboards, reducing manual reporting cycles by 40%.\n• Wrote optimized MySQL queries (leveraging CTEs, joins, and window functions) across 50,000+ transactional records, boosting data validation accuracy by 25%.\n• Spearheaded requirement gathering sessions, authored comprehensive BRDs/FRDs, and guided User Acceptance Testing (UAT) cycles in Agile sprints.\n• Conducted exploratory data analysis (EDA) using Python (Pandas, NumPy) and Advanced Excel (Pivot Tables, XLOOKUP).\n\nYour Associate - Reporting & Analytics - Hyderabad opening aligns perfectly with my background in SQL (CTEs, Window functions), Power BI (DAX), Tableau, and Advanced Excel. Having completed end-to-end projects in financial risk monitoring, healthcare analytics, and retail intelligence, I can ramp up quickly and contribute from day one. I am currently based in Bengaluru, fully open to Pan-India opportunities (On-site, Hybrid, or Remote), and available to join immediately.\n\nThank you for your time and consideration. I would love the opportunity to discuss how my analytical skills and dedication can support Deloitte's growth.\n\nWarm regards,\n\nAMIT KUMAR SAINI\nPhone: +91 7903838926\nEmail: clusterdistracted@gmail.com\nLinkedIn: https://linkedin.com/in/amitsaini-business-analyst\nGitHub: https://github.com/ClusterAmit\n","shortPitch":"Hi Hiring Team, I came across your opening for Associate - Reporting & Analytics - Hyderabad at Deloitte. I have 1 year of hands-on internship experience in data & business analytics (Ai Variant), where I built 12+ Power BI/Tableau dashboards and wrote optimized MySQL/Python queries. I am based in India, open to Pan-India/Hybrid/Remote setups, and available to join immediately. Would love to connect!","screeningAnswers":{"Total Experience":"1 Year (Hands-on Business & Data Analytics Internship at Ai Variant)","Notice Period":"Immediate / 0 Days (Ready to join immediately)","Current Location & Mobility":"Bengaluru, Karnataka (Flexible for Pan-India relocation / Hybrid / Remote)","Primary Technical Skills":"SQL (MySQL, CTEs, Window Functions), Power BI (DAX), Tableau, Advanced Excel (XLOOKUP, Pivot Tables), Python (Pandas, NumPy)","Why should we hire you?":"During my 1-year internship, I didn't just study data—I automated reports, authored BRD/FRD documents, and improved reporting accuracy by 25%. I bring practical, production-level SQL and dashboarding skills with a relentless desire to learn and deliver."}},"status":"New","isApplied":false},{"id":"li_4477678499","title":"Advanced Analytics (AA&I) and Innovation, Associate, Technical Specialist","company":"Morgan Stanley","location":"Bengaluru, Karnataka, India","link":"https://in.linkedin.com/jobs/view/advanced-analytics-aa-i-and-innovation-associate-technical-specialist-at-morgan-stanley-4477678499","datePosted":"21 hours ago","isPast24Hours":true,"source":"LinkedIn (Pan-India Entry Level)","description":"Advanced Analytics (AA&I) and Innovation, Associate, Technical Specialist at Morgan Stanley in Bengaluru, Karnataka, India. Full-time entry-level opportunity posted within 24 hours in India.","score":60,"companyTier":"Tier 1","tierBadge":"⭐ Tier 1 Company","tierLabel":"Tier 1 (Global Product / Top GCC)","matchedSkills":[],"reason":"[Tier 1] Verified opportunity at Morgan Stanley. Matches your 1-year internship in Analytics.","isEntryLevelVerified":true,"coverLetterData":{"coverLetter":"Dear Hiring Team at Morgan Stanley,\n\nI am writing to express my strong enthusiasm for the Advanced Analytics (AA&I) and Innovation, Associate, Technical Specialist opportunity at Morgan Stanley. As a data-driven professional with 1 year of hands-on internship experience at Ai Variant (Bengaluru), I specialize in translating complex business processes into actionable dashboards and analytical solutions.\n\nDuring my 1-year internship, I delivered measurable results across business intelligence and data operations:\n• Built and deployed 12+ interactive Power BI and Tableau dashboards, reducing manual reporting cycles by 40%.\n• Wrote optimized MySQL queries (leveraging CTEs, joins, and window functions) across 50,000+ transactional records, boosting data validation accuracy by 25%.\n• Spearheaded requirement gathering sessions, authored comprehensive BRDs/FRDs, and guided User Acceptance Testing (UAT) cycles in Agile sprints.\n• Conducted exploratory data analysis (EDA) using Python (Pandas, NumPy) and Advanced Excel (Pivot Tables, XLOOKUP).\n\nYour Advanced Analytics (AA&I) and Innovation, Associate, Technical Specialist opening aligns perfectly with my background in SQL (CTEs, Window functions), Power BI (DAX), Tableau, and Advanced Excel. Having completed end-to-end projects in financial risk monitoring, healthcare analytics, and retail intelligence, I can ramp up quickly and contribute from day one. I am currently based in Bengaluru, fully open to Pan-India opportunities (On-site, Hybrid, or Remote), and available to join immediately.\n\nThank you for your time and consideration. I would love the opportunity to discuss how my analytical skills and dedication can support Morgan Stanley's growth.\n\nWarm regards,\n\nAMIT KUMAR SAINI\nPhone: +91 7903838926\nEmail: clusterdistracted@gmail.com\nLinkedIn: https://linkedin.com/in/amitsaini-business-analyst\nGitHub: https://github.com/ClusterAmit\n","shortPitch":"Hi Hiring Team, I came across your opening for Advanced Analytics (AA&I) and Innovation, Associate, Technical Specialist at Morgan Stanley. I have 1 year of hands-on internship experience in data & business analytics (Ai Variant), where I built 12+ Power BI/Tableau dashboards and wrote optimized MySQL/Python queries. I am based in India, open to Pan-India/Hybrid/Remote setups, and available to join immediately. Would love to connect!","screeningAnswers":{"Total Experience":"1 Year (Hands-on Business & Data Analytics Internship at Ai Variant)","Notice Period":"Immediate / 0 Days (Ready to join immediately)","Current Location & Mobility":"Bengaluru, Karnataka (Flexible for Pan-India relocation / Hybrid / Remote)","Primary Technical Skills":"SQL (MySQL, CTEs, Window Functions), Power BI (DAX), Tableau, Advanced Excel (XLOOKUP, Pivot Tables), Python (Pandas, NumPy)","Why should we hire you?":"During my 1-year internship, I didn't just study data—I automated reports, authored BRD/FRD documents, and improved reporting accuracy by 25%. I bring practical, production-level SQL and dashboarding skills with a relentless desire to learn and deliver."}},"status":"New","isApplied":false},{"id":"li_4485355277","title":"Financial Data Analyst","company":"Flexiple","location":"India","link":"https://in.linkedin.com/jobs/view/financial-data-analyst-at-flexiple-4485355277","datePosted":"23 hours ago","isPast24Hours":true,"source":"LinkedIn (Pan-India Entry Level)","description":"Financial Data Analyst at Flexiple in India. Full-time entry-level opportunity posted within 24 hours in India.","score":55,"companyTier":"Tier 3","tierBadge":"🚀 Tier 3 Company","tierLabel":"Tier 3 (Verified Corporate)","matchedSkills":[],"reason":"[Tier 3] Matches data & business analytics stack (). Full-time role suitable for 0-1 year experience.","isEntryLevelVerified":false,"coverLetterData":{"coverLetter":"Dear Hiring Team at Flexiple,\n\nI am writing to express my strong enthusiasm for the Financial Data Analyst opportunity at Flexiple. As a data-driven professional with 1 year of hands-on internship experience at Ai Variant (Bengaluru), I specialize in translating complex business processes into actionable dashboards and analytical solutions.\n\nDuring my 1-year internship, I delivered measurable results across business intelligence and data operations:\n• Built and deployed 12+ interactive Power BI and Tableau dashboards, reducing manual reporting cycles by 40%.\n• Wrote optimized MySQL queries (leveraging CTEs, joins, and window functions) across 50,000+ transactional records, boosting data validation accuracy by 25%.\n• Spearheaded requirement gathering sessions, authored comprehensive BRDs/FRDs, and guided User Acceptance Testing (UAT) cycles in Agile sprints.\n• Conducted exploratory data analysis (EDA) using Python (Pandas, NumPy) and Advanced Excel (Pivot Tables, XLOOKUP).\n\nYour Financial Data Analyst opening aligns perfectly with my background in SQL (CTEs, Window functions), Power BI (DAX), Tableau, and Advanced Excel. Having completed end-to-end projects in financial risk monitoring, healthcare analytics, and retail intelligence, I can ramp up quickly and contribute from day one. I am currently based in Bengaluru, fully open to Pan-India opportunities (On-site, Hybrid, or Remote), and available to join immediately.\n\nThank you for your time and consideration. I would love the opportunity to discuss how my analytical skills and dedication can support Flexiple's growth.\n\nWarm regards,\n\nAMIT KUMAR SAINI\nPhone: +91 7903838926\nEmail: clusterdistracted@gmail.com\nLinkedIn: https://linkedin.com/in/amitsaini-business-analyst\nGitHub: https://github.com/ClusterAmit\n","shortPitch":"Hi Hiring Team, I came across your opening for Financial Data Analyst at Flexiple. I have 1 year of hands-on internship experience in data & business analytics (Ai Variant), where I built 12+ Power BI/Tableau dashboards and wrote optimized MySQL/Python queries. I am based in India, open to Pan-India/Hybrid/Remote setups, and available to join immediately. Would love to connect!","screeningAnswers":{"Total Experience":"1 Year (Hands-on Business & Data Analytics Internship at Ai Variant)","Notice Period":"Immediate / 0 Days (Ready to join immediately)","Current Location & Mobility":"Bengaluru, Karnataka (Flexible for Pan-India relocation / Hybrid / Remote)","Primary Technical Skills":"SQL (MySQL, CTEs, Window Functions), Power BI (DAX), Tableau, Advanced Excel (XLOOKUP, Pivot Tables), Python (Pandas, NumPy)","Why should we hire you?":"During my 1-year internship, I didn't just study data—I automated reports, authored BRD/FRD documents, and improved reporting accuracy by 25%. I bring practical, production-level SQL and dashboarding skills with a relentless desire to learn and deliver."}},"status":"New","isApplied":false},{"id":"li_4484882020","title":"IND-Associate Analyst Supply Chain","company":"Lowe's India","location":"Bengaluru, Karnataka, India","link":"https://in.linkedin.com/jobs/view/ind-associate-analyst-supply-chain-at-lowe-s-india-4484882020","datePosted":"20 hours ago","isPast24Hours":true,"source":"LinkedIn (Pan-India Entry Level)","description":"IND-Associate Analyst Supply Chain at Lowe's India in Bengaluru, Karnataka, India. Full-time entry-level opportunity posted within 24 hours in India.","score":50,"companyTier":"Tier 2","tierBadge":"🏢 Tier 2 Company","tierLabel":"Tier 2 (Enterprise Tech / Top IT)","matchedSkills":[],"reason":"[Tier 2] Verified opportunity at Lowe's India. Matches your 1-year internship in Analytics.","isEntryLevelVerified":true,"coverLetterData":{"coverLetter":"Dear Hiring Team at Lowe's India,\n\nI am writing to express my strong enthusiasm for the IND-Associate Analyst Supply Chain opportunity at Lowe's India. As a data-driven professional with 1 year of hands-on internship experience at Ai Variant (Bengaluru), I specialize in translating complex business processes into actionable dashboards and analytical solutions.\n\nDuring my 1-year internship, I delivered measurable results across business intelligence and data operations:\n• Built and deployed 12+ interactive Power BI and Tableau dashboards, reducing manual reporting cycles by 40%.\n• Wrote optimized MySQL queries (leveraging CTEs, joins, and window functions) across 50,000+ transactional records, boosting data validation accuracy by 25%.\n• Spearheaded requirement gathering sessions, authored comprehensive BRDs/FRDs, and guided User Acceptance Testing (UAT) cycles in Agile sprints.\n• Conducted exploratory data analysis (EDA) using Python (Pandas, NumPy) and Advanced Excel (Pivot Tables, XLOOKUP).\n\nYour IND-Associate Analyst Supply Chain opening aligns perfectly with my background in SQL (CTEs, Window functions), Power BI (DAX), Tableau, and Advanced Excel. Having completed end-to-end projects in financial risk monitoring, healthcare analytics, and retail intelligence, I can ramp up quickly and contribute from day one. I am currently based in Bengaluru, fully open to Pan-India opportunities (On-site, Hybrid, or Remote), and available to join immediately.\n\nThank you for your time and consideration. I would love the opportunity to discuss how my analytical skills and dedication can support Lowe's India's growth.\n\nWarm regards,\n\nAMIT KUMAR SAINI\nPhone: +91 7903838926\nEmail: clusterdistracted@gmail.com\nLinkedIn: https://linkedin.com/in/amitsaini-business-analyst\nGitHub: https://github.com/ClusterAmit\n","shortPitch":"Hi Hiring Team, I came across your opening for IND-Associate Analyst Supply Chain at Lowe's India. I have 1 year of hands-on internship experience in data & business analytics (Ai Variant), where I built 12+ Power BI/Tableau dashboards and wrote optimized MySQL/Python queries. I am based in India, open to Pan-India/Hybrid/Remote setups, and available to join immediately. Would love to connect!","screeningAnswers":{"Total Experience":"1 Year (Hands-on Business & Data Analytics Internship at Ai Variant)","Notice Period":"Immediate / 0 Days (Ready to join immediately)","Current Location & Mobility":"Bengaluru, Karnataka (Flexible for Pan-India relocation / Hybrid / Remote)","Primary Technical Skills":"SQL (MySQL, CTEs, Window Functions), Power BI (DAX), Tableau, Advanced Excel (XLOOKUP, Pivot Tables), Python (Pandas, NumPy)","Why should we hire you?":"During my 1-year internship, I didn't just study data—I automated reports, authored BRD/FRD documents, and improved reporting accuracy by 25%. I bring practical, production-level SQL and dashboarding skills with a relentless desire to learn and deliver."}},"status":"New","isApplied":false},{"id":"li_4476839826","title":"Associate Survey Tabulations Analyst","company":"Comscore, Inc.","location":"Pune Division, Maharashtra, India","link":"https://in.linkedin.com/jobs/view/associate-survey-tabulations-analyst-at-comscore-inc-4476839826","datePosted":"4 hours ago","isPast24Hours":true,"source":"LinkedIn (Pan-India Entry Level)","description":"Associate Survey Tabulations Analyst at Comscore, Inc. in Pune Division, Maharashtra, India. Full-time entry-level opportunity posted within 24 hours in India.","score":45,"companyTier":"Tier 3","tierBadge":"🚀 Tier 3 Company","tierLabel":"Tier 3 (Verified Corporate)","matchedSkills":[],"reason":"[Tier 3] Targeted entry-level role matching your 1-year internship profile. Matched skills: Analytics basics.","isEntryLevelVerified":true,"coverLetterData":{"coverLetter":"Dear Hiring Team at Comscore, Inc.,\n\nI am writing to express my strong enthusiasm for the Associate Survey Tabulations Analyst opportunity at Comscore, Inc.. As a data-driven professional with 1 year of hands-on internship experience at Ai Variant (Bengaluru), I specialize in translating complex business processes into actionable dashboards and analytical solutions.\n\nDuring my 1-year internship, I delivered measurable results across business intelligence and data operations:\n• Built and deployed 12+ interactive Power BI and Tableau dashboards, reducing manual reporting cycles by 40%.\n• Wrote optimized MySQL queries (leveraging CTEs, joins, and window functions) across 50,000+ transactional records, boosting data validation accuracy by 25%.\n• Spearheaded requirement gathering sessions, authored comprehensive BRDs/FRDs, and guided User Acceptance Testing (UAT) cycles in Agile sprints.\n• Conducted exploratory data analysis (EDA) using Python (Pandas, NumPy) and Advanced Excel (Pivot Tables, XLOOKUP).\n\nYour Associate Survey Tabulations Analyst opening aligns perfectly with my background in SQL (CTEs, Window functions), Power BI (DAX), Tableau, and Advanced Excel. Having completed end-to-end projects in financial risk monitoring, healthcare analytics, and retail intelligence, I can ramp up quickly and contribute from day one. I am currently based in Bengaluru, fully open to Pan-India opportunities (On-site, Hybrid, or Remote), and available to join immediately.\n\nThank you for your time and consideration. I would love the opportunity to discuss how my analytical skills and dedication can support Comscore, Inc.'s growth.\n\nWarm regards,\n\nAMIT KUMAR SAINI\nPhone: +91 7903838926\nEmail: clusterdistracted@gmail.com\nLinkedIn: https://linkedin.com/in/amitsaini-business-analyst\nGitHub: https://github.com/ClusterAmit\n","shortPitch":"Hi Hiring Team, I came across your opening for Associate Survey Tabulations Analyst at Comscore, Inc.. I have 1 year of hands-on internship experience in data & business analytics (Ai Variant), where I built 12+ Power BI/Tableau dashboards and wrote optimized MySQL/Python queries. I am based in India, open to Pan-India/Hybrid/Remote setups, and available to join immediately. Would love to connect!","screeningAnswers":{"Total Experience":"1 Year (Hands-on Business & Data Analytics Internship at Ai Variant)","Notice Period":"Immediate / 0 Days (Ready to join immediately)","Current Location & Mobility":"Bengaluru, Karnataka (Flexible for Pan-India relocation / Hybrid / Remote)","Primary Technical Skills":"SQL (MySQL, CTEs, Window Functions), Power BI (DAX), Tableau, Advanced Excel (XLOOKUP, Pivot Tables), Python (Pandas, NumPy)","Why should we hire you?":"During my 1-year internship, I didn't just study data—I automated reports, authored BRD/FRD documents, and improved reporting accuracy by 25%. I bring practical, production-level SQL and dashboarding skills with a relentless desire to learn and deliver."}},"status":"New","isApplied":false},{"id":"li_4448003189","title":"Associate Analyst, Supply Chain Planning","company":"Analog Devices","location":"Gandhinagar, Gujarat, India","link":"https://in.linkedin.com/jobs/view/associate-analyst-supply-chain-planning-at-analog-devices-4448003189","datePosted":"20 hours ago","isPast24Hours":true,"source":"LinkedIn (Pan-India Entry Level)","description":"Associate Analyst, Supply Chain Planning at Analog Devices in Gandhinagar, Gujarat, India. Full-time entry-level opportunity posted within 24 hours in India.","score":45,"companyTier":"Tier 3","tierBadge":"🚀 Tier 3 Company","tierLabel":"Tier 3 (Verified Corporate)","matchedSkills":[],"reason":"[Tier 3] Targeted entry-level role matching your 1-year internship profile. Matched skills: Analytics basics.","isEntryLevelVerified":true,"coverLetterData":{"coverLetter":"Dear Hiring Team at Analog Devices,\n\nI am writing to express my strong enthusiasm for the Associate Analyst, Supply Chain Planning opportunity at Analog Devices. As a data-driven professional with 1 year of hands-on internship experience at Ai Variant (Bengaluru), I specialize in translating complex business processes into actionable dashboards and analytical solutions.\n\nDuring my 1-year internship, I delivered measurable results across business intelligence and data operations:\n• Built and deployed 12+ interactive Power BI and Tableau dashboards, reducing manual reporting cycles by 40%.\n• Wrote optimized MySQL queries (leveraging CTEs, joins, and window functions) across 50,000+ transactional records, boosting data validation accuracy by 25%.\n• Spearheaded requirement gathering sessions, authored comprehensive BRDs/FRDs, and guided User Acceptance Testing (UAT) cycles in Agile sprints.\n• Conducted exploratory data analysis (EDA) using Python (Pandas, NumPy) and Advanced Excel (Pivot Tables, XLOOKUP).\n\nYour Associate Analyst, Supply Chain Planning opening aligns perfectly with my background in SQL (CTEs, Window functions), Power BI (DAX), Tableau, and Advanced Excel. Having completed end-to-end projects in financial risk monitoring, healthcare analytics, and retail intelligence, I can ramp up quickly and contribute from day one. I am currently based in Bengaluru, fully open to Pan-India opportunities (On-site, Hybrid, or Remote), and available to join immediately.\n\nThank you for your time and consideration. I would love the opportunity to discuss how my analytical skills and dedication can support Analog Devices's growth.\n\nWarm regards,\n\nAMIT KUMAR SAINI\nPhone: +91 7903838926\nEmail: clusterdistracted@gmail.com\nLinkedIn: https://linkedin.com/in/amitsaini-business-analyst\nGitHub: https://github.com/ClusterAmit\n","shortPitch":"Hi Hiring Team, I came across your opening for Associate Analyst, Supply Chain Planning at Analog Devices. I have 1 year of hands-on internship experience in data & business analytics (Ai Variant), where I built 12+ Power BI/Tableau dashboards and wrote optimized MySQL/Python queries. I am based in India, open to Pan-India/Hybrid/Remote setups, and available to join immediately. Would love to connect!","screeningAnswers":{"Total Experience":"1 Year (Hands-on Business & Data Analytics Internship at Ai Variant)","Notice Period":"Immediate / 0 Days (Ready to join immediately)","Current Location & Mobility":"Bengaluru, Karnataka (Flexible for Pan-India relocation / Hybrid / Remote)","Primary Technical Skills":"SQL (MySQL, CTEs, Window Functions), Power BI (DAX), Tableau, Advanced Excel (XLOOKUP, Pivot Tables), Python (Pandas, NumPy)","Why should we hire you?":"During my 1-year internship, I didn't just study data—I automated reports, authored BRD/FRD documents, and improved reporting accuracy by 25%. I bring practical, production-level SQL and dashboarding skills with a relentless desire to learn and deliver."}},"status":"New","isApplied":false},{"id":"li_4484851943","title":"Business Analytics Analyst","company":"Citi","location":"Haryana, India","link":"https://in.linkedin.com/jobs/view/business-analytics-analyst-at-citi-4484851943","datePosted":"20 hours ago","isPast24Hours":true,"source":"LinkedIn (Pan-India Entry Level)","description":"Business Analytics Analyst at Citi in Haryana, India. Full-time entry-level opportunity posted within 24 hours in India.","score":45,"companyTier":"Tier 1","tierBadge":"⭐ Tier 1 Company","tierLabel":"Tier 1 (Global Product / Top GCC)","matchedSkills":[],"reason":"[Tier 1] Verified opportunity at Citi. Matches your 1-year internship in Analytics.","isEntryLevelVerified":false,"coverLetterData":{"coverLetter":"Dear Hiring Team at Citi,\n\nI am writing to express my strong enthusiasm for the Business Analytics Analyst opportunity at Citi. As a data-driven professional with 1 year of hands-on internship experience at Ai Variant (Bengaluru), I specialize in translating complex business processes into actionable dashboards and analytical solutions.\n\nDuring my 1-year internship, I delivered measurable results across business intelligence and data operations:\n• Built and deployed 12+ interactive Power BI and Tableau dashboards, reducing manual reporting cycles by 40%.\n• Wrote optimized MySQL queries (leveraging CTEs, joins, and window functions) across 50,000+ transactional records, boosting data validation accuracy by 25%.\n• Spearheaded requirement gathering sessions, authored comprehensive BRDs/FRDs, and guided User Acceptance Testing (UAT) cycles in Agile sprints.\n• Conducted exploratory data analysis (EDA) using Python (Pandas, NumPy) and Advanced Excel (Pivot Tables, XLOOKUP).\n\nYour Business Analytics Analyst opening aligns perfectly with my background in SQL (CTEs, Window functions), Power BI (DAX), Tableau, and Advanced Excel. Having completed end-to-end projects in financial risk monitoring, healthcare analytics, and retail intelligence, I can ramp up quickly and contribute from day one. I am currently based in Bengaluru, fully open to Pan-India opportunities (On-site, Hybrid, or Remote), and available to join immediately.\n\nThank you for your time and consideration. I would love the opportunity to discuss how my analytical skills and dedication can support Citi's growth.\n\nWarm regards,\n\nAMIT KUMAR SAINI\nPhone: +91 7903838926\nEmail: clusterdistracted@gmail.com\nLinkedIn: https://linkedin.com/in/amitsaini-business-analyst\nGitHub: https://github.com/ClusterAmit\n","shortPitch":"Hi Hiring Team, I came across your opening for Business Analytics Analyst at Citi. I have 1 year of hands-on internship experience in data & business analytics (Ai Variant), where I built 12+ Power BI/Tableau dashboards and wrote optimized MySQL/Python queries. I am based in India, open to Pan-India/Hybrid/Remote setups, and available to join immediately. Would love to connect!","screeningAnswers":{"Total Experience":"1 Year (Hands-on Business & Data Analytics Internship at Ai Variant)","Notice Period":"Immediate / 0 Days (Ready to join immediately)","Current Location & Mobility":"Bengaluru, Karnataka (Flexible for Pan-India relocation / Hybrid / Remote)","Primary Technical Skills":"SQL (MySQL, CTEs, Window Functions), Power BI (DAX), Tableau, Advanced Excel (XLOOKUP, Pivot Tables), Python (Pandas, NumPy)","Why should we hire you?":"During my 1-year internship, I didn't just study data—I automated reports, authored BRD/FRD documents, and improved reporting accuracy by 25%. I bring practical, production-level SQL and dashboarding skills with a relentless desire to learn and deliver."}},"status":"New","isApplied":false},{"id":"li_4466652884","title":"Business Operations Analyst","company":"PhonePe","location":"Bengaluru, Karnataka, India","link":"https://in.linkedin.com/jobs/view/business-operations-analyst-at-phonepe-4466652884","datePosted":"23 hours ago","isPast24Hours":true,"source":"LinkedIn (Pan-India Entry Level)","description":"Business Operations Analyst at PhonePe in Bengaluru, Karnataka, India. Full-time entry-level opportunity posted within 24 hours in India.","score":45,"companyTier":"Tier 1","tierBadge":"⭐ Tier 1 Company","tierLabel":"Tier 1 (Global Product / Top GCC)","matchedSkills":[],"reason":"[Tier 1] Verified opportunity at PhonePe. Matches your 1-year internship in Analytics.","isEntryLevelVerified":false,"coverLetterData":{"coverLetter":"Dear Hiring Team at PhonePe,\n\nI am writing to express my strong enthusiasm for the Business Operations Analyst opportunity at PhonePe. As a data-driven professional with 1 year of hands-on internship experience at Ai Variant (Bengaluru), I specialize in translating complex business processes into actionable dashboards and analytical solutions.\n\nDuring my 1-year internship, I delivered measurable results across business intelligence and data operations:\n• Built and deployed 12+ interactive Power BI and Tableau dashboards, reducing manual reporting cycles by 40%.\n• Wrote optimized MySQL queries (leveraging CTEs, joins, and window functions) across 50,000+ transactional records, boosting data validation accuracy by 25%.\n• Spearheaded requirement gathering sessions, authored comprehensive BRDs/FRDs, and guided User Acceptance Testing (UAT) cycles in Agile sprints.\n• Conducted exploratory data analysis (EDA) using Python (Pandas, NumPy) and Advanced Excel (Pivot Tables, XLOOKUP).\n\nYour Business Operations Analyst opening aligns perfectly with my background in SQL (CTEs, Window functions), Power BI (DAX), Tableau, and Advanced Excel. Having completed end-to-end projects in financial risk monitoring, healthcare analytics, and retail intelligence, I can ramp up quickly and contribute from day one. I am currently based in Bengaluru, fully open to Pan-India opportunities (On-site, Hybrid, or Remote), and available to join immediately.\n\nThank you for your time and consideration. I would love the opportunity to discuss how my analytical skills and dedication can support PhonePe's growth.\n\nWarm regards,\n\nAMIT KUMAR SAINI\nPhone: +91 7903838926\nEmail: clusterdistracted@gmail.com\nLinkedIn: https://linkedin.com/in/amitsaini-business-analyst\nGitHub: https://github.com/ClusterAmit\n","shortPitch":"Hi Hiring Team, I came across your opening for Business Operations Analyst at PhonePe. I have 1 year of hands-on internship experience in data & business analytics (Ai Variant), where I built 12+ Power BI/Tableau dashboards and wrote optimized MySQL/Python queries. I am based in India, open to Pan-India/Hybrid/Remote setups, and available to join immediately. Would love to connect!","screeningAnswers":{"Total Experience":"1 Year (Hands-on Business & Data Analytics Internship at Ai Variant)","Notice Period":"Immediate / 0 Days (Ready to join immediately)","Current Location & Mobility":"Bengaluru, Karnataka (Flexible for Pan-India relocation / Hybrid / Remote)","Primary Technical Skills":"SQL (MySQL, CTEs, Window Functions), Power BI (DAX), Tableau, Advanced Excel (XLOOKUP, Pivot Tables), Python (Pandas, NumPy)","Why should we hire you?":"During my 1-year internship, I didn't just study data—I automated reports, authored BRD/FRD documents, and improved reporting accuracy by 25%. I bring practical, production-level SQL and dashboarding skills with a relentless desire to learn and deliver."}},"status":"New","isApplied":false},{"id":"li_4476277821","title":"Delivery AI Product Analyst","company":"BCG X","location":"Gurgaon, Haryana, India","link":"https://in.linkedin.com/jobs/view/delivery-ai-product-analyst-at-bcg-x-4476277821","datePosted":"22 hours ago","isPast24Hours":true,"source":"LinkedIn (Pan-India Entry Level)","description":"Delivery AI Product Analyst at BCG X in Gurgaon, Haryana, India. Full-time entry-level opportunity posted within 24 hours in India.","score":45,"companyTier":"Tier 1","tierBadge":"⭐ Tier 1 Company","tierLabel":"Tier 1 (Global Product / Top GCC)","matchedSkills":[],"reason":"[Tier 1] Verified opportunity at BCG X. Matches your 1-year internship in Analytics.","isEntryLevelVerified":false,"coverLetterData":{"coverLetter":"Dear Hiring Team at BCG X,\n\nI am writing to express my strong enthusiasm for the Delivery AI Product Analyst opportunity at BCG X. As a data-driven professional with 1 year of hands-on internship experience at Ai Variant (Bengaluru), I specialize in translating complex business processes into actionable dashboards and analytical solutions.\n\nDuring my 1-year internship, I delivered measurable results across business intelligence and data operations:\n• Built and deployed 12+ interactive Power BI and Tableau dashboards, reducing manual reporting cycles by 40%.\n• Wrote optimized MySQL queries (leveraging CTEs, joins, and window functions) across 50,000+ transactional records, boosting data validation accuracy by 25%.\n• Spearheaded requirement gathering sessions, authored comprehensive BRDs/FRDs, and guided User Acceptance Testing (UAT) cycles in Agile sprints.\n• Conducted exploratory data analysis (EDA) using Python (Pandas, NumPy) and Advanced Excel (Pivot Tables, XLOOKUP).\n\nYour Delivery AI Product Analyst opening aligns perfectly with my background in SQL (CTEs, Window functions), Power BI (DAX), Tableau, and Advanced Excel. Having completed end-to-end projects in financial risk monitoring, healthcare analytics, and retail intelligence, I can ramp up quickly and contribute from day one. I am currently based in Bengaluru, fully open to Pan-India opportunities (On-site, Hybrid, or Remote), and available to join immediately.\n\nThank you for your time and consideration. I would love the opportunity to discuss how my analytical skills and dedication can support BCG X's growth.\n\nWarm regards,\n\nAMIT KUMAR SAINI\nPhone: +91 7903838926\nEmail: clusterdistracted@gmail.com\nLinkedIn: https://linkedin.com/in/amitsaini-business-analyst\nGitHub: https://github.com/ClusterAmit\n","shortPitch":"Hi Hiring Team, I came across your opening for Delivery AI Product Analyst at BCG X. I have 1 year of hands-on internship experience in data & business analytics (Ai Variant), where I built 12+ Power BI/Tableau dashboards and wrote optimized MySQL/Python queries. I am based in India, open to Pan-India/Hybrid/Remote setups, and available to join immediately. Would love to connect!","screeningAnswers":{"Total Experience":"1 Year (Hands-on Business & Data Analytics Internship at Ai Variant)","Notice Period":"Immediate / 0 Days (Ready to join immediately)","Current Location & Mobility":"Bengaluru, Karnataka (Flexible for Pan-India relocation / Hybrid / Remote)","Primary Technical Skills":"SQL (MySQL, CTEs, Window Functions), Power BI (DAX), Tableau, Advanced Excel (XLOOKUP, Pivot Tables), Python (Pandas, NumPy)","Why should we hire you?":"During my 1-year internship, I didn't just study data—I automated reports, authored BRD/FRD documents, and improved reporting accuracy by 25%. I bring practical, production-level SQL and dashboarding skills with a relentless desire to learn and deliver."}},"status":"New","isApplied":false}];
+  let currentView = 'active'; // 'active' or 'applied'
+  let currentTier = 'all';
+  let currentCity = 'all';
+  let currentSource = 'all';
+
+  function isJobApplied(jobId) {
+    return localStorage.getItem('applied_' + jobId) === 'true';
+  }
+
+  function init() {
+    updateCounts();
+    filterJobs();
+  }
+
+  function updateCounts() {
+    const appliedJobs = rawJobs.filter(j => isJobApplied(j.id) || j.isApplied);
+    const activeJobs = rawJobs.filter(j => !isJobApplied(j.id) && !j.isApplied);
+
+    document.getElementById('totalActiveVal').innerText = activeJobs.length;
+    document.getElementById('appliedCountVal').innerText = appliedJobs.length;
+    document.getElementById('activeTabCount').innerText = activeJobs.length;
+    document.getElementById('appliedTabCount').innerText = appliedJobs.length;
+    document.getElementById('highScoreVal').innerText = activeJobs.filter(j => j.score >= 70).length;
+    document.getElementById('tierTargetVal').innerText = activeJobs.filter(j => j.companyTier === 'Tier 1' || j.companyTier === 'Tier 2').length;
+  }
+
+  function switchView(view) {
+    currentView = view;
+    document.getElementById('activeTabBtn').classList.toggle('active', view === 'active');
+    document.getElementById('appliedTabBtn').classList.toggle('active', view === 'applied');
+    filterJobs();
+  }
+
+  function setTierFilter(tier) {
+    currentTier = tier;
+    document.querySelectorAll('.tier-btn').forEach(b => b.classList.remove('active'));
+    event.target.classList.add('active');
+    filterJobs();
+  }
+
+  function setCityFilter(city) {
+    currentCity = city;
+    document.querySelectorAll('.city-btn').forEach(b => b.classList.remove('active'));
+    event.target.classList.add('active');
+    filterJobs();
+  }
+
+  function setSourceFilter(source) {
+    currentSource = source;
+    document.querySelectorAll('.source-btn').forEach(b => b.classList.remove('active'));
+    event.target.classList.add('active');
+    filterJobs();
+  }
+
+  function filterJobs() {
+    const q = document.getElementById('searchInput').value.toLowerCase();
+    
+    const filtered = rawJobs.filter(job => {
+      const applied = isJobApplied(job.id) || job.isApplied;
+      
+      // Strict View Filter: If view is 'active', exclude all applied jobs!
+      if (currentView === 'active' && applied) return false;
+      if (currentView === 'applied' && !applied) return false;
+
+      // Tier Filter
+      let matchTier = true;
+      if (currentTier === 'Tier 1') matchTier = (job.companyTier === 'Tier 1');
+      else if (currentTier === 'Tier 1 & 2') matchTier = (job.companyTier === 'Tier 1' || job.companyTier === 'Tier 2');
+      else if (currentTier === 'Tier 3') matchTier = (job.companyTier === 'Tier 3');
+
+      // City Filter (Mumbai already excluded from dataset)
+      const matchCity = (currentCity === 'all') ||
+        (job.location.toLowerCase().includes(currentCity.toLowerCase())) ||
+        (currentCity === 'Delhi' && (job.location.toLowerCase().includes('noida') || job.location.toLowerCase().includes('gurugram') || job.location.toLowerCase().includes('gurgaon')));
+      
+      // Source Filter
+      const matchSource = (currentSource === 'all') ||
+        ((job.source || '').toLowerCase().includes(currentSource.toLowerCase()));
+
+      // Search Query
+      const matchSearch = job.title.toLowerCase().includes(q) ||
+        job.company.toLowerCase().includes(q) ||
+        (job.matchedSkills && job.matchedSkills.some(s => s.toLowerCase().includes(q))) ||
+        job.location.toLowerCase().includes(q);
+
+      return matchTier && matchCity && matchSource && matchSearch;
+    });
+
+    renderJobs(filtered);
+  }
+
+  function renderJobs(jobs) {
+    const container = document.getElementById('jobsContainer');
+    if (!jobs || jobs.length === 0) {
+      if (currentView === 'active') {
+        container.innerHTML = '<div style="text-align:center; padding: 60px 20px; color: #94a3b8; background: #151f32; border-radius: 12px; border: 1px dashed #24344d;"><h3 style="color:#fff; margin-bottom:8px;">No Active Jobs Found</h3><p>All matching jobs have been applied to, or no fresh roles match this specific filter.</p></div>';
+      } else {
+        container.innerHTML = '<div style="text-align:center; padding: 60px 20px; color: #94a3b8; background: #151f32; border-radius: 12px; border: 1px dashed #24344d;"><h3 style="color:#fff; margin-bottom:8px;">No Applied Jobs Yet</h3><p>Jobs marked as "Applied" will be tracked here and hidden from your active search view.</p></div>';
+      }
+      return;
+    }
+
+    container.innerHTML = jobs.map((job) => {
+      const scoreClass = job.score >= 75 ? 'score-high' : (job.score >= 55 ? 'score-med' : 'score-fair');
+      const skillsHtml = (job.matchedSkills || []).map(s => '<span class="skill-tag">' + s + '</span>').join('');
+      const applied = isJobApplied(job.id) || job.isApplied;
+      const tier = job.companyTier || 'Tier 3';
+      const tierBadgeClass = tier === 'Tier 1' ? 'tier-1' : (tier === 'Tier 2' ? 'tier-2' : 'tier-3');
+      const tierBadgeLabel = job.tierBadge || (tier === 'Tier 1' ? '⭐ Tier 1 Company' : (tier === 'Tier 2' ? '🏢 Tier 2 Company' : '🚀 Tier 3 Company'));
+
+      return `
+        <div class="job-card" id="card_${job.id}">
+          <div class="job-header">
+            <div>
+              <div class="job-title">${job.title}</div>
+              <div class="job-company-row">
+                <span class="job-company">${job.company}</span>
+                <span class="tier-badge ${tierBadgeClass}">${tierBadgeLabel}</span>
+              </div>
+              <div class="job-meta-row">
+                <span>📍 ${job.location}</span>
+                <span class="job-time-badge">⏱️ ${job.datePosted || 'Posted within 24h'}</span>
+                <span class="source-badge">${job.source}</span>
+              </div>
+            </div>
+            <div class="score-badge ${scoreClass}">
+              <span class="num">${job.score}%</span>
+              <span class="lbl">Match</span>
+            </div>
+          </div>
+
+          <div class="match-reason">${job.reason || 'Verified entry-level role matching your 1-year internship profile.'}</div>
+
+          <div class="skills-row">
+            ${skillsHtml || '<span class="skill-tag">SQL</span><span class="skill-tag">Python</span><span class="skill-tag">Excel</span><span class="skill-tag">Power BI</span>'}
+          </div>
+
+          <div class="card-actions">
+            <a href="${job.link}" target="_blank" rel="noopener" class="btn btn-primary">
+              ⚡ Apply Now
+            </a>
+            <button class="btn btn-secondary" onclick="copyShortPitch('${job.id}')">
+              💬 Recruiter Pitch
+            </button>
+            <button class="btn btn-outline" onclick="openCoverModal('${job.id}')">
+              📄 Cover Letter
+            </button>
+            <button class="btn btn-outline" onclick="openScreeningModal('${job.id}')">
+              💡 Screening Q&A
+            </button>
+            ${currentView === 'active' ? `
+              <button class="btn btn-outline" onclick="markAsApplied('${job.id}')">
+                ✅ Mark Applied
+              </button>
+            ` : `
+              <button class="btn btn-applied" onclick="unmarkApplied('${job.id}')">
+                ↩️ Move Back to Active
+              </button>
+            `}
+          </div>
+        </div>
+      `;
+    }).join('');
+  }
+
+  function markAsApplied(jobId) {
+    localStorage.setItem('applied_' + jobId, 'true');
+    const card = document.getElementById('card_' + jobId);
+    if (card) {
+      card.style.opacity = '0';
+      card.style.transform = 'scale(0.96)';
+      setTimeout(() => {
+        updateCounts();
+        filterJobs();
+      }, 250);
+    } else {
+      updateCounts();
+      filterJobs();
+    }
+    showToast('✅ Job marked as applied and hidden from active view!');
+  }
+
+  function unmarkApplied(jobId) {
+    localStorage.removeItem('applied_' + jobId);
+    updateCounts();
+    filterJobs();
+    showToast('↩️ Job moved back to active opportunities.');
+  }
+
+  function copyShortPitch(jobId) {
+    const job = rawJobs.find(j => j.id === jobId);
+    if (job && job.coverLetterData) {
+      navigator.clipboard.writeText(job.coverLetterData.shortPitch);
+      showToast('Copied Recruiter Pitch to clipboard!');
+    }
+  }
+
+  function openCoverModal(jobId) {
+    const job = rawJobs.find(j => j.id === jobId);
+    if (!job || !job.coverLetterData) return;
+    document.getElementById('modalTitle').innerText = 'Cover Letter: ' + job.company + ' (' + job.title + ')';
+    document.getElementById('modalText').innerText = job.coverLetterData.coverLetter;
+    document.getElementById('coverModal').style.display = 'flex';
+  }
+
+  function openScreeningModal(jobId) {
+    const job = rawJobs.find(j => j.id === jobId);
+    if (!job || !job.coverLetterData) return;
+    document.getElementById('modalTitle').innerText = 'Screening Answers: ' + job.company;
+    const answers = job.coverLetterData.screeningAnswers;
+    let txt = '';
+    for (const [q, a] of Object.entries(answers)) {
+      txt += 'Q: ' + q + '\nA: ' + a + '\n\n';
+    }
+    document.getElementById('modalText').innerText = txt.trim();
+    document.getElementById('coverModal').style.display = 'flex';
+  }
+
+  function closeModal() {
+    document.getElementById('coverModal').style.display = 'none';
+  }
+
+  function copyModalContent() {
+    const text = document.getElementById('modalText').innerText;
+    navigator.clipboard.writeText(text);
+    showToast('Copied to clipboard!');
+    closeModal();
+  }
+
+  function showToast(msg) {
+    const toast = document.getElementById('toastMsg');
+    toast.innerText = msg;
+    toast.style.display = 'block';
+    setTimeout(() => { toast.style.display = 'none'; }, 2600);
+  }
+
+  window.onload = init;
+</script>
+</body>
+</html>

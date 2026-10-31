@@ -1,7 +1,9 @@
 JOB: Associate Data Engineer at Argano (Hyderabad, Telangana, India)
+TIER: Tier 3
 LINK: https://in.linkedin.com/jobs/view/associate-data-engineer-at-argano-4483472898
-MATCH SCORE: 40%
+MATCH SCORE: 45%
 SOURCE: LinkedIn (Pan-India Entry Level)
+POSTED: 20 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Argano,

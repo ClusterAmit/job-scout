@@ -1,19 +1,19 @@
 {
   "profile": {
     "experience": "1 year of internship experience",
-    "experienceLevel": "Entry Level / Fresher / 0-1 Years",
+    "experienceLevel": "Entry Level / Junior / Associate (0-1 Years)",
     "targetRoles": [
       "Data Analyst",
       "Junior Data Analyst",
       "Entry Level Data Analyst",
       "Associate Data Analyst",
       "Graduate Data Analyst",
-      "Data Analyst Intern",
+      "Business Analyst",
+      "Junior Business Analyst",
+      "Associate Business Analyst",
       "Junior BI Analyst",
       "Business Intelligence Analyst",
-      "Junior Data Scientist",
-      "Associate Data Scientist",
-      "Data Science Intern"
+      "Associate BI Analyst"
     ],
     "skills": [
       "SQL",
@@ -40,7 +40,6 @@
       "Bangalore",
       "Hyderabad",
       "Pune",
-      "Mumbai",
       "Delhi NCR",
       "Gurugram",
       "Gurgaon",
@@ -49,12 +48,34 @@
       "Kolkata",
       "Remote (India)"
     ],
-    "workArrangement": "Pan India (On-site / Hybrid / Remote within India)"
+    "workArrangement": "Pan India (On-site / Hybrid / Remote within India - Excluding Mumbai)"
   },
   "filters": {
     "strictEntryLevelOnly": true,
     "maxYearsExperience": 1,
+    "postTimeframeHours": 24,
+    "excludeInternships": true,
+    "excludeDataScientist": true,
+    "excludeLocations": [
+      "mumbai",
+      "bombay",
+      "navi mumbai",
+      "thane",
+      "mumbai metropolitan region",
+      "mmr"
+    ],
     "excludeKeywords": [
+      "intern",
+      "internship",
+      "interns",
+      "trainee",
+      "student",
+      "data scientist",
+      "data science",
+      "machine learning",
+      "ml engineer",
+      "ai engineer",
+      "deep learning",
       "senior",
       "sr.",
       "lead",
@@ -76,11 +97,8 @@
       "entry level",
       "fresher",
       "junior",
-      "intern",
-      "internship",
       "associate",
       "graduate",
-      "trainee",
       "0-1",
       "0-2 years",
       "1 year"
@@ -88,7 +106,7 @@
   },
   "settings": {
     "minMatchScore": 40,
-    "maxDailyJobs": 25,
+    "maxDailyJobs": 30,
     "saveCoverLetters": true,
     "outputDir": "./output"
   }

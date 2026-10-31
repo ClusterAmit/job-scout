@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-10-31T09:50:42.868Z",
-  "totalTracked": 88,
+  "lastUpdated": "2026-10-31T13:56:14.887Z",
+  "totalTracked": 108,
   "appliedCount": 0,
   "jobs": {
     "li_4483233380": {
@@ -2463,7 +2463,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-10-31",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-10-31"
     },
     "li_4483472898": {
       "id": "li_4483472898",
@@ -2491,7 +2492,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-10-31",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-10-31"
     },
     "li_4418733398": {
       "id": "li_4418733398",
@@ -2565,6 +2567,664 @@
       "coverLetterData": {
         "coverLetter": "Dear Hiring Team at upGrad,\n\nI am writing to express my strong enthusiasm for the Admission Counselor opportunity at upGrad. As a data-driven professional with 1 year of hands-on internship experience at Ai Variant (Bengaluru), I specialize in translating complex business processes into actionable dashboards and analytical solutions.\n\nDuring my 1-year internship, I delivered measurable results across business intelligence and data operations:\n• Built and deployed 12+ interactive Power BI and Tableau dashboards, reducing manual reporting cycles by 40%.\n• Wrote optimized MySQL queries (leveraging CTEs, joins, and window functions) across 50,000+ transactional records, boosting data validation accuracy by 25%.\n• Spearheaded requirement gathering sessions, authored comprehensive BRDs/FRDs, and guided User Acceptance Testing (UAT) cycles in Agile sprints.\n• Conducted exploratory data analysis (EDA) using Python (Pandas, NumPy) and Advanced Excel (Pivot Tables, XLOOKUP).\n\nYour Admission Counselor opening aligns perfectly with my background in SQL (CTEs, Window functions), Power BI (DAX), Tableau, and Advanced Excel. Having completed end-to-end projects in financial risk monitoring, healthcare analytics, and retail intelligence, I can ramp up quickly and contribute from day one. I am currently based in Bengaluru, fully open to Pan-India opportunities (On-site, Hybrid, or Remote), and available to join immediately.\n\nThank you for your time and consideration. I would love the opportunity to discuss how my analytical skills and dedication can support upGrad's growth.\n\nWarm regards,\n\nAMIT KUMAR SAINI\nPhone: +91 7903838926\nEmail: clusterdistracted@gmail.com\nLinkedIn: https://linkedin.com/in/amitsaini-business-analyst\nGitHub: https://github.com/ClusterAmit\n",
         "shortPitch": "Hi Hiring Team, I came across your opening for Admission Counselor at upGrad. I have 1 year of hands-on internship experience in data & business analytics (Ai Variant), where I built 12+ Power BI/Tableau dashboards and wrote optimized MySQL/Python queries. I am based in India, open to Pan-India/Hybrid/Remote setups, and available to join immediately. Would love to connect!",
+        "screeningAnswers": {
+          "Total Experience": "1 Year (Hands-on Business & Data Analytics Internship at Ai Variant)",
+          "Notice Period": "Immediate / 0 Days (Ready to join immediately)",
+          "Current Location & Mobility": "Bengaluru, Karnataka (Flexible for Pan-India relocation / Hybrid / Remote)",
+          "Primary Technical Skills": "SQL (MySQL, CTEs, Window Functions), Power BI (DAX), Tableau, Advanced Excel (XLOOKUP, Pivot Tables), Python (Pandas, NumPy)",
+          "Why should we hire you?": "During my 1-year internship, I didn't just study data—I automated reports, authored BRD/FRD documents, and improved reporting accuracy by 25%. I bring practical, production-level SQL and dashboarding skills with a relentless desire to learn and deliver."
+        }
+      },
+      "status": "New",
+      "dateDiscovered": "2026-10-31",
+      "notes": ""
+    },
+    "li_4476806452": {
+      "id": "li_4476806452",
+      "title": "DX Associate Business Analyst",
+      "company": "Cognizant",
+      "location": "Hyderabad, Telangana, India",
+      "link": "https://in.linkedin.com/jobs/view/dx-associate-business-analyst-at-cognizant-4476806452",
+      "datePosted": "21 hours ago",
+      "isPast24Hours": true,
+      "source": "LinkedIn (Pan-India Entry Level)",
+      "description": "DX Associate Business Analyst at Cognizant in Hyderabad, Telangana, India. Full-time entry-level opportunity posted within 24 hours in India.",
+      "score": 75,
+      "companyTier": "Tier 2",
+      "tierBadge": "🏢 Tier 2 Company",
+      "tierLabel": "Tier 2 (Enterprise Tech / Top IT)",
+      "matchedSkills": [],
+      "reason": "[Tier 2] Verified opportunity at Cognizant. Matches your 1-year internship in Analytics.",
+      "isEntryLevelVerified": true,
+      "coverLetterData": {
+        "coverLetter": "Dear Hiring Team at Cognizant,\n\nI am writing to express my strong enthusiasm for the DX Associate Business Analyst opportunity at Cognizant. As a data-driven professional with 1 year of hands-on internship experience at Ai Variant (Bengaluru), I specialize in translating complex business processes into actionable dashboards and analytical solutions.\n\nDuring my 1-year internship, I delivered measurable results across business intelligence and data operations:\n• Built and deployed 12+ interactive Power BI and Tableau dashboards, reducing manual reporting cycles by 40%.\n• Wrote optimized MySQL queries (leveraging CTEs, joins, and window functions) across 50,000+ transactional records, boosting data validation accuracy by 25%.\n• Spearheaded requirement gathering sessions, authored comprehensive BRDs/FRDs, and guided User Acceptance Testing (UAT) cycles in Agile sprints.\n• Conducted exploratory data analysis (EDA) using Python (Pandas, NumPy) and Advanced Excel (Pivot Tables, XLOOKUP).\n\nYour DX Associate Business Analyst opening aligns perfectly with my background in SQL (CTEs, Window functions), Power BI (DAX), Tableau, and Advanced Excel. Having completed end-to-end projects in financial risk monitoring, healthcare analytics, and retail intelligence, I can ramp up quickly and contribute from day one. I am currently based in Bengaluru, fully open to Pan-India opportunities (On-site, Hybrid, or Remote), and available to join immediately.\n\nThank you for your time and consideration. I would love the opportunity to discuss how my analytical skills and dedication can support Cognizant's growth.\n\nWarm regards,\n\nAMIT KUMAR SAINI\nPhone: +91 7903838926\nEmail: clusterdistracted@gmail.com\nLinkedIn: https://linkedin.com/in/amitsaini-business-analyst\nGitHub: https://github.com/ClusterAmit\n",
+        "shortPitch": "Hi Hiring Team, I came across your opening for DX Associate Business Analyst at Cognizant. I have 1 year of hands-on internship experience in data & business analytics (Ai Variant), where I built 12+ Power BI/Tableau dashboards and wrote optimized MySQL/Python queries. I am based in India, open to Pan-India/Hybrid/Remote setups, and available to join immediately. Would love to connect!",
+        "screeningAnswers": {
+          "Total Experience": "1 Year (Hands-on Business & Data Analytics Internship at Ai Variant)",
+          "Notice Period": "Immediate / 0 Days (Ready to join immediately)",
+          "Current Location & Mobility": "Bengaluru, Karnataka (Flexible for Pan-India relocation / Hybrid / Remote)",
+          "Primary Technical Skills": "SQL (MySQL, CTEs, Window Functions), Power BI (DAX), Tableau, Advanced Excel (XLOOKUP, Pivot Tables), Python (Pandas, NumPy)",
+          "Why should we hire you?": "During my 1-year internship, I didn't just study data—I automated reports, authored BRD/FRD documents, and improved reporting accuracy by 25%. I bring practical, production-level SQL and dashboarding skills with a relentless desire to learn and deliver."
+        }
+      },
+      "status": "New",
+      "dateDiscovered": "2026-10-31",
+      "notes": "",
+      "lastSeen": "2026-10-31"
+    },
+    "li_4485387885": {
+      "id": "li_4485387885",
+      "title": "Business Analyst - Payments, Business Analyst - Payments",
+      "company": "Amazon",
+      "location": "Bengaluru, Karnataka, India",
+      "link": "https://in.linkedin.com/jobs/view/business-analyst-payments-business-analyst-payments-at-amazon-4485387885",
+      "datePosted": "18 hours ago",
+      "isPast24Hours": true,
+      "source": "LinkedIn (Pan-India Entry Level)",
+      "description": "Business Analyst - Payments, Business Analyst - Payments at Amazon in Bengaluru, Karnataka, India. Full-time entry-level opportunity posted within 24 hours in India.",
+      "score": 70,
+      "companyTier": "Tier 1",
+      "tierBadge": "⭐ Tier 1 Company",
+      "tierLabel": "Tier 1 (Global Product / Top GCC)",
+      "matchedSkills": [],
+      "reason": "[Tier 1] Verified opportunity at Amazon. Matches your 1-year internship in Analytics.",
+      "isEntryLevelVerified": false,
+      "coverLetterData": {
+        "coverLetter": "Dear Hiring Team at Amazon,\n\nI am writing to express my strong enthusiasm for the Business Analyst - Payments, Business Analyst - Payments opportunity at Amazon. As a data-driven professional with 1 year of hands-on internship experience at Ai Variant (Bengaluru), I specialize in translating complex business processes into actionable dashboards and analytical solutions.\n\nDuring my 1-year internship, I delivered measurable results across business intelligence and data operations:\n• Built and deployed 12+ interactive Power BI and Tableau dashboards, reducing manual reporting cycles by 40%.\n• Wrote optimized MySQL queries (leveraging CTEs, joins, and window functions) across 50,000+ transactional records, boosting data validation accuracy by 25%.\n• Spearheaded requirement gathering sessions, authored comprehensive BRDs/FRDs, and guided User Acceptance Testing (UAT) cycles in Agile sprints.\n• Conducted exploratory data analysis (EDA) using Python (Pandas, NumPy) and Advanced Excel (Pivot Tables, XLOOKUP).\n\nYour Business Analyst - Payments, Business Analyst - Payments opening aligns perfectly with my background in SQL (CTEs, Window functions), Power BI (DAX), Tableau, and Advanced Excel. Having completed end-to-end projects in financial risk monitoring, healthcare analytics, and retail intelligence, I can ramp up quickly and contribute from day one. I am currently based in Bengaluru, fully open to Pan-India opportunities (On-site, Hybrid, or Remote), and available to join immediately.\n\nThank you for your time and consideration. I would love the opportunity to discuss how my analytical skills and dedication can support Amazon's growth.\n\nWarm regards,\n\nAMIT KUMAR SAINI\nPhone: +91 7903838926\nEmail: clusterdistracted@gmail.com\nLinkedIn: https://linkedin.com/in/amitsaini-business-analyst\nGitHub: https://github.com/ClusterAmit\n",
+        "shortPitch": "Hi Hiring Team, I came across your opening for Business Analyst - Payments, Business Analyst - Payments at Amazon. I have 1 year of hands-on internship experience in data & business analytics (Ai Variant), where I built 12+ Power BI/Tableau dashboards and wrote optimized MySQL/Python queries. I am based in India, open to Pan-India/Hybrid/Remote setups, and available to join immediately. Would love to connect!",
+        "screeningAnswers": {
+          "Total Experience": "1 Year (Hands-on Business & Data Analytics Internship at Ai Variant)",
+          "Notice Period": "Immediate / 0 Days (Ready to join immediately)",
+          "Current Location & Mobility": "Bengaluru, Karnataka (Flexible for Pan-India relocation / Hybrid / Remote)",
+          "Primary Technical Skills": "SQL (MySQL, CTEs, Window Functions), Power BI (DAX), Tableau, Advanced Excel (XLOOKUP, Pivot Tables), Python (Pandas, NumPy)",
+          "Why should we hire you?": "During my 1-year internship, I didn't just study data—I automated reports, authored BRD/FRD documents, and improved reporting accuracy by 25%. I bring practical, production-level SQL and dashboarding skills with a relentless desire to learn and deliver."
+        }
+      },
+      "status": "New",
+      "dateDiscovered": "2026-10-31",
+      "notes": "",
+      "lastSeen": "2026-10-31"
+    },
+    "li_4485145430": {
+      "id": "li_4485145430",
+      "title": "Associate - Reporting & Analytics - Hyderabad",
+      "company": "Deloitte",
+      "location": "Hyderabad, Telangana, India",
+      "link": "https://in.linkedin.com/jobs/view/associate-reporting-analytics-hyderabad-at-deloitte-4485145430",
+      "datePosted": "8 hours ago",
+      "isPast24Hours": true,
+      "source": "LinkedIn (Pan-India Entry Level)",
+      "description": "Associate - Reporting & Analytics - Hyderabad at Deloitte in Hyderabad, Telangana, India. Full-time entry-level opportunity posted within 24 hours in India.",
+      "score": 60,
+      "companyTier": "Tier 1",
+      "tierBadge": "⭐ Tier 1 Company",
+      "tierLabel": "Tier 1 (Global Product / Top GCC)",
+      "matchedSkills": [],
+      "reason": "[Tier 1] Verified opportunity at Deloitte. Matches your 1-year internship in Analytics.",
+      "isEntryLevelVerified": true,
+      "coverLetterData": {
+        "coverLetter": "Dear Hiring Team at Deloitte,\n\nI am writing to express my strong enthusiasm for the Associate - Reporting & Analytics - Hyderabad opportunity at Deloitte. As a data-driven professional with 1 year of hands-on internship experience at Ai Variant (Bengaluru), I specialize in translating complex business processes into actionable dashboards and analytical solutions.\n\nDuring my 1-year internship, I delivered measurable results across business intelligence and data operations:\n• Built and deployed 12+ interactive Power BI and Tableau dashboards, reducing manual reporting cycles by 40%.\n• Wrote optimized MySQL queries (leveraging CTEs, joins, and window functions) across 50,000+ transactional records, boosting data validation accuracy by 25%.\n• Spearheaded requirement gathering sessions, authored comprehensive BRDs/FRDs, and guided User Acceptance Testing (UAT) cycles in Agile sprints.\n• Conducted exploratory data analysis (EDA) using Python (Pandas, NumPy) and Advanced Excel (Pivot Tables, XLOOKUP).\n\nYour Associate - Reporting & Analytics - Hyderabad opening aligns perfectly with my background in SQL (CTEs, Window functions), Power BI (DAX), Tableau, and Advanced Excel. Having completed end-to-end projects in financial risk monitoring, healthcare analytics, and retail intelligence, I can ramp up quickly and contribute from day one. I am currently based in Bengaluru, fully open to Pan-India opportunities (On-site, Hybrid, or Remote), and available to join immediately.\n\nThank you for your time and consideration. I would love the opportunity to discuss how my analytical skills and dedication can support Deloitte's growth.\n\nWarm regards,\n\nAMIT KUMAR SAINI\nPhone: +91 7903838926\nEmail: clusterdistracted@gmail.com\nLinkedIn: https://linkedin.com/in/amitsaini-business-analyst\nGitHub: https://github.com/ClusterAmit\n",
+        "shortPitch": "Hi Hiring Team, I came across your opening for Associate - Reporting & Analytics - Hyderabad at Deloitte. I have 1 year of hands-on internship experience in data & business analytics (Ai Variant), where I built 12+ Power BI/Tableau dashboards and wrote optimized MySQL/Python queries. I am based in India, open to Pan-India/Hybrid/Remote setups, and available to join immediately. Would love to connect!",
+        "screeningAnswers": {
+          "Total Experience": "1 Year (Hands-on Business & Data Analytics Internship at Ai Variant)",
+          "Notice Period": "Immediate / 0 Days (Ready to join immediately)",
+          "Current Location & Mobility": "Bengaluru, Karnataka (Flexible for Pan-India relocation / Hybrid / Remote)",
+          "Primary Technical Skills": "SQL (MySQL, CTEs, Window Functions), Power BI (DAX), Tableau, Advanced Excel (XLOOKUP, Pivot Tables), Python (Pandas, NumPy)",
+          "Why should we hire you?": "During my 1-year internship, I didn't just study data—I automated reports, authored BRD/FRD documents, and improved reporting accuracy by 25%. I bring practical, production-level SQL and dashboarding skills with a relentless desire to learn and deliver."
+        }
+      },
+      "status": "New",
+      "dateDiscovered": "2026-10-31",
+      "notes": "",
+      "lastSeen": "2026-10-31"
+    },
+    "li_4477678499": {
+      "id": "li_4477678499",
+      "title": "Advanced Analytics (AA&I) and Innovation, Associate, Technical Specialist",
+      "company": "Morgan Stanley",
+      "location": "Bengaluru, Karnataka, India",
+      "link": "https://in.linkedin.com/jobs/view/advanced-analytics-aa-i-and-innovation-associate-technical-specialist-at-morgan-stanley-4477678499",
+      "datePosted": "21 hours ago",
+      "isPast24Hours": true,
+      "source": "LinkedIn (Pan-India Entry Level)",
+      "description": "Advanced Analytics (AA&I) and Innovation, Associate, Technical Specialist at Morgan Stanley in Bengaluru, Karnataka, India. Full-time entry-level opportunity posted within 24 hours in India.",
+      "score": 60,
+      "companyTier": "Tier 1",
+      "tierBadge": "⭐ Tier 1 Company",
+      "tierLabel": "Tier 1 (Global Product / Top GCC)",
+      "matchedSkills": [],
+      "reason": "[Tier 1] Verified opportunity at Morgan Stanley. Matches your 1-year internship in Analytics.",
+      "isEntryLevelVerified": true,
+      "coverLetterData": {
+        "coverLetter": "Dear Hiring Team at Morgan Stanley,\n\nI am writing to express my strong enthusiasm for the Advanced Analytics (AA&I) and Innovation, Associate, Technical Specialist opportunity at Morgan Stanley. As a data-driven professional with 1 year of hands-on internship experience at Ai Variant (Bengaluru), I specialize in translating complex business processes into actionable dashboards and analytical solutions.\n\nDuring my 1-year internship, I delivered measurable results across business intelligence and data operations:\n• Built and deployed 12+ interactive Power BI and Tableau dashboards, reducing manual reporting cycles by 40%.\n• Wrote optimized MySQL queries (leveraging CTEs, joins, and window functions) across 50,000+ transactional records, boosting data validation accuracy by 25%.\n• Spearheaded requirement gathering sessions, authored comprehensive BRDs/FRDs, and guided User Acceptance Testing (UAT) cycles in Agile sprints.\n• Conducted exploratory data analysis (EDA) using Python (Pandas, NumPy) and Advanced Excel (Pivot Tables, XLOOKUP).\n\nYour Advanced Analytics (AA&I) and Innovation, Associate, Technical Specialist opening aligns perfectly with my background in SQL (CTEs, Window functions), Power BI (DAX), Tableau, and Advanced Excel. Having completed end-to-end projects in financial risk monitoring, healthcare analytics, and retail intelligence, I can ramp up quickly and contribute from day one. I am currently based in Bengaluru, fully open to Pan-India opportunities (On-site, Hybrid, or Remote), and available to join immediately.\n\nThank you for your time and consideration. I would love the opportunity to discuss how my analytical skills and dedication can support Morgan Stanley's growth.\n\nWarm regards,\n\nAMIT KUMAR SAINI\nPhone: +91 7903838926\nEmail: clusterdistracted@gmail.com\nLinkedIn: https://linkedin.com/in/amitsaini-business-analyst\nGitHub: https://github.com/ClusterAmit\n",
+        "shortPitch": "Hi Hiring Team, I came across your opening for Advanced Analytics (AA&I) and Innovation, Associate, Technical Specialist at Morgan Stanley. I have 1 year of hands-on internship experience in data & business analytics (Ai Variant), where I built 12+ Power BI/Tableau dashboards and wrote optimized MySQL/Python queries. I am based in India, open to Pan-India/Hybrid/Remote setups, and available to join immediately. Would love to connect!",
+        "screeningAnswers": {
+          "Total Experience": "1 Year (Hands-on Business & Data Analytics Internship at Ai Variant)",
+          "Notice Period": "Immediate / 0 Days (Ready to join immediately)",
+          "Current Location & Mobility": "Bengaluru, Karnataka (Flexible for Pan-India relocation / Hybrid / Remote)",
+          "Primary Technical Skills": "SQL (MySQL, CTEs, Window Functions), Power BI (DAX), Tableau, Advanced Excel (XLOOKUP, Pivot Tables), Python (Pandas, NumPy)",
+          "Why should we hire you?": "During my 1-year internship, I didn't just study data—I automated reports, authored BRD/FRD documents, and improved reporting accuracy by 25%. I bring practical, production-level SQL and dashboarding skills with a relentless desire to learn and deliver."
+        }
+      },
+      "status": "New",
+      "dateDiscovered": "2026-10-31",
+      "notes": "",
+      "lastSeen": "2026-10-31"
+    },
+    "li_4484893160": {
+      "id": "li_4484893160",
+      "title": "Associate, People Insights, Workforce Strategy & Organisational Effectiveness",
+      "company": "Standard Chartered India",
+      "location": "Bengaluru East, Karnataka, India",
+      "link": "https://in.linkedin.com/jobs/view/associate-people-insights-workforce-strategy-organisational-effectiveness-at-standard-chartered-india-4484893160",
+      "datePosted": "19 hours ago",
+      "isPast24Hours": true,
+      "source": "LinkedIn (Pan-India Entry Level)",
+      "description": "Associate, People Insights, Workforce Strategy & Organisational Effectiveness at Standard Chartered India in Bengaluru East, Karnataka, India. Full-time entry-level opportunity posted within 24 hours in India.",
+      "score": 60,
+      "companyTier": "Tier 1",
+      "tierBadge": "⭐ Tier 1 Company",
+      "tierLabel": "Tier 1 (Global Product / Top GCC)",
+      "matchedSkills": [],
+      "reason": "[Tier 1] Verified opportunity at Standard Chartered India. Matches your 1-year internship in Analytics.",
+      "isEntryLevelVerified": true,
+      "coverLetterData": {
+        "coverLetter": "Dear Hiring Team at Standard Chartered India,\n\nI am writing to express my strong enthusiasm for the Associate, People Insights, Workforce Strategy & Organisational Effectiveness opportunity at Standard Chartered India. As a data-driven professional with 1 year of hands-on internship experience at Ai Variant (Bengaluru), I specialize in translating complex business processes into actionable dashboards and analytical solutions.\n\nDuring my 1-year internship, I delivered measurable results across business intelligence and data operations:\n• Built and deployed 12+ interactive Power BI and Tableau dashboards, reducing manual reporting cycles by 40%.\n• Wrote optimized MySQL queries (leveraging CTEs, joins, and window functions) across 50,000+ transactional records, boosting data validation accuracy by 25%.\n• Spearheaded requirement gathering sessions, authored comprehensive BRDs/FRDs, and guided User Acceptance Testing (UAT) cycles in Agile sprints.\n• Conducted exploratory data analysis (EDA) using Python (Pandas, NumPy) and Advanced Excel (Pivot Tables, XLOOKUP).\n\nYour Associate, People Insights, Workforce Strategy & Organisational Effectiveness opening aligns perfectly with my background in SQL (CTEs, Window functions), Power BI (DAX), Tableau, and Advanced Excel. Having completed end-to-end projects in financial risk monitoring, healthcare analytics, and retail intelligence, I can ramp up quickly and contribute from day one. I am currently based in Bengaluru, fully open to Pan-India opportunities (On-site, Hybrid, or Remote), and available to join immediately.\n\nThank you for your time and consideration. I would love the opportunity to discuss how my analytical skills and dedication can support Standard Chartered India's growth.\n\nWarm regards,\n\nAMIT KUMAR SAINI\nPhone: +91 7903838926\nEmail: clusterdistracted@gmail.com\nLinkedIn: https://linkedin.com/in/amitsaini-business-analyst\nGitHub: https://github.com/ClusterAmit\n",
+        "shortPitch": "Hi Hiring Team, I came across your opening for Associate, People Insights, Workforce Strategy & Organisational Effectiveness at Standard Chartered India. I have 1 year of hands-on internship experience in data & business analytics (Ai Variant), where I built 12+ Power BI/Tableau dashboards and wrote optimized MySQL/Python queries. I am based in India, open to Pan-India/Hybrid/Remote setups, and available to join immediately. Would love to connect!",
+        "screeningAnswers": {
+          "Total Experience": "1 Year (Hands-on Business & Data Analytics Internship at Ai Variant)",
+          "Notice Period": "Immediate / 0 Days (Ready to join immediately)",
+          "Current Location & Mobility": "Bengaluru, Karnataka (Flexible for Pan-India relocation / Hybrid / Remote)",
+          "Primary Technical Skills": "SQL (MySQL, CTEs, Window Functions), Power BI (DAX), Tableau, Advanced Excel (XLOOKUP, Pivot Tables), Python (Pandas, NumPy)",
+          "Why should we hire you?": "During my 1-year internship, I didn't just study data—I automated reports, authored BRD/FRD documents, and improved reporting accuracy by 25%. I bring practical, production-level SQL and dashboarding skills with a relentless desire to learn and deliver."
+        }
+      },
+      "status": "New",
+      "dateDiscovered": "2026-10-31",
+      "notes": ""
+    },
+    "li_4474834390": {
+      "id": "li_4474834390",
+      "title": "Workday Finance - Associate",
+      "company": "PwC Acceleration Center India",
+      "location": "Bengaluru East, Karnataka, India",
+      "link": "https://in.linkedin.com/jobs/view/workday-finance-associate-at-pwc-acceleration-center-india-4474834390",
+      "datePosted": "21 hours ago",
+      "isPast24Hours": true,
+      "source": "LinkedIn (Pan-India Entry Level)",
+      "description": "Workday Finance - Associate at PwC Acceleration Center India in Bengaluru East, Karnataka, India. Full-time entry-level opportunity posted within 24 hours in India.",
+      "score": 60,
+      "companyTier": "Tier 1",
+      "tierBadge": "⭐ Tier 1 Company",
+      "tierLabel": "Tier 1 (Global Product / Top GCC)",
+      "matchedSkills": [],
+      "reason": "[Tier 1] Verified opportunity at PwC Acceleration Center India. Matches your 1-year internship in Analytics.",
+      "isEntryLevelVerified": true,
+      "coverLetterData": {
+        "coverLetter": "Dear Hiring Team at PwC Acceleration Center India,\n\nI am writing to express my strong enthusiasm for the Workday Finance - Associate opportunity at PwC Acceleration Center India. As a data-driven professional with 1 year of hands-on internship experience at Ai Variant (Bengaluru), I specialize in translating complex business processes into actionable dashboards and analytical solutions.\n\nDuring my 1-year internship, I delivered measurable results across business intelligence and data operations:\n• Built and deployed 12+ interactive Power BI and Tableau dashboards, reducing manual reporting cycles by 40%.\n• Wrote optimized MySQL queries (leveraging CTEs, joins, and window functions) across 50,000+ transactional records, boosting data validation accuracy by 25%.\n• Spearheaded requirement gathering sessions, authored comprehensive BRDs/FRDs, and guided User Acceptance Testing (UAT) cycles in Agile sprints.\n• Conducted exploratory data analysis (EDA) using Python (Pandas, NumPy) and Advanced Excel (Pivot Tables, XLOOKUP).\n\nYour Workday Finance - Associate opening aligns perfectly with my background in SQL (CTEs, Window functions), Power BI (DAX), Tableau, and Advanced Excel. Having completed end-to-end projects in financial risk monitoring, healthcare analytics, and retail intelligence, I can ramp up quickly and contribute from day one. I am currently based in Bengaluru, fully open to Pan-India opportunities (On-site, Hybrid, or Remote), and available to join immediately.\n\nThank you for your time and consideration. I would love the opportunity to discuss how my analytical skills and dedication can support PwC Acceleration Center India's growth.\n\nWarm regards,\n\nAMIT KUMAR SAINI\nPhone: +91 7903838926\nEmail: clusterdistracted@gmail.com\nLinkedIn: https://linkedin.com/in/amitsaini-business-analyst\nGitHub: https://github.com/ClusterAmit\n",
+        "shortPitch": "Hi Hiring Team, I came across your opening for Workday Finance - Associate at PwC Acceleration Center India. I have 1 year of hands-on internship experience in data & business analytics (Ai Variant), where I built 12+ Power BI/Tableau dashboards and wrote optimized MySQL/Python queries. I am based in India, open to Pan-India/Hybrid/Remote setups, and available to join immediately. Would love to connect!",
+        "screeningAnswers": {
+          "Total Experience": "1 Year (Hands-on Business & Data Analytics Internship at Ai Variant)",
+          "Notice Period": "Immediate / 0 Days (Ready to join immediately)",
+          "Current Location & Mobility": "Bengaluru, Karnataka (Flexible for Pan-India relocation / Hybrid / Remote)",
+          "Primary Technical Skills": "SQL (MySQL, CTEs, Window Functions), Power BI (DAX), Tableau, Advanced Excel (XLOOKUP, Pivot Tables), Python (Pandas, NumPy)",
+          "Why should we hire you?": "During my 1-year internship, I didn't just study data—I automated reports, authored BRD/FRD documents, and improved reporting accuracy by 25%. I bring practical, production-level SQL and dashboarding skills with a relentless desire to learn and deliver."
+        }
+      },
+      "status": "New",
+      "dateDiscovered": "2026-10-31",
+      "notes": ""
+    },
+    "li_4474857458": {
+      "id": "li_4474857458",
+      "title": "Oracle CPQ - Associate",
+      "company": "PwC Acceleration Center India",
+      "location": "Bengaluru East, Karnataka, India",
+      "link": "https://in.linkedin.com/jobs/view/oracle-cpq-associate-at-pwc-acceleration-center-india-4474857458",
+      "datePosted": "21 hours ago",
+      "isPast24Hours": true,
+      "source": "LinkedIn (Pan-India Entry Level)",
+      "description": "Oracle CPQ - Associate at PwC Acceleration Center India in Bengaluru East, Karnataka, India. Full-time entry-level opportunity posted within 24 hours in India.",
+      "score": 60,
+      "companyTier": "Tier 1",
+      "tierBadge": "⭐ Tier 1 Company",
+      "tierLabel": "Tier 1 (Global Product / Top GCC)",
+      "matchedSkills": [],
+      "reason": "[Tier 1] Verified opportunity at PwC Acceleration Center India. Matches your 1-year internship in Analytics.",
+      "isEntryLevelVerified": true,
+      "coverLetterData": {
+        "coverLetter": "Dear Hiring Team at PwC Acceleration Center India,\n\nI am writing to express my strong enthusiasm for the Oracle CPQ - Associate opportunity at PwC Acceleration Center India. As a data-driven professional with 1 year of hands-on internship experience at Ai Variant (Bengaluru), I specialize in translating complex business processes into actionable dashboards and analytical solutions.\n\nDuring my 1-year internship, I delivered measurable results across business intelligence and data operations:\n• Built and deployed 12+ interactive Power BI and Tableau dashboards, reducing manual reporting cycles by 40%.\n• Wrote optimized MySQL queries (leveraging CTEs, joins, and window functions) across 50,000+ transactional records, boosting data validation accuracy by 25%.\n• Spearheaded requirement gathering sessions, authored comprehensive BRDs/FRDs, and guided User Acceptance Testing (UAT) cycles in Agile sprints.\n• Conducted exploratory data analysis (EDA) using Python (Pandas, NumPy) and Advanced Excel (Pivot Tables, XLOOKUP).\n\nYour Oracle CPQ - Associate opening aligns perfectly with my background in SQL (CTEs, Window functions), Power BI (DAX), Tableau, and Advanced Excel. Having completed end-to-end projects in financial risk monitoring, healthcare analytics, and retail intelligence, I can ramp up quickly and contribute from day one. I am currently based in Bengaluru, fully open to Pan-India opportunities (On-site, Hybrid, or Remote), and available to join immediately.\n\nThank you for your time and consideration. I would love the opportunity to discuss how my analytical skills and dedication can support PwC Acceleration Center India's growth.\n\nWarm regards,\n\nAMIT KUMAR SAINI\nPhone: +91 7903838926\nEmail: clusterdistracted@gmail.com\nLinkedIn: https://linkedin.com/in/amitsaini-business-analyst\nGitHub: https://github.com/ClusterAmit\n",
+        "shortPitch": "Hi Hiring Team, I came across your opening for Oracle CPQ - Associate at PwC Acceleration Center India. I have 1 year of hands-on internship experience in data & business analytics (Ai Variant), where I built 12+ Power BI/Tableau dashboards and wrote optimized MySQL/Python queries. I am based in India, open to Pan-India/Hybrid/Remote setups, and available to join immediately. Would love to connect!",
+        "screeningAnswers": {
+          "Total Experience": "1 Year (Hands-on Business & Data Analytics Internship at Ai Variant)",
+          "Notice Period": "Immediate / 0 Days (Ready to join immediately)",
+          "Current Location & Mobility": "Bengaluru, Karnataka (Flexible for Pan-India relocation / Hybrid / Remote)",
+          "Primary Technical Skills": "SQL (MySQL, CTEs, Window Functions), Power BI (DAX), Tableau, Advanced Excel (XLOOKUP, Pivot Tables), Python (Pandas, NumPy)",
+          "Why should we hire you?": "During my 1-year internship, I didn't just study data—I automated reports, authored BRD/FRD documents, and improved reporting accuracy by 25%. I bring practical, production-level SQL and dashboarding skills with a relentless desire to learn and deliver."
+        }
+      },
+      "status": "New",
+      "dateDiscovered": "2026-10-31",
+      "notes": ""
+    },
+    "li_4485355277": {
+      "id": "li_4485355277",
+      "title": "Financial Data Analyst",
+      "company": "Flexiple",
+      "location": "India",
+      "link": "https://in.linkedin.com/jobs/view/financial-data-analyst-at-flexiple-4485355277",
+      "datePosted": "22 hours ago",
+      "isPast24Hours": true,
+      "source": "LinkedIn (Pan-India Entry Level)",
+      "description": "Financial Data Analyst at Flexiple in India. Full-time entry-level opportunity posted within 24 hours in India.",
+      "score": 55,
+      "companyTier": "Tier 3",
+      "tierBadge": "🚀 Tier 3 Company",
+      "tierLabel": "Tier 3 (Verified Corporate)",
+      "matchedSkills": [],
+      "reason": "[Tier 3] Matches data & business analytics stack (). Full-time role suitable for 0-1 year experience.",
+      "isEntryLevelVerified": false,
+      "coverLetterData": {
+        "coverLetter": "Dear Hiring Team at Flexiple,\n\nI am writing to express my strong enthusiasm for the Financial Data Analyst opportunity at Flexiple. As a data-driven professional with 1 year of hands-on internship experience at Ai Variant (Bengaluru), I specialize in translating complex business processes into actionable dashboards and analytical solutions.\n\nDuring my 1-year internship, I delivered measurable results across business intelligence and data operations:\n• Built and deployed 12+ interactive Power BI and Tableau dashboards, reducing manual reporting cycles by 40%.\n• Wrote optimized MySQL queries (leveraging CTEs, joins, and window functions) across 50,000+ transactional records, boosting data validation accuracy by 25%.\n• Spearheaded requirement gathering sessions, authored comprehensive BRDs/FRDs, and guided User Acceptance Testing (UAT) cycles in Agile sprints.\n• Conducted exploratory data analysis (EDA) using Python (Pandas, NumPy) and Advanced Excel (Pivot Tables, XLOOKUP).\n\nYour Financial Data Analyst opening aligns perfectly with my background in SQL (CTEs, Window functions), Power BI (DAX), Tableau, and Advanced Excel. Having completed end-to-end projects in financial risk monitoring, healthcare analytics, and retail intelligence, I can ramp up quickly and contribute from day one. I am currently based in Bengaluru, fully open to Pan-India opportunities (On-site, Hybrid, or Remote), and available to join immediately.\n\nThank you for your time and consideration. I would love the opportunity to discuss how my analytical skills and dedication can support Flexiple's growth.\n\nWarm regards,\n\nAMIT KUMAR SAINI\nPhone: +91 7903838926\nEmail: clusterdistracted@gmail.com\nLinkedIn: https://linkedin.com/in/amitsaini-business-analyst\nGitHub: https://github.com/ClusterAmit\n",
+        "shortPitch": "Hi Hiring Team, I came across your opening for Financial Data Analyst at Flexiple. I have 1 year of hands-on internship experience in data & business analytics (Ai Variant), where I built 12+ Power BI/Tableau dashboards and wrote optimized MySQL/Python queries. I am based in India, open to Pan-India/Hybrid/Remote setups, and available to join immediately. Would love to connect!",
+        "screeningAnswers": {
+          "Total Experience": "1 Year (Hands-on Business & Data Analytics Internship at Ai Variant)",
+          "Notice Period": "Immediate / 0 Days (Ready to join immediately)",
+          "Current Location & Mobility": "Bengaluru, Karnataka (Flexible for Pan-India relocation / Hybrid / Remote)",
+          "Primary Technical Skills": "SQL (MySQL, CTEs, Window Functions), Power BI (DAX), Tableau, Advanced Excel (XLOOKUP, Pivot Tables), Python (Pandas, NumPy)",
+          "Why should we hire you?": "During my 1-year internship, I didn't just study data—I automated reports, authored BRD/FRD documents, and improved reporting accuracy by 25%. I bring practical, production-level SQL and dashboarding skills with a relentless desire to learn and deliver."
+        }
+      },
+      "status": "New",
+      "dateDiscovered": "2026-10-31",
+      "notes": "",
+      "lastSeen": "2026-10-31"
+    },
+    "li_4485119379": {
+      "id": "li_4485119379",
+      "title": "Data Analyst",
+      "company": "S&P Global",
+      "location": "Hyderabad, Telangana, India",
+      "link": "https://in.linkedin.com/jobs/view/data-analyst-at-s-p-global-4485119379",
+      "datePosted": "14 hours ago",
+      "isPast24Hours": true,
+      "source": "LinkedIn (Pan-India Entry Level)",
+      "description": "Data Analyst at S&P Global in Hyderabad, Telangana, India. Full-time entry-level opportunity posted within 24 hours in India.",
+      "score": 55,
+      "companyTier": "Tier 3",
+      "tierBadge": "🚀 Tier 3 Company",
+      "tierLabel": "Tier 3 (Verified Corporate)",
+      "matchedSkills": [],
+      "reason": "[Tier 3] Matches data & business analytics stack (). Full-time role suitable for 0-1 year experience.",
+      "isEntryLevelVerified": false,
+      "coverLetterData": {
+        "coverLetter": "Dear Hiring Team at S&P Global,\n\nI am writing to express my strong enthusiasm for the Data Analyst opportunity at S&P Global. As a data-driven professional with 1 year of hands-on internship experience at Ai Variant (Bengaluru), I specialize in translating complex business processes into actionable dashboards and analytical solutions.\n\nDuring my 1-year internship, I delivered measurable results across business intelligence and data operations:\n• Built and deployed 12+ interactive Power BI and Tableau dashboards, reducing manual reporting cycles by 40%.\n• Wrote optimized MySQL queries (leveraging CTEs, joins, and window functions) across 50,000+ transactional records, boosting data validation accuracy by 25%.\n• Spearheaded requirement gathering sessions, authored comprehensive BRDs/FRDs, and guided User Acceptance Testing (UAT) cycles in Agile sprints.\n• Conducted exploratory data analysis (EDA) using Python (Pandas, NumPy) and Advanced Excel (Pivot Tables, XLOOKUP).\n\nYour Data Analyst opening aligns perfectly with my background in SQL (CTEs, Window functions), Power BI (DAX), Tableau, and Advanced Excel. Having completed end-to-end projects in financial risk monitoring, healthcare analytics, and retail intelligence, I can ramp up quickly and contribute from day one. I am currently based in Bengaluru, fully open to Pan-India opportunities (On-site, Hybrid, or Remote), and available to join immediately.\n\nThank you for your time and consideration. I would love the opportunity to discuss how my analytical skills and dedication can support S&P Global's growth.\n\nWarm regards,\n\nAMIT KUMAR SAINI\nPhone: +91 7903838926\nEmail: clusterdistracted@gmail.com\nLinkedIn: https://linkedin.com/in/amitsaini-business-analyst\nGitHub: https://github.com/ClusterAmit\n",
+        "shortPitch": "Hi Hiring Team, I came across your opening for Data Analyst at S&P Global. I have 1 year of hands-on internship experience in data & business analytics (Ai Variant), where I built 12+ Power BI/Tableau dashboards and wrote optimized MySQL/Python queries. I am based in India, open to Pan-India/Hybrid/Remote setups, and available to join immediately. Would love to connect!",
+        "screeningAnswers": {
+          "Total Experience": "1 Year (Hands-on Business & Data Analytics Internship at Ai Variant)",
+          "Notice Period": "Immediate / 0 Days (Ready to join immediately)",
+          "Current Location & Mobility": "Bengaluru, Karnataka (Flexible for Pan-India relocation / Hybrid / Remote)",
+          "Primary Technical Skills": "SQL (MySQL, CTEs, Window Functions), Power BI (DAX), Tableau, Advanced Excel (XLOOKUP, Pivot Tables), Python (Pandas, NumPy)",
+          "Why should we hire you?": "During my 1-year internship, I didn't just study data—I automated reports, authored BRD/FRD documents, and improved reporting accuracy by 25%. I bring practical, production-level SQL and dashboarding skills with a relentless desire to learn and deliver."
+        }
+      },
+      "status": "New",
+      "dateDiscovered": "2026-10-31",
+      "notes": "",
+      "lastSeen": "2026-10-31"
+    },
+    "li_4484882020": {
+      "id": "li_4484882020",
+      "title": "IND-Associate Analyst Supply Chain",
+      "company": "Lowe's India",
+      "location": "Bengaluru, Karnataka, India",
+      "link": "https://in.linkedin.com/jobs/view/ind-associate-analyst-supply-chain-at-lowe-s-india-4484882020",
+      "datePosted": "20 hours ago",
+      "isPast24Hours": true,
+      "source": "LinkedIn (Pan-India Entry Level)",
+      "description": "IND-Associate Analyst Supply Chain at Lowe's India in Bengaluru, Karnataka, India. Full-time entry-level opportunity posted within 24 hours in India.",
+      "score": 50,
+      "companyTier": "Tier 2",
+      "tierBadge": "🏢 Tier 2 Company",
+      "tierLabel": "Tier 2 (Enterprise Tech / Top IT)",
+      "matchedSkills": [],
+      "reason": "[Tier 2] Verified opportunity at Lowe's India. Matches your 1-year internship in Analytics.",
+      "isEntryLevelVerified": true,
+      "coverLetterData": {
+        "coverLetter": "Dear Hiring Team at Lowe's India,\n\nI am writing to express my strong enthusiasm for the IND-Associate Analyst Supply Chain opportunity at Lowe's India. As a data-driven professional with 1 year of hands-on internship experience at Ai Variant (Bengaluru), I specialize in translating complex business processes into actionable dashboards and analytical solutions.\n\nDuring my 1-year internship, I delivered measurable results across business intelligence and data operations:\n• Built and deployed 12+ interactive Power BI and Tableau dashboards, reducing manual reporting cycles by 40%.\n• Wrote optimized MySQL queries (leveraging CTEs, joins, and window functions) across 50,000+ transactional records, boosting data validation accuracy by 25%.\n• Spearheaded requirement gathering sessions, authored comprehensive BRDs/FRDs, and guided User Acceptance Testing (UAT) cycles in Agile sprints.\n• Conducted exploratory data analysis (EDA) using Python (Pandas, NumPy) and Advanced Excel (Pivot Tables, XLOOKUP).\n\nYour IND-Associate Analyst Supply Chain opening aligns perfectly with my background in SQL (CTEs, Window functions), Power BI (DAX), Tableau, and Advanced Excel. Having completed end-to-end projects in financial risk monitoring, healthcare analytics, and retail intelligence, I can ramp up quickly and contribute from day one. I am currently based in Bengaluru, fully open to Pan-India opportunities (On-site, Hybrid, or Remote), and available to join immediately.\n\nThank you for your time and consideration. I would love the opportunity to discuss how my analytical skills and dedication can support Lowe's India's growth.\n\nWarm regards,\n\nAMIT KUMAR SAINI\nPhone: +91 7903838926\nEmail: clusterdistracted@gmail.com\nLinkedIn: https://linkedin.com/in/amitsaini-business-analyst\nGitHub: https://github.com/ClusterAmit\n",
+        "shortPitch": "Hi Hiring Team, I came across your opening for IND-Associate Analyst Supply Chain at Lowe's India. I have 1 year of hands-on internship experience in data & business analytics (Ai Variant), where I built 12+ Power BI/Tableau dashboards and wrote optimized MySQL/Python queries. I am based in India, open to Pan-India/Hybrid/Remote setups, and available to join immediately. Would love to connect!",
+        "screeningAnswers": {
+          "Total Experience": "1 Year (Hands-on Business & Data Analytics Internship at Ai Variant)",
+          "Notice Period": "Immediate / 0 Days (Ready to join immediately)",
+          "Current Location & Mobility": "Bengaluru, Karnataka (Flexible for Pan-India relocation / Hybrid / Remote)",
+          "Primary Technical Skills": "SQL (MySQL, CTEs, Window Functions), Power BI (DAX), Tableau, Advanced Excel (XLOOKUP, Pivot Tables), Python (Pandas, NumPy)",
+          "Why should we hire you?": "During my 1-year internship, I didn't just study data—I automated reports, authored BRD/FRD documents, and improved reporting accuracy by 25%. I bring practical, production-level SQL and dashboarding skills with a relentless desire to learn and deliver."
+        }
+      },
+      "status": "New",
+      "dateDiscovered": "2026-10-31",
+      "notes": "",
+      "lastSeen": "2026-10-31"
+    },
+    "li_4476839826": {
+      "id": "li_4476839826",
+      "title": "Associate Survey Tabulations Analyst",
+      "company": "Comscore, Inc.",
+      "location": "Pune Division, Maharashtra, India",
+      "link": "https://in.linkedin.com/jobs/view/associate-survey-tabulations-analyst-at-comscore-inc-4476839826",
+      "datePosted": "4 hours ago",
+      "isPast24Hours": true,
+      "source": "LinkedIn (Pan-India Entry Level)",
+      "description": "Associate Survey Tabulations Analyst at Comscore, Inc. in Pune Division, Maharashtra, India. Full-time entry-level opportunity posted within 24 hours in India.",
+      "score": 45,
+      "companyTier": "Tier 3",
+      "tierBadge": "🚀 Tier 3 Company",
+      "tierLabel": "Tier 3 (Verified Corporate)",
+      "matchedSkills": [],
+      "reason": "[Tier 3] Targeted entry-level role matching your 1-year internship profile. Matched skills: Analytics basics.",
+      "isEntryLevelVerified": true,
+      "coverLetterData": {
+        "coverLetter": "Dear Hiring Team at Comscore, Inc.,\n\nI am writing to express my strong enthusiasm for the Associate Survey Tabulations Analyst opportunity at Comscore, Inc.. As a data-driven professional with 1 year of hands-on internship experience at Ai Variant (Bengaluru), I specialize in translating complex business processes into actionable dashboards and analytical solutions.\n\nDuring my 1-year internship, I delivered measurable results across business intelligence and data operations:\n• Built and deployed 12+ interactive Power BI and Tableau dashboards, reducing manual reporting cycles by 40%.\n• Wrote optimized MySQL queries (leveraging CTEs, joins, and window functions) across 50,000+ transactional records, boosting data validation accuracy by 25%.\n• Spearheaded requirement gathering sessions, authored comprehensive BRDs/FRDs, and guided User Acceptance Testing (UAT) cycles in Agile sprints.\n• Conducted exploratory data analysis (EDA) using Python (Pandas, NumPy) and Advanced Excel (Pivot Tables, XLOOKUP).\n\nYour Associate Survey Tabulations Analyst opening aligns perfectly with my background in SQL (CTEs, Window functions), Power BI (DAX), Tableau, and Advanced Excel. Having completed end-to-end projects in financial risk monitoring, healthcare analytics, and retail intelligence, I can ramp up quickly and contribute from day one. I am currently based in Bengaluru, fully open to Pan-India opportunities (On-site, Hybrid, or Remote), and available to join immediately.\n\nThank you for your time and consideration. I would love the opportunity to discuss how my analytical skills and dedication can support Comscore, Inc.'s growth.\n\nWarm regards,\n\nAMIT KUMAR SAINI\nPhone: +91 7903838926\nEmail: clusterdistracted@gmail.com\nLinkedIn: https://linkedin.com/in/amitsaini-business-analyst\nGitHub: https://github.com/ClusterAmit\n",
+        "shortPitch": "Hi Hiring Team, I came across your opening for Associate Survey Tabulations Analyst at Comscore, Inc.. I have 1 year of hands-on internship experience in data & business analytics (Ai Variant), where I built 12+ Power BI/Tableau dashboards and wrote optimized MySQL/Python queries. I am based in India, open to Pan-India/Hybrid/Remote setups, and available to join immediately. Would love to connect!",
+        "screeningAnswers": {
+          "Total Experience": "1 Year (Hands-on Business & Data Analytics Internship at Ai Variant)",
+          "Notice Period": "Immediate / 0 Days (Ready to join immediately)",
+          "Current Location & Mobility": "Bengaluru, Karnataka (Flexible for Pan-India relocation / Hybrid / Remote)",
+          "Primary Technical Skills": "SQL (MySQL, CTEs, Window Functions), Power BI (DAX), Tableau, Advanced Excel (XLOOKUP, Pivot Tables), Python (Pandas, NumPy)",
+          "Why should we hire you?": "During my 1-year internship, I didn't just study data—I automated reports, authored BRD/FRD documents, and improved reporting accuracy by 25%. I bring practical, production-level SQL and dashboarding skills with a relentless desire to learn and deliver."
+        }
+      },
+      "status": "New",
+      "dateDiscovered": "2026-10-31",
+      "notes": "",
+      "lastSeen": "2026-10-31"
+    },
+    "li_4448003189": {
+      "id": "li_4448003189",
+      "title": "Associate Analyst, Supply Chain Planning",
+      "company": "Analog Devices",
+      "location": "Gandhinagar, Gujarat, India",
+      "link": "https://in.linkedin.com/jobs/view/associate-analyst-supply-chain-planning-at-analog-devices-4448003189",
+      "datePosted": "20 hours ago",
+      "isPast24Hours": true,
+      "source": "LinkedIn (Pan-India Entry Level)",
+      "description": "Associate Analyst, Supply Chain Planning at Analog Devices in Gandhinagar, Gujarat, India. Full-time entry-level opportunity posted within 24 hours in India.",
+      "score": 45,
+      "companyTier": "Tier 3",
+      "tierBadge": "🚀 Tier 3 Company",
+      "tierLabel": "Tier 3 (Verified Corporate)",
+      "matchedSkills": [],
+      "reason": "[Tier 3] Targeted entry-level role matching your 1-year internship profile. Matched skills: Analytics basics.",
+      "isEntryLevelVerified": true,
+      "coverLetterData": {
+        "coverLetter": "Dear Hiring Team at Analog Devices,\n\nI am writing to express my strong enthusiasm for the Associate Analyst, Supply Chain Planning opportunity at Analog Devices. As a data-driven professional with 1 year of hands-on internship experience at Ai Variant (Bengaluru), I specialize in translating complex business processes into actionable dashboards and analytical solutions.\n\nDuring my 1-year internship, I delivered measurable results across business intelligence and data operations:\n• Built and deployed 12+ interactive Power BI and Tableau dashboards, reducing manual reporting cycles by 40%.\n• Wrote optimized MySQL queries (leveraging CTEs, joins, and window functions) across 50,000+ transactional records, boosting data validation accuracy by 25%.\n• Spearheaded requirement gathering sessions, authored comprehensive BRDs/FRDs, and guided User Acceptance Testing (UAT) cycles in Agile sprints.\n• Conducted exploratory data analysis (EDA) using Python (Pandas, NumPy) and Advanced Excel (Pivot Tables, XLOOKUP).\n\nYour Associate Analyst, Supply Chain Planning opening aligns perfectly with my background in SQL (CTEs, Window functions), Power BI (DAX), Tableau, and Advanced Excel. Having completed end-to-end projects in financial risk monitoring, healthcare analytics, and retail intelligence, I can ramp up quickly and contribute from day one. I am currently based in Bengaluru, fully open to Pan-India opportunities (On-site, Hybrid, or Remote), and available to join immediately.\n\nThank you for your time and consideration. I would love the opportunity to discuss how my analytical skills and dedication can support Analog Devices's growth.\n\nWarm regards,\n\nAMIT KUMAR SAINI\nPhone: +91 7903838926\nEmail: clusterdistracted@gmail.com\nLinkedIn: https://linkedin.com/in/amitsaini-business-analyst\nGitHub: https://github.com/ClusterAmit\n",
+        "shortPitch": "Hi Hiring Team, I came across your opening for Associate Analyst, Supply Chain Planning at Analog Devices. I have 1 year of hands-on internship experience in data & business analytics (Ai Variant), where I built 12+ Power BI/Tableau dashboards and wrote optimized MySQL/Python queries. I am based in India, open to Pan-India/Hybrid/Remote setups, and available to join immediately. Would love to connect!",
+        "screeningAnswers": {
+          "Total Experience": "1 Year (Hands-on Business & Data Analytics Internship at Ai Variant)",
+          "Notice Period": "Immediate / 0 Days (Ready to join immediately)",
+          "Current Location & Mobility": "Bengaluru, Karnataka (Flexible for Pan-India relocation / Hybrid / Remote)",
+          "Primary Technical Skills": "SQL (MySQL, CTEs, Window Functions), Power BI (DAX), Tableau, Advanced Excel (XLOOKUP, Pivot Tables), Python (Pandas, NumPy)",
+          "Why should we hire you?": "During my 1-year internship, I didn't just study data—I automated reports, authored BRD/FRD documents, and improved reporting accuracy by 25%. I bring practical, production-level SQL and dashboarding skills with a relentless desire to learn and deliver."
+        }
+      },
+      "status": "New",
+      "dateDiscovered": "2026-10-31",
+      "notes": "",
+      "lastSeen": "2026-10-31"
+    },
+    "li_4484851943": {
+      "id": "li_4484851943",
+      "title": "Business Analytics Analyst",
+      "company": "Citi",
+      "location": "Haryana, India",
+      "link": "https://in.linkedin.com/jobs/view/business-analytics-analyst-at-citi-4484851943",
+      "datePosted": "20 hours ago",
+      "isPast24Hours": true,
+      "source": "LinkedIn (Pan-India Entry Level)",
+      "description": "Business Analytics Analyst at Citi in Haryana, India. Full-time entry-level opportunity posted within 24 hours in India.",
+      "score": 45,
+      "companyTier": "Tier 1",
+      "tierBadge": "⭐ Tier 1 Company",
+      "tierLabel": "Tier 1 (Global Product / Top GCC)",
+      "matchedSkills": [],
+      "reason": "[Tier 1] Verified opportunity at Citi. Matches your 1-year internship in Analytics.",
+      "isEntryLevelVerified": false,
+      "coverLetterData": {
+        "coverLetter": "Dear Hiring Team at Citi,\n\nI am writing to express my strong enthusiasm for the Business Analytics Analyst opportunity at Citi. As a data-driven professional with 1 year of hands-on internship experience at Ai Variant (Bengaluru), I specialize in translating complex business processes into actionable dashboards and analytical solutions.\n\nDuring my 1-year internship, I delivered measurable results across business intelligence and data operations:\n• Built and deployed 12+ interactive Power BI and Tableau dashboards, reducing manual reporting cycles by 40%.\n• Wrote optimized MySQL queries (leveraging CTEs, joins, and window functions) across 50,000+ transactional records, boosting data validation accuracy by 25%.\n• Spearheaded requirement gathering sessions, authored comprehensive BRDs/FRDs, and guided User Acceptance Testing (UAT) cycles in Agile sprints.\n• Conducted exploratory data analysis (EDA) using Python (Pandas, NumPy) and Advanced Excel (Pivot Tables, XLOOKUP).\n\nYour Business Analytics Analyst opening aligns perfectly with my background in SQL (CTEs, Window functions), Power BI (DAX), Tableau, and Advanced Excel. Having completed end-to-end projects in financial risk monitoring, healthcare analytics, and retail intelligence, I can ramp up quickly and contribute from day one. I am currently based in Bengaluru, fully open to Pan-India opportunities (On-site, Hybrid, or Remote), and available to join immediately.\n\nThank you for your time and consideration. I would love the opportunity to discuss how my analytical skills and dedication can support Citi's growth.\n\nWarm regards,\n\nAMIT KUMAR SAINI\nPhone: +91 7903838926\nEmail: clusterdistracted@gmail.com\nLinkedIn: https://linkedin.com/in/amitsaini-business-analyst\nGitHub: https://github.com/ClusterAmit\n",
+        "shortPitch": "Hi Hiring Team, I came across your opening for Business Analytics Analyst at Citi. I have 1 year of hands-on internship experience in data & business analytics (Ai Variant), where I built 12+ Power BI/Tableau dashboards and wrote optimized MySQL/Python queries. I am based in India, open to Pan-India/Hybrid/Remote setups, and available to join immediately. Would love to connect!",
+        "screeningAnswers": {
+          "Total Experience": "1 Year (Hands-on Business & Data Analytics Internship at Ai Variant)",
+          "Notice Period": "Immediate / 0 Days (Ready to join immediately)",
+          "Current Location & Mobility": "Bengaluru, Karnataka (Flexible for Pan-India relocation / Hybrid / Remote)",
+          "Primary Technical Skills": "SQL (MySQL, CTEs, Window Functions), Power BI (DAX), Tableau, Advanced Excel (XLOOKUP, Pivot Tables), Python (Pandas, NumPy)",
+          "Why should we hire you?": "During my 1-year internship, I didn't just study data—I automated reports, authored BRD/FRD documents, and improved reporting accuracy by 25%. I bring practical, production-level SQL and dashboarding skills with a relentless desire to learn and deliver."
+        }
+      },
+      "status": "New",
+      "dateDiscovered": "2026-10-31",
+      "notes": "",
+      "lastSeen": "2026-10-31"
+    },
+    "li_4483936242": {
+      "id": "li_4483936242",
+      "title": "Associate Sales Consultant",
+      "company": "Ranniti Business Consulting Pvt Ltd",
+      "location": "Surat, Gujarat, India",
+      "link": "https://in.linkedin.com/jobs/view/associate-sales-consultant-at-ranniti-business-consulting-pvt-ltd-4483936242",
+      "datePosted": "6 hours ago",
+      "isPast24Hours": true,
+      "source": "LinkedIn (Pan-India Entry Level)",
+      "description": "Associate Sales Consultant at Ranniti Business Consulting Pvt Ltd in Surat, Gujarat, India. Full-time entry-level opportunity posted within 24 hours in India.",
+      "score": 45,
+      "companyTier": "Tier 3",
+      "tierBadge": "🚀 Tier 3 Company",
+      "tierLabel": "Tier 3 (Verified Corporate)",
+      "matchedSkills": [],
+      "reason": "[Tier 3] Targeted entry-level role matching your 1-year internship profile. Matched skills: Analytics basics.",
+      "isEntryLevelVerified": true,
+      "coverLetterData": {
+        "coverLetter": "Dear Hiring Team at Ranniti Business Consulting Pvt Ltd,\n\nI am writing to express my strong enthusiasm for the Associate Sales Consultant opportunity at Ranniti Business Consulting Pvt Ltd. As a data-driven professional with 1 year of hands-on internship experience at Ai Variant (Bengaluru), I specialize in translating complex business processes into actionable dashboards and analytical solutions.\n\nDuring my 1-year internship, I delivered measurable results across business intelligence and data operations:\n• Built and deployed 12+ interactive Power BI and Tableau dashboards, reducing manual reporting cycles by 40%.\n• Wrote optimized MySQL queries (leveraging CTEs, joins, and window functions) across 50,000+ transactional records, boosting data validation accuracy by 25%.\n• Spearheaded requirement gathering sessions, authored comprehensive BRDs/FRDs, and guided User Acceptance Testing (UAT) cycles in Agile sprints.\n• Conducted exploratory data analysis (EDA) using Python (Pandas, NumPy) and Advanced Excel (Pivot Tables, XLOOKUP).\n\nYour Associate Sales Consultant opening aligns perfectly with my background in SQL (CTEs, Window functions), Power BI (DAX), Tableau, and Advanced Excel. Having completed end-to-end projects in financial risk monitoring, healthcare analytics, and retail intelligence, I can ramp up quickly and contribute from day one. I am currently based in Bengaluru, fully open to Pan-India opportunities (On-site, Hybrid, or Remote), and available to join immediately.\n\nThank you for your time and consideration. I would love the opportunity to discuss how my analytical skills and dedication can support Ranniti Business Consulting Pvt Ltd's growth.\n\nWarm regards,\n\nAMIT KUMAR SAINI\nPhone: +91 7903838926\nEmail: clusterdistracted@gmail.com\nLinkedIn: https://linkedin.com/in/amitsaini-business-analyst\nGitHub: https://github.com/ClusterAmit\n",
+        "shortPitch": "Hi Hiring Team, I came across your opening for Associate Sales Consultant at Ranniti Business Consulting Pvt Ltd. I have 1 year of hands-on internship experience in data & business analytics (Ai Variant), where I built 12+ Power BI/Tableau dashboards and wrote optimized MySQL/Python queries. I am based in India, open to Pan-India/Hybrid/Remote setups, and available to join immediately. Would love to connect!",
+        "screeningAnswers": {
+          "Total Experience": "1 Year (Hands-on Business & Data Analytics Internship at Ai Variant)",
+          "Notice Period": "Immediate / 0 Days (Ready to join immediately)",
+          "Current Location & Mobility": "Bengaluru, Karnataka (Flexible for Pan-India relocation / Hybrid / Remote)",
+          "Primary Technical Skills": "SQL (MySQL, CTEs, Window Functions), Power BI (DAX), Tableau, Advanced Excel (XLOOKUP, Pivot Tables), Python (Pandas, NumPy)",
+          "Why should we hire you?": "During my 1-year internship, I didn't just study data—I automated reports, authored BRD/FRD documents, and improved reporting accuracy by 25%. I bring practical, production-level SQL and dashboarding skills with a relentless desire to learn and deliver."
+        }
+      },
+      "status": "New",
+      "dateDiscovered": "2026-10-31",
+      "notes": ""
+    },
+    "li_4466652884": {
+      "id": "li_4466652884",
+      "title": "Business Operations Analyst",
+      "company": "PhonePe",
+      "location": "Bengaluru, Karnataka, India",
+      "link": "https://in.linkedin.com/jobs/view/business-operations-analyst-at-phonepe-4466652884",
+      "datePosted": "23 hours ago",
+      "isPast24Hours": true,
+      "source": "LinkedIn (Pan-India Entry Level)",
+      "description": "Business Operations Analyst at PhonePe in Bengaluru, Karnataka, India. Full-time entry-level opportunity posted within 24 hours in India.",
+      "score": 45,
+      "companyTier": "Tier 1",
+      "tierBadge": "⭐ Tier 1 Company",
+      "tierLabel": "Tier 1 (Global Product / Top GCC)",
+      "matchedSkills": [],
+      "reason": "[Tier 1] Verified opportunity at PhonePe. Matches your 1-year internship in Analytics.",
+      "isEntryLevelVerified": false,
+      "coverLetterData": {
+        "coverLetter": "Dear Hiring Team at PhonePe,\n\nI am writing to express my strong enthusiasm for the Business Operations Analyst opportunity at PhonePe. As a data-driven professional with 1 year of hands-on internship experience at Ai Variant (Bengaluru), I specialize in translating complex business processes into actionable dashboards and analytical solutions.\n\nDuring my 1-year internship, I delivered measurable results across business intelligence and data operations:\n• Built and deployed 12+ interactive Power BI and Tableau dashboards, reducing manual reporting cycles by 40%.\n• Wrote optimized MySQL queries (leveraging CTEs, joins, and window functions) across 50,000+ transactional records, boosting data validation accuracy by 25%.\n• Spearheaded requirement gathering sessions, authored comprehensive BRDs/FRDs, and guided User Acceptance Testing (UAT) cycles in Agile sprints.\n• Conducted exploratory data analysis (EDA) using Python (Pandas, NumPy) and Advanced Excel (Pivot Tables, XLOOKUP).\n\nYour Business Operations Analyst opening aligns perfectly with my background in SQL (CTEs, Window functions), Power BI (DAX), Tableau, and Advanced Excel. Having completed end-to-end projects in financial risk monitoring, healthcare analytics, and retail intelligence, I can ramp up quickly and contribute from day one. I am currently based in Bengaluru, fully open to Pan-India opportunities (On-site, Hybrid, or Remote), and available to join immediately.\n\nThank you for your time and consideration. I would love the opportunity to discuss how my analytical skills and dedication can support PhonePe's growth.\n\nWarm regards,\n\nAMIT KUMAR SAINI\nPhone: +91 7903838926\nEmail: clusterdistracted@gmail.com\nLinkedIn: https://linkedin.com/in/amitsaini-business-analyst\nGitHub: https://github.com/ClusterAmit\n",
+        "shortPitch": "Hi Hiring Team, I came across your opening for Business Operations Analyst at PhonePe. I have 1 year of hands-on internship experience in data & business analytics (Ai Variant), where I built 12+ Power BI/Tableau dashboards and wrote optimized MySQL/Python queries. I am based in India, open to Pan-India/Hybrid/Remote setups, and available to join immediately. Would love to connect!",
+        "screeningAnswers": {
+          "Total Experience": "1 Year (Hands-on Business & Data Analytics Internship at Ai Variant)",
+          "Notice Period": "Immediate / 0 Days (Ready to join immediately)",
+          "Current Location & Mobility": "Bengaluru, Karnataka (Flexible for Pan-India relocation / Hybrid / Remote)",
+          "Primary Technical Skills": "SQL (MySQL, CTEs, Window Functions), Power BI (DAX), Tableau, Advanced Excel (XLOOKUP, Pivot Tables), Python (Pandas, NumPy)",
+          "Why should we hire you?": "During my 1-year internship, I didn't just study data—I automated reports, authored BRD/FRD documents, and improved reporting accuracy by 25%. I bring practical, production-level SQL and dashboarding skills with a relentless desire to learn and deliver."
+        }
+      },
+      "status": "New",
+      "dateDiscovered": "2026-10-31",
+      "notes": "",
+      "lastSeen": "2026-10-31"
+    },
+    "li_4485680768": {
+      "id": "li_4485680768",
+      "title": "Business Management - Associate",
+      "company": "JPMorganChase",
+      "location": "Bengaluru, Karnataka, India",
+      "link": "https://in.linkedin.com/jobs/view/business-management-associate-at-jpmorganchase-4485680768",
+      "datePosted": "2 hours ago",
+      "isPast24Hours": true,
+      "source": "LinkedIn (Pan-India Entry Level)",
+      "description": "Business Management - Associate at JPMorganChase in Bengaluru, Karnataka, India. Full-time entry-level opportunity posted within 24 hours in India.",
+      "score": 45,
+      "companyTier": "Tier 3",
+      "tierBadge": "🚀 Tier 3 Company",
+      "tierLabel": "Tier 3 (Verified Corporate)",
+      "matchedSkills": [],
+      "reason": "[Tier 3] Targeted entry-level role matching your 1-year internship profile. Matched skills: Analytics basics.",
+      "isEntryLevelVerified": true,
+      "coverLetterData": {
+        "coverLetter": "Dear Hiring Team at JPMorganChase,\n\nI am writing to express my strong enthusiasm for the Business Management - Associate opportunity at JPMorganChase. As a data-driven professional with 1 year of hands-on internship experience at Ai Variant (Bengaluru), I specialize in translating complex business processes into actionable dashboards and analytical solutions.\n\nDuring my 1-year internship, I delivered measurable results across business intelligence and data operations:\n• Built and deployed 12+ interactive Power BI and Tableau dashboards, reducing manual reporting cycles by 40%.\n• Wrote optimized MySQL queries (leveraging CTEs, joins, and window functions) across 50,000+ transactional records, boosting data validation accuracy by 25%.\n• Spearheaded requirement gathering sessions, authored comprehensive BRDs/FRDs, and guided User Acceptance Testing (UAT) cycles in Agile sprints.\n• Conducted exploratory data analysis (EDA) using Python (Pandas, NumPy) and Advanced Excel (Pivot Tables, XLOOKUP).\n\nYour Business Management - Associate opening aligns perfectly with my background in SQL (CTEs, Window functions), Power BI (DAX), Tableau, and Advanced Excel. Having completed end-to-end projects in financial risk monitoring, healthcare analytics, and retail intelligence, I can ramp up quickly and contribute from day one. I am currently based in Bengaluru, fully open to Pan-India opportunities (On-site, Hybrid, or Remote), and available to join immediately.\n\nThank you for your time and consideration. I would love the opportunity to discuss how my analytical skills and dedication can support JPMorganChase's growth.\n\nWarm regards,\n\nAMIT KUMAR SAINI\nPhone: +91 7903838926\nEmail: clusterdistracted@gmail.com\nLinkedIn: https://linkedin.com/in/amitsaini-business-analyst\nGitHub: https://github.com/ClusterAmit\n",
+        "shortPitch": "Hi Hiring Team, I came across your opening for Business Management - Associate at JPMorganChase. I have 1 year of hands-on internship experience in data & business analytics (Ai Variant), where I built 12+ Power BI/Tableau dashboards and wrote optimized MySQL/Python queries. I am based in India, open to Pan-India/Hybrid/Remote setups, and available to join immediately. Would love to connect!",
+        "screeningAnswers": {
+          "Total Experience": "1 Year (Hands-on Business & Data Analytics Internship at Ai Variant)",
+          "Notice Period": "Immediate / 0 Days (Ready to join immediately)",
+          "Current Location & Mobility": "Bengaluru, Karnataka (Flexible for Pan-India relocation / Hybrid / Remote)",
+          "Primary Technical Skills": "SQL (MySQL, CTEs, Window Functions), Power BI (DAX), Tableau, Advanced Excel (XLOOKUP, Pivot Tables), Python (Pandas, NumPy)",
+          "Why should we hire you?": "During my 1-year internship, I didn't just study data—I automated reports, authored BRD/FRD documents, and improved reporting accuracy by 25%. I bring practical, production-level SQL and dashboarding skills with a relentless desire to learn and deliver."
+        }
+      },
+      "status": "New",
+      "dateDiscovered": "2026-10-31",
+      "notes": ""
+    },
+    "li_4476277821": {
+      "id": "li_4476277821",
+      "title": "Delivery AI Product Analyst",
+      "company": "BCG X",
+      "location": "Gurgaon, Haryana, India",
+      "link": "https://in.linkedin.com/jobs/view/delivery-ai-product-analyst-at-bcg-x-4476277821",
+      "datePosted": "22 hours ago",
+      "isPast24Hours": true,
+      "source": "LinkedIn (Pan-India Entry Level)",
+      "description": "Delivery AI Product Analyst at BCG X in Gurgaon, Haryana, India. Full-time entry-level opportunity posted within 24 hours in India.",
+      "score": 45,
+      "companyTier": "Tier 1",
+      "tierBadge": "⭐ Tier 1 Company",
+      "tierLabel": "Tier 1 (Global Product / Top GCC)",
+      "matchedSkills": [],
+      "reason": "[Tier 1] Verified opportunity at BCG X. Matches your 1-year internship in Analytics.",
+      "isEntryLevelVerified": false,
+      "coverLetterData": {
+        "coverLetter": "Dear Hiring Team at BCG X,\n\nI am writing to express my strong enthusiasm for the Delivery AI Product Analyst opportunity at BCG X. As a data-driven professional with 1 year of hands-on internship experience at Ai Variant (Bengaluru), I specialize in translating complex business processes into actionable dashboards and analytical solutions.\n\nDuring my 1-year internship, I delivered measurable results across business intelligence and data operations:\n• Built and deployed 12+ interactive Power BI and Tableau dashboards, reducing manual reporting cycles by 40%.\n• Wrote optimized MySQL queries (leveraging CTEs, joins, and window functions) across 50,000+ transactional records, boosting data validation accuracy by 25%.\n• Spearheaded requirement gathering sessions, authored comprehensive BRDs/FRDs, and guided User Acceptance Testing (UAT) cycles in Agile sprints.\n• Conducted exploratory data analysis (EDA) using Python (Pandas, NumPy) and Advanced Excel (Pivot Tables, XLOOKUP).\n\nYour Delivery AI Product Analyst opening aligns perfectly with my background in SQL (CTEs, Window functions), Power BI (DAX), Tableau, and Advanced Excel. Having completed end-to-end projects in financial risk monitoring, healthcare analytics, and retail intelligence, I can ramp up quickly and contribute from day one. I am currently based in Bengaluru, fully open to Pan-India opportunities (On-site, Hybrid, or Remote), and available to join immediately.\n\nThank you for your time and consideration. I would love the opportunity to discuss how my analytical skills and dedication can support BCG X's growth.\n\nWarm regards,\n\nAMIT KUMAR SAINI\nPhone: +91 7903838926\nEmail: clusterdistracted@gmail.com\nLinkedIn: https://linkedin.com/in/amitsaini-business-analyst\nGitHub: https://github.com/ClusterAmit\n",
+        "shortPitch": "Hi Hiring Team, I came across your opening for Delivery AI Product Analyst at BCG X. I have 1 year of hands-on internship experience in data & business analytics (Ai Variant), where I built 12+ Power BI/Tableau dashboards and wrote optimized MySQL/Python queries. I am based in India, open to Pan-India/Hybrid/Remote setups, and available to join immediately. Would love to connect!",
+        "screeningAnswers": {
+          "Total Experience": "1 Year (Hands-on Business & Data Analytics Internship at Ai Variant)",
+          "Notice Period": "Immediate / 0 Days (Ready to join immediately)",
+          "Current Location & Mobility": "Bengaluru, Karnataka (Flexible for Pan-India relocation / Hybrid / Remote)",
+          "Primary Technical Skills": "SQL (MySQL, CTEs, Window Functions), Power BI (DAX), Tableau, Advanced Excel (XLOOKUP, Pivot Tables), Python (Pandas, NumPy)",
+          "Why should we hire you?": "During my 1-year internship, I didn't just study data—I automated reports, authored BRD/FRD documents, and improved reporting accuracy by 25%. I bring practical, production-level SQL and dashboarding skills with a relentless desire to learn and deliver."
+        }
+      },
+      "status": "New",
+      "dateDiscovered": "2026-10-31",
+      "notes": "",
+      "lastSeen": "2026-10-31"
+    },
+    "instahyre_448317": {
+      "id": "instahyre_448317",
+      "title": "Platform Engineer",
+      "company": "Tesco",
+      "location": "Bangalore",
+      "link": "https://www.instahyre.com/job-448317-platform-engineer-at-tesco-bangalore/",
+      "datePosted": "Fresh active listing",
+      "isPast24Hours": true,
+      "source": "Instahyre (India Tech)",
+      "description": "Platform Engineer at Tesco in Bangalore. Skills: Golang, Grafana, Prometheus, Python, Terraform",
+      "score": 40,
+      "companyTier": "Tier 2",
+      "tierBadge": "🏢 Tier 2 Company",
+      "tierLabel": "Tier 2 (Enterprise Tech / Top IT)",
+      "matchedSkills": [
+        "Python"
+      ],
+      "reason": "[Tier 2] Verified opportunity at Tesco. Matches your 1-year internship in Python.",
+      "isEntryLevelVerified": false,
+      "coverLetterData": {
+        "coverLetter": "Dear Hiring Team at Tesco,\n\nI am writing to express my strong enthusiasm for the Platform Engineer opportunity at Tesco. As a data-driven professional with 1 year of hands-on internship experience at Ai Variant (Bengaluru), I specialize in translating complex business processes into actionable dashboards and analytical solutions.\n\nDuring my 1-year internship, I delivered measurable results across business intelligence and data operations:\n• Built and deployed 12+ interactive Power BI and Tableau dashboards, reducing manual reporting cycles by 40%.\n• Wrote optimized MySQL queries (leveraging CTEs, joins, and window functions) across 50,000+ transactional records, boosting data validation accuracy by 25%.\n• Spearheaded requirement gathering sessions, authored comprehensive BRDs/FRDs, and guided User Acceptance Testing (UAT) cycles in Agile sprints.\n• Conducted exploratory data analysis (EDA) using Python (Pandas, NumPy) and Advanced Excel (Pivot Tables, XLOOKUP).\n\nYour Platform Engineer opening aligns perfectly with my background in Python. Having completed end-to-end projects in financial risk monitoring, healthcare analytics, and retail intelligence, I can ramp up quickly and contribute from day one. I am currently based in Bengaluru, fully open to Pan-India opportunities (On-site, Hybrid, or Remote), and available to join immediately.\n\nThank you for your time and consideration. I would love the opportunity to discuss how my analytical skills and dedication can support Tesco's growth.\n\nWarm regards,\n\nAMIT KUMAR SAINI\nPhone: +91 7903838926\nEmail: clusterdistracted@gmail.com\nLinkedIn: https://linkedin.com/in/amitsaini-business-analyst\nGitHub: https://github.com/ClusterAmit\n",
+        "shortPitch": "Hi Hiring Team, I came across your opening for Platform Engineer at Tesco. I have 1 year of hands-on internship experience in data & business analytics (Ai Variant), where I built 12+ Power BI/Tableau dashboards and wrote optimized MySQL/Python queries. I am based in India, open to Pan-India/Hybrid/Remote setups, and available to join immediately. Would love to connect!",
+        "screeningAnswers": {
+          "Total Experience": "1 Year (Hands-on Business & Data Analytics Internship at Ai Variant)",
+          "Notice Period": "Immediate / 0 Days (Ready to join immediately)",
+          "Current Location & Mobility": "Bengaluru, Karnataka (Flexible for Pan-India relocation / Hybrid / Remote)",
+          "Primary Technical Skills": "SQL (MySQL, CTEs, Window Functions), Power BI (DAX), Tableau, Advanced Excel (XLOOKUP, Pivot Tables), Python (Pandas, NumPy)",
+          "Why should we hire you?": "During my 1-year internship, I didn't just study data—I automated reports, authored BRD/FRD documents, and improved reporting accuracy by 25%. I bring practical, production-level SQL and dashboarding skills with a relentless desire to learn and deliver."
+        }
+      },
+      "status": "New",
+      "dateDiscovered": "2026-10-31",
+      "notes": ""
+    },
+    "instahyre_446716": {
+      "id": "instahyre_446716",
+      "title": "Development Engineer - Mid Ops Java + AI",
+      "company": "Target in India",
+      "location": "Bangalore",
+      "link": "https://www.instahyre.com/job-446716-development-engineer-mid-ops-java-plus-ai-at-target-in-india-bangalore/",
+      "datePosted": "Fresh active listing",
+      "isPast24Hours": true,
+      "source": "Instahyre (India Tech)",
+      "description": "Development Engineer - Mid Ops Java + AI at Target in India in Bangalore. Skills: Java, Python, Spring Boot",
+      "score": 40,
+      "companyTier": "Tier 2",
+      "tierBadge": "🏢 Tier 2 Company",
+      "tierLabel": "Tier 2 (Enterprise Tech / Top IT)",
+      "matchedSkills": [
+        "Python"
+      ],
+      "reason": "[Tier 2] Verified opportunity at Target in India. Matches your 1-year internship in Python.",
+      "isEntryLevelVerified": false,
+      "coverLetterData": {
+        "coverLetter": "Dear Hiring Team at Target in India,\n\nI am writing to express my strong enthusiasm for the Development Engineer - Mid Ops Java + AI opportunity at Target in India. As a data-driven professional with 1 year of hands-on internship experience at Ai Variant (Bengaluru), I specialize in translating complex business processes into actionable dashboards and analytical solutions.\n\nDuring my 1-year internship, I delivered measurable results across business intelligence and data operations:\n• Built and deployed 12+ interactive Power BI and Tableau dashboards, reducing manual reporting cycles by 40%.\n• Wrote optimized MySQL queries (leveraging CTEs, joins, and window functions) across 50,000+ transactional records, boosting data validation accuracy by 25%.\n• Spearheaded requirement gathering sessions, authored comprehensive BRDs/FRDs, and guided User Acceptance Testing (UAT) cycles in Agile sprints.\n• Conducted exploratory data analysis (EDA) using Python (Pandas, NumPy) and Advanced Excel (Pivot Tables, XLOOKUP).\n\nYour Development Engineer - Mid Ops Java + AI opening aligns perfectly with my background in Python. Having completed end-to-end projects in financial risk monitoring, healthcare analytics, and retail intelligence, I can ramp up quickly and contribute from day one. I am currently based in Bengaluru, fully open to Pan-India opportunities (On-site, Hybrid, or Remote), and available to join immediately.\n\nThank you for your time and consideration. I would love the opportunity to discuss how my analytical skills and dedication can support Target in India's growth.\n\nWarm regards,\n\nAMIT KUMAR SAINI\nPhone: +91 7903838926\nEmail: clusterdistracted@gmail.com\nLinkedIn: https://linkedin.com/in/amitsaini-business-analyst\nGitHub: https://github.com/ClusterAmit\n",
+        "shortPitch": "Hi Hiring Team, I came across your opening for Development Engineer - Mid Ops Java + AI at Target in India. I have 1 year of hands-on internship experience in data & business analytics (Ai Variant), where I built 12+ Power BI/Tableau dashboards and wrote optimized MySQL/Python queries. I am based in India, open to Pan-India/Hybrid/Remote setups, and available to join immediately. Would love to connect!",
+        "screeningAnswers": {
+          "Total Experience": "1 Year (Hands-on Business & Data Analytics Internship at Ai Variant)",
+          "Notice Period": "Immediate / 0 Days (Ready to join immediately)",
+          "Current Location & Mobility": "Bengaluru, Karnataka (Flexible for Pan-India relocation / Hybrid / Remote)",
+          "Primary Technical Skills": "SQL (MySQL, CTEs, Window Functions), Power BI (DAX), Tableau, Advanced Excel (XLOOKUP, Pivot Tables), Python (Pandas, NumPy)",
+          "Why should we hire you?": "During my 1-year internship, I didn't just study data—I automated reports, authored BRD/FRD documents, and improved reporting accuracy by 25%. I bring practical, production-level SQL and dashboarding skills with a relentless desire to learn and deliver."
+        }
+      },
+      "status": "New",
+      "dateDiscovered": "2026-10-31",
+      "notes": ""
+    },
+    "instahyre_439006": {
+      "id": "instahyre_439006",
+      "title": "Application Support Engineer",
+      "company": "Highradius",
+      "location": "Hyderabad",
+      "link": "https://www.instahyre.com/job-439006-application-support-engineer-at-highradius-hyderabad/",
+      "datePosted": "Fresh active listing",
+      "isPast24Hours": true,
+      "source": "Instahyre (India Tech)",
+      "description": "Application Support Engineer at Highradius in Hyderabad. Skills: Application Support, Customer Relationship, PL-SQL, PL/SQL, Production Support, SQL, SaaS",
+      "score": 40,
+      "companyTier": "Tier 2",
+      "tierBadge": "🏢 Tier 2 Company",
+      "tierLabel": "Tier 2 (Enterprise Tech / Top IT)",
+      "matchedSkills": [
+        "SQL"
+      ],
+      "reason": "[Tier 2] Verified opportunity at Highradius. Matches your 1-year internship in SQL.",
+      "isEntryLevelVerified": false,
+      "coverLetterData": {
+        "coverLetter": "Dear Hiring Team at Highradius,\n\nI am writing to express my strong enthusiasm for the Application Support Engineer opportunity at Highradius. As a data-driven professional with 1 year of hands-on internship experience at Ai Variant (Bengaluru), I specialize in translating complex business processes into actionable dashboards and analytical solutions.\n\nDuring my 1-year internship, I delivered measurable results across business intelligence and data operations:\n• Built and deployed 12+ interactive Power BI and Tableau dashboards, reducing manual reporting cycles by 40%.\n• Wrote optimized MySQL queries (leveraging CTEs, joins, and window functions) across 50,000+ transactional records, boosting data validation accuracy by 25%.\n• Spearheaded requirement gathering sessions, authored comprehensive BRDs/FRDs, and guided User Acceptance Testing (UAT) cycles in Agile sprints.\n• Conducted exploratory data analysis (EDA) using Python (Pandas, NumPy) and Advanced Excel (Pivot Tables, XLOOKUP).\n\nYour Application Support Engineer opening aligns perfectly with my background in SQL. Having completed end-to-end projects in financial risk monitoring, healthcare analytics, and retail intelligence, I can ramp up quickly and contribute from day one. I am currently based in Bengaluru, fully open to Pan-India opportunities (On-site, Hybrid, or Remote), and available to join immediately.\n\nThank you for your time and consideration. I would love the opportunity to discuss how my analytical skills and dedication can support Highradius's growth.\n\nWarm regards,\n\nAMIT KUMAR SAINI\nPhone: +91 7903838926\nEmail: clusterdistracted@gmail.com\nLinkedIn: https://linkedin.com/in/amitsaini-business-analyst\nGitHub: https://github.com/ClusterAmit\n",
+        "shortPitch": "Hi Hiring Team, I came across your opening for Application Support Engineer at Highradius. I have 1 year of hands-on internship experience in data & business analytics (Ai Variant), where I built 12+ Power BI/Tableau dashboards and wrote optimized MySQL/Python queries. I am based in India, open to Pan-India/Hybrid/Remote setups, and available to join immediately. Would love to connect!",
         "screeningAnswers": {
           "Total Experience": "1 Year (Hands-on Business & Data Analytics Internship at Ai Variant)",
           "Notice Period": "Immediate / 0 Days (Ready to join immediately)",

@@ -75,8 +75,9 @@ jobs:
           echo "View and apply on your phone/browser: [Open Live Dashboard](https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name || 'job-scout' }}/)" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "### 📊 Application Database Status" >> $GITHUB_STEP_SUMMARY
-          echo "- Filter: **0-1 Year Experience (Internship Profile)**" >> $GITHUB_STEP_SUMMARY
-          echo "- Scope: **Pan-India (Bengaluru, Hyderabad, Pune, Mumbai, Delhi-NCR, Remote)**" >> $GITHUB_STEP_SUMMARY
+          echo "- Filter: **0-1 Year Full-Time Entry Level (No Internships • No Data Science • Strict 24h Window)**" >> $GITHUB_STEP_SUMMARY
+          echo "- Scope: **Pan-India (Bengaluru, Hyderabad, Pune, Delhi-NCR, Remote - Excluded Mumbai)**" >> $GITHUB_STEP_SUMMARY
+          echo "- Target: **Tier 1 to Tier 3 Employers**" >> $GITHUB_STEP_SUMMARY
 
       - name: Commit & Push Updated Tracker Database
         if: always()

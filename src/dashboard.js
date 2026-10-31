@@ -7,7 +7,7 @@ function generateDashboardHtml(allJobsList, profile) {
     fs.mkdirSync(outputDir, { recursive: true });
   }
 
-  // Also create cover_letters dir
+  // Create cover_letters dir
   const lettersDir = path.join(outputDir, 'cover_letters');
   if (!fs.existsSync(lettersDir)) {
     fs.mkdirSync(lettersDir, { recursive: true });
@@ -17,7 +17,7 @@ function generateDashboardHtml(allJobsList, profile) {
   for (const job of allJobsList) {
     if (job.coverLetterData) {
       const filename = `${(job.company || 'Company').replace(/[^a-zA-Z0-9]/g, '_')}_${(job.title || 'Role').replace(/[^a-zA-Z0-9]/g, '_')}.txt`.slice(0, 80) + '.txt';
-      const fileContent = `JOB: ${job.title} at ${job.company} (${job.location})\nLINK: ${job.link}\nMATCH SCORE: ${job.score}%\nSOURCE: ${job.source}\n\n--- COVER LETTER ---\n${job.coverLetterData.coverLetter}\n\n--- RECRUITER PITCH ---\n${job.coverLetterData.shortPitch}\n\n--- SCREENING ANSWERS ---\n${JSON.stringify(job.coverLetterData.screeningAnswers, null, 2)}`;
+      const fileContent = `JOB: ${job.title} at ${job.company} (${job.location})\nTIER: ${job.companyTier || 'Tier 3'}\nLINK: ${job.link}\nMATCH SCORE: ${job.score}%\nSOURCE: ${job.source}\nPOSTED: ${job.datePosted || 'Within 24 Hours'}\n\n--- COVER LETTER ---\n${job.coverLetterData.coverLetter}\n\n--- RECRUITER PITCH ---\n${job.coverLetterData.shortPitch}\n\n--- SCREENING ANSWERS ---\n${JSON.stringify(job.coverLetterData.screeningAnswers, null, 2)}`;
       fs.writeFileSync(path.join(lettersDir, filename), fileContent, 'utf-8');
     }
   }
@@ -34,28 +34,30 @@ function generateDashboardHtml(allJobsList, profile) {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Pan-India Entry Level Job Scout | Amit Kumar Saini</title>
+  <title>Pan-India Entry Level Data & BI Job Scout (24h) | Amit Kumar Saini</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <style>
     :root {
-      --bg: #0f172a;
-      --card-bg: #1e293b;
-      --card-hover: #283548;
+      --bg: #0b1120;
+      --card-bg: #151f32;
+      --card-hover: #1e2c46;
       --text: #f8fafc;
       --text-muted: #94a3b8;
       --primary: #38bdf8;
       --primary-hover: #0ea5e9;
       --success: #34d399;
       --warning: #fbbf24;
-      --border: #334155;
+      --border: #24344d;
+      --gold: #f59e0b;
+      --purple: #a855f7;
     }
     * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Inter', sans-serif; }
-    body { background-color: var(--bg); color: var(--text); padding: 24px; }
-    .container { max-width: 1200px; margin: 0 auto; }
+    body { background-color: var(--bg); color: var(--text); padding: 24px; min-height: 100vh; }
+    .container { max-width: 1240px; margin: 0 auto; }
     
     header {
-      background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+      background: linear-gradient(135deg, #16243b 0%, #0c1527 100%);
       border: 1px solid var(--border);
       border-radius: 16px;
       padding: 24px;
@@ -63,27 +65,30 @@ function generateDashboardHtml(allJobsList, profile) {
       box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
     }
     .badge-pill {
-      display: inline-block;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
       padding: 4px 12px;
       border-radius: 9999px;
       font-size: 0.75rem;
       font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
+      letter-spacing: 0.03em;
+      margin-bottom: 8px;
     }
     .badge-fresher { background: rgba(56, 189, 248, 0.15); color: #38bdf8; border: 1px solid rgba(56, 189, 248, 0.3); }
-    .badge-location { background: rgba(52, 211, 153, 0.15); color: #34d399; border: 1px solid rgba(52, 211, 153, 0.3); margin-left: 8px; }
-    .badge-user { background: rgba(168, 85, 247, 0.15); color: #c084fc; border: 1px solid rgba(168, 85, 247, 0.3); margin-left: 8px; }
-    .badge-date { background: rgba(245, 158, 11, 0.15); color: #fbbf24; border: 1px solid rgba(245, 158, 11, 0.3); margin-left: 8px; }
+    .badge-location { background: rgba(52, 211, 153, 0.15); color: #34d399; border: 1px solid rgba(52, 211, 153, 0.3); margin-left: 6px; }
+    .badge-user { background: rgba(168, 85, 247, 0.15); color: #c084fc; border: 1px solid rgba(168, 85, 247, 0.3); margin-left: 6px; }
+    .badge-date { background: rgba(245, 158, 11, 0.15); color: #fbbf24; border: 1px solid rgba(245, 158, 11, 0.3); margin-left: 6px; }
+    .badge-nointern { background: rgba(239, 68, 68, 0.15); color: #f87171; border: 1px solid rgba(239, 68, 68, 0.3); margin-left: 6px; }
 
-    h1 { font-size: 1.8rem; font-weight: 700; margin: 12px 0 6px 0; color: #fff; }
-    p.subtitle { color: var(--text-muted); font-size: 0.95rem; }
+    h1 { font-size: 1.85rem; font-weight: 800; margin: 10px 0 6px 0; color: #fff; letter-spacing: -0.02em; }
+    p.subtitle { color: var(--text-muted); font-size: 0.95rem; line-height: 1.5; }
 
     .launchers-card {
-      background: rgba(30, 41, 59, 0.7);
+      background: rgba(21, 31, 50, 0.7);
       border: 1px solid var(--border);
       border-radius: 12px;
-      padding: 18px 20px;
+      padding: 16px 20px;
       margin-bottom: 20px;
     }
     .launchers-title {
@@ -122,22 +127,67 @@ function generateDashboardHtml(allJobsList, profile) {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
       gap: 16px;
-      margin: 20px 0 8px 0;
+      margin: 18px 0 6px 0;
     }
     .stat-card {
-      background: rgba(15, 23, 42, 0.6);
+      background: rgba(11, 17, 32, 0.6);
       border: 1px solid var(--border);
       border-radius: 12px;
       padding: 14px 18px;
     }
-    .stat-card .label { font-size: 0.8rem; color: var(--text-muted); }
+    .stat-card .label { font-size: 0.78rem; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.04em; }
     .stat-card .val { font-size: 1.5rem; font-weight: 700; color: #fff; margin-top: 4px; }
+
+    /* View Switcher Tabs */
+    .view-tabs {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 18px;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 12px;
+    }
+    .tab-btn {
+      background: transparent;
+      border: 1px solid var(--border);
+      color: var(--text-muted);
+      padding: 10px 20px;
+      border-radius: 10px;
+      font-size: 0.92rem;
+      font-weight: 600;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: all 0.2s;
+    }
+    .tab-btn .tab-count {
+      padding: 2px 8px;
+      border-radius: 9999px;
+      font-size: 0.75rem;
+      background: rgba(255,255,255,0.1);
+      color: #fff;
+    }
+    .tab-btn.active {
+      background: #1e293b;
+      color: var(--primary);
+      border-color: var(--primary);
+      box-shadow: 0 0 15px rgba(56, 189, 248, 0.2);
+    }
+    .tab-btn.active .tab-count {
+      background: var(--primary);
+      color: #0b1120;
+      font-weight: 700;
+    }
 
     .controls-bar {
       display: flex;
       flex-direction: column;
       gap: 12px;
       margin-bottom: 20px;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 16px 20px;
     }
     .search-row {
       display: flex;
@@ -145,9 +195,9 @@ function generateDashboardHtml(allJobsList, profile) {
     }
     .search-input {
       flex: 1;
-      background: var(--card-bg);
+      background: #0b1120;
       border: 1px solid var(--border);
-      padding: 10px 16px;
+      padding: 11px 16px;
       border-radius: 10px;
       color: #fff;
       font-size: 0.95rem;
@@ -160,21 +210,21 @@ function generateDashboardHtml(allJobsList, profile) {
       gap: 8px;
       align-items: center;
     }
-    .filter-label { font-size: 0.8rem; color: var(--text-muted); margin-right: 4px; }
+    .filter-label { font-size: 0.8rem; font-weight: 600; color: var(--text-muted); margin-right: 4px; min-width: 65px; }
     .filter-btn {
-      background: var(--card-bg);
+      background: #0b1120;
       border: 1px solid var(--border);
       color: var(--text-muted);
       padding: 6px 14px;
       border-radius: 8px;
-      font-size: 0.85rem;
+      font-size: 0.82rem;
       cursor: pointer;
       transition: all 0.2s;
     }
     .filter-btn.active, .filter-btn:hover {
       background: var(--primary);
-      color: #0f172a;
-      font-weight: 600;
+      color: #0b1120;
+      font-weight: 700;
       border-color: var(--primary);
     }
 
@@ -187,14 +237,14 @@ function generateDashboardHtml(allJobsList, profile) {
       background: var(--card-bg);
       border: 1px solid var(--border);
       border-radius: 14px;
-      padding: 20px;
-      transition: all 0.2s;
+      padding: 22px;
+      transition: transform 0.2s, border-color 0.2s, opacity 0.3s;
       position: relative;
     }
     .job-card:hover {
-      border-color: #475569;
+      border-color: #3b82f6;
       background: var(--card-hover);
-      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
     }
 
     .job-header {
@@ -203,10 +253,62 @@ function generateDashboardHtml(allJobsList, profile) {
       align-items: flex-start;
       gap: 16px;
     }
-    .job-title { font-size: 1.2rem; font-weight: 600; color: #fff; }
-    .job-company { color: var(--primary); font-weight: 500; font-size: 0.95rem; margin-top: 2px; }
-    .job-location { color: var(--text-muted); font-size: 0.85rem; margin-top: 4px; display: flex; align-items: center; gap: 6px; }
+    .job-title { font-size: 1.25rem; font-weight: 700; color: #fff; }
+    .job-company-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-top: 4px;
+    }
+    .job-company { color: #38bdf8; font-weight: 600; font-size: 1rem; }
     
+    /* Tier Badges */
+    .tier-badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 3px 10px;
+      border-radius: 6px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+    }
+    .tier-badge.tier-1 {
+      background: linear-gradient(135deg, rgba(245, 158, 11, 0.25), rgba(217, 119, 6, 0.15));
+      color: #fbbf24;
+      border: 1px solid rgba(245, 158, 11, 0.4);
+    }
+    .tier-badge.tier-2 {
+      background: linear-gradient(135deg, rgba(99, 102, 241, 0.25), rgba(79, 70, 229, 0.15));
+      color: #a5b4fc;
+      border: 1px solid rgba(99, 102, 241, 0.4);
+    }
+    .tier-badge.tier-3 {
+      background: linear-gradient(135deg, rgba(16, 185, 129, 0.25), rgba(5, 150, 105, 0.15));
+      color: #6ee7b7;
+      border: 1px solid rgba(16, 185, 129, 0.4);
+    }
+
+    .job-meta-row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 12px;
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      margin-top: 6px;
+    }
+    .job-time-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      background: rgba(245, 158, 11, 0.12);
+      color: #fbbf24;
+      padding: 2px 8px;
+      border-radius: 4px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      border: 1px solid rgba(245, 158, 11, 0.25);
+    }
     .source-badge {
       display: inline-block;
       padding: 2px 8px;
@@ -215,7 +317,6 @@ function generateDashboardHtml(allJobsList, profile) {
       background: rgba(51, 65, 85, 0.7);
       color: #cbd5e1;
       border: 1px solid #475569;
-      margin-left: 6px;
       font-weight: 500;
     }
 
@@ -224,33 +325,34 @@ function generateDashboardHtml(allJobsList, profile) {
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      min-width: 68px;
-      height: 68px;
+      min-width: 72px;
+      height: 72px;
       border-radius: 12px;
-      font-weight: 700;
+      font-weight: 800;
       border: 1px solid transparent;
     }
     .score-high { background: rgba(52, 211, 153, 0.15); color: #34d399; border-color: rgba(52, 211, 153, 0.4); }
     .score-med { background: rgba(56, 189, 248, 0.15); color: #38bdf8; border-color: rgba(56, 189, 248, 0.4); }
     .score-fair { background: rgba(251, 191, 36, 0.15); color: #fbbf24; border-color: rgba(251, 191, 36, 0.4); }
-    .score-badge .num { font-size: 1.3rem; line-height: 1; }
-    .score-badge .lbl { font-size: 0.65rem; text-transform: uppercase; margin-top: 2px; }
+    .score-badge .num { font-size: 1.35rem; line-height: 1; }
+    .score-badge .lbl { font-size: 0.65rem; text-transform: uppercase; margin-top: 3px; }
 
     .match-reason {
-      margin: 12px 0;
+      margin: 14px 0 10px 0;
       padding: 10px 14px;
       border-radius: 8px;
-      background: rgba(15, 23, 42, 0.7);
+      background: rgba(11, 17, 32, 0.7);
       border-left: 3px solid var(--primary);
       font-size: 0.88rem;
       color: #cbd5e1;
+      line-height: 1.45;
     }
 
     .skills-row {
       display: flex;
       flex-wrap: wrap;
       gap: 6px;
-      margin: 12px 0 16px 0;
+      margin: 10px 0 16px 0;
     }
     .skill-tag {
       background: rgba(51, 65, 85, 0.8);
@@ -270,7 +372,7 @@ function generateDashboardHtml(allJobsList, profile) {
       border-top: 1px solid rgba(51, 65, 85, 0.5);
     }
     .btn {
-      padding: 8px 16px;
+      padding: 9px 16px;
       border-radius: 8px;
       font-size: 0.88rem;
       font-weight: 600;
@@ -282,14 +384,17 @@ function generateDashboardHtml(allJobsList, profile) {
       transition: all 0.15s ease-in-out;
       border: none;
     }
-    .btn-primary { background: var(--primary); color: #0f172a; }
-    .btn-primary:hover { background: var(--primary-hover); }
+    .btn-primary { background: var(--primary); color: #0b1120; }
+    .btn-primary:hover { background: var(--primary-hover); transform: translateY(-1px); }
     
-    .btn-secondary { background: #334155; color: #f1f5f9; }
-    .btn-secondary:hover { background: #475569; }
+    .btn-secondary { background: #1e293b; color: #f1f5f9; border: 1px solid var(--border); }
+    .btn-secondary:hover { background: #334155; }
 
     .btn-outline { background: transparent; border: 1px solid var(--border); color: #cbd5e1; }
     .btn-outline:hover { background: #1e293b; border-color: #64748b; }
+
+    .btn-applied { background: #065f46; color: #34d399; border: 1px solid #059669; }
+    .btn-applied:hover { background: #047857; }
 
     .toast {
       position: fixed;
@@ -300,16 +405,17 @@ function generateDashboardHtml(allJobsList, profile) {
       padding: 12px 20px;
       border-radius: 8px;
       font-weight: 600;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+      box-shadow: 0 4px 15px rgba(0,0,0,0.5);
       display: none;
       z-index: 1000;
+      border: 1px solid rgba(255,255,255,0.2);
     }
 
     /* Modal */
     .modal-overlay {
       position: fixed;
       inset: 0;
-      background: rgba(0,0,0,0.75);
+      background: rgba(0,0,0,0.78);
       backdrop-filter: blur(4px);
       display: none;
       justify-content: center;
@@ -322,11 +428,11 @@ function generateDashboardHtml(allJobsList, profile) {
       border: 1px solid var(--border);
       border-radius: 16px;
       width: 100%;
-      max-width: 700px;
+      max-width: 720px;
       max-height: 85vh;
       display: flex;
       flex-direction: column;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.6);
     }
     .modal-header {
       padding: 18px 24px;
@@ -342,10 +448,10 @@ function generateDashboardHtml(allJobsList, profile) {
       line-height: 1.6;
       white-space: pre-wrap;
       color: #e2e8f0;
-      background: #111827;
+      background: #0b1120;
       margin: 16px 24px;
       border-radius: 8px;
-      border: 1px solid #374151;
+      border: 1px solid #24344d;
     }
     .modal-footer {
       padding: 16px 24px;
@@ -368,71 +474,89 @@ function generateDashboardHtml(allJobsList, profile) {
 <div class="container">
   <header>
     <div>
-      <span class="badge-pill badge-fresher">🎯 Entry Level Only (1-Year Internship Profile)</span>
-      <span class="badge-pill badge-location">📍 Pan-India Search Active</span>
+      <span class="badge-pill badge-date">⏱️ Posted in Last 24 Hours Only</span>
+      <span class="badge-pill badge-fresher">🎯 Full-Time Entry Level (0-1 Yrs)</span>
+      <span class="badge-pill badge-nointern">🚫 No Internships • No Data Science</span>
+      <span class="badge-pill badge-location">📍 Pan-India (Excl. Mumbai)</span>
       <span class="badge-pill badge-user">👤 Amit Kumar Saini (Ai Variant)</span>
-      <span class="badge-pill badge-date">🕒 Updated: ${lastUpdatedStr}</span>
     </div>
-    <h1>Pan-India Entry Level Data Analytics Job Scout</h1>
-    <p class="subtitle">Multi-platform automated engine scouting entry-level data & BI roles across LinkedIn, Internshala, Y Combinator, Instahyre, HiringCafe, Welcome to the Jungle, and Naukri. <span style="color: #38bdf8; font-weight: 500;">Last scouted: ${lastUpdatedStr}</span></p>
+    <h1>Pan-India Entry Level Data & BI Job Scout</h1>
+    <p class="subtitle">Daily automated radar tracking full-time entry-level Data Analyst and Business Analyst openings across Tier 1, 2, and 3 employers. Filtered strictly for fresh postings within 24 hours. <span style="color: #38bdf8; font-weight: 600;">Last Scouted: ${lastUpdatedStr}</span></p>
     
     <div class="stats-grid">
       <div class="stat-card">
-        <div class="label">Total Pan-India Matches</div>
-        <div class="val" id="totalJobsVal">0</div>
+        <div class="label">Fresh 24h Opportunities</div>
+        <div class="val" id="totalActiveVal">0</div>
+      </div>
+      <div class="stat-card">
+        <div class="label">Tier 1 & Tier 2 Targets</div>
+        <div class="val" id="tierTargetVal">0</div>
       </div>
       <div class="stat-card">
         <div class="label">High Match (70%+)</div>
         <div class="val" id="highScoreVal">0</div>
       </div>
       <div class="stat-card">
-        <div class="label">Top Locations</div>
-        <div class="val" style="font-size: 1.1rem; font-weight: 500; color: #38bdf8;">BLR, HYD, PUN, NCR, Remote</div>
-      </div>
-      <div class="stat-card">
-        <div class="label">Candidate Background</div>
-        <div class="val" style="font-size: 1.1rem; font-weight: 500; color: #34d399;">1-Year Internship (Ai Variant)</div>
+        <div class="label">Applied So Far</div>
+        <div class="val" id="appliedCountVal" style="color: #34d399;">0</div>
       </div>
     </div>
   </header>
 
-  <!-- 1-Click Platform Launchers -->
+  <!-- 1-Click Platform Launchers (Targeting Full-Time Pan-India) -->
   <div class="launchers-card">
-    <div class="launchers-title">⚡ 1-Click Quick Portals Pre-Filtered for Entry Level / Freshers</div>
+    <div class="launchers-title">⚡ 1-Click Direct Live Portals (Pre-Filtered 24h / 0-1 Yr Experience)</div>
     <div class="launchers-grid">
+      <a href="https://www.linkedin.com/jobs/search/?keywords=data%20analyst&location=India&f_TPR=r86400&f_E=2" target="_blank" rel="noopener" class="launcher-btn cafe-btn">
+        💼 LinkedIn (24h Full-Time)
+      </a>
       <a href="https://hiring.cafe/?searchState=%7B%22searchQuery%22%3A%22Data+Analyst%22%7D" target="_blank" rel="noopener" class="launcher-btn cafe-btn">
         ☕ HiringCafe (Data Analyst)
-      </a>
-      <a href="https://www.welcometothejungle.com/en/jobs?query=data%20analyst" target="_blank" rel="noopener" class="launcher-btn wttj-btn">
-        🌴 Welcome to the Jungle
       </a>
       <a href="https://www.workatastartup.com/jobs?roles=data_analyst" target="_blank" rel="noopener" class="launcher-btn yc-btn">
         🚀 Y Combinator (Startups)
       </a>
       <a href="https://www.naukri.com/data-analyst-jobs-in-india?experience=0" target="_blank" rel="noopener" class="launcher-btn naukri-btn">
-        🔍 Naukri (0 Exp Pan-India)
+        🔍 Naukri (0-1 Yr Pan-India)
       </a>
-      <a href="https://in.indeed.com/jobs?q=data+analyst&l=India&explvl=entry_level" target="_blank" rel="noopener" class="launcher-btn indeed-btn">
-        🔍 Indeed India (Entry Level)
+      <a href="https://in.indeed.com/jobs?q=data+analyst&l=India&explvl=entry_level&fromage=1" target="_blank" rel="noopener" class="launcher-btn indeed-btn">
+        🔍 Indeed India (24h Entry Level)
       </a>
       <a href="https://internshala.com/jobs/data-analytics-jobs/" target="_blank" rel="noopener" class="launcher-btn internshala-btn">
-        🔍 Internshala (Fresher Analytics)
+        🔍 Internshala (Fresher Jobs)
       </a>
     </div>
   </div>
 
+  <!-- View Switcher Tabs -->
+  <div class="view-tabs">
+    <button class="tab-btn active" id="activeTabBtn" onclick="switchView('active')">
+      ⚡ Active Opportunities <span class="tab-count" id="activeTabCount">0</span>
+    </button>
+    <button class="tab-btn" id="appliedTabBtn" onclick="switchView('applied')">
+      ✅ Applied Jobs <span class="tab-count" id="appliedTabCount">0</span>
+    </button>
+  </div>
+
   <div class="controls-bar">
     <div class="search-row">
-      <input type="text" id="searchInput" class="search-input" placeholder="Search by company, role title, or skills..." oninput="filterJobs()">
+      <input type="text" id="searchInput" class="search-input" placeholder="Search by company name, role title, or skills (e.g., SQL, Power BI, Tableau, Python)..." oninput="filterJobs()">
     </div>
     
     <div class="filters-row">
+      <span class="filter-label">Company:</span>
+      <button class="filter-btn active tier-btn" onclick="setTierFilter('all')">All Tiers</button>
+      <button class="filter-btn tier-btn" onclick="setTierFilter('Tier 1')">⭐ Tier 1 Only</button>
+      <button class="filter-btn tier-btn" onclick="setTierFilter('Tier 1 & 2')">🏢 Tier 1 & 2</button>
+      <button class="filter-btn tier-btn" onclick="setTierFilter('Tier 3')">🚀 Tier 3</button>
+    </div>
+
+    <div class="filters-row">
       <span class="filter-label">City:</span>
-      <button class="filter-btn active city-btn" onclick="setCityFilter('all')">All Pan India</button>
+      <button class="filter-btn active city-btn" onclick="setCityFilter('all')">All Pan India (Excl. Mumbai)</button>
       <button class="filter-btn city-btn" onclick="setCityFilter('Bengaluru')">Bengaluru</button>
       <button class="filter-btn city-btn" onclick="setCityFilter('Hyderabad')">Hyderabad</button>
       <button class="filter-btn city-btn" onclick="setCityFilter('Pune')">Pune</button>
-      <button class="filter-btn city-btn" onclick="setCityFilter('Mumbai')">Mumbai</button>
       <button class="filter-btn city-btn" onclick="setCityFilter('Delhi')">Delhi / NCR</button>
       <button class="filter-btn city-btn" onclick="setCityFilter('Remote')">Remote</button>
     </div>
@@ -467,17 +591,48 @@ function generateDashboardHtml(allJobsList, profile) {
   </div>
 </div>
 
-<div class="toast" id="toastMsg">Copied to clipboard!</div>
+<div class="toast" id="toastMsg">Notification</div>
 
 <script>
   const rawJobs = ${jobsJson};
+  let currentView = 'active'; // 'active' or 'applied'
+  let currentTier = 'all';
   let currentCity = 'all';
   let currentSource = 'all';
 
+  function isJobApplied(jobId) {
+    return localStorage.getItem('applied_' + jobId) === 'true';
+  }
+
   function init() {
-    document.getElementById('totalJobsVal').innerText = rawJobs.length;
-    document.getElementById('highScoreVal').innerText = rawJobs.filter(j => j.score >= 70).length;
-    renderJobs(rawJobs);
+    updateCounts();
+    filterJobs();
+  }
+
+  function updateCounts() {
+    const appliedJobs = rawJobs.filter(j => isJobApplied(j.id) || j.isApplied);
+    const activeJobs = rawJobs.filter(j => !isJobApplied(j.id) && !j.isApplied);
+
+    document.getElementById('totalActiveVal').innerText = activeJobs.length;
+    document.getElementById('appliedCountVal').innerText = appliedJobs.length;
+    document.getElementById('activeTabCount').innerText = activeJobs.length;
+    document.getElementById('appliedTabCount').innerText = appliedJobs.length;
+    document.getElementById('highScoreVal').innerText = activeJobs.filter(j => j.score >= 70).length;
+    document.getElementById('tierTargetVal').innerText = activeJobs.filter(j => j.companyTier === 'Tier 1' || j.companyTier === 'Tier 2').length;
+  }
+
+  function switchView(view) {
+    currentView = view;
+    document.getElementById('activeTabBtn').classList.toggle('active', view === 'active');
+    document.getElementById('appliedTabBtn').classList.toggle('active', view === 'applied');
+    filterJobs();
+  }
+
+  function setTierFilter(tier) {
+    currentTier = tier;
+    document.querySelectorAll('.tier-btn').forEach(b => b.classList.remove('active'));
+    event.target.classList.add('active');
+    filterJobs();
   }
 
   function setCityFilter(city) {
@@ -496,20 +651,36 @@ function generateDashboardHtml(allJobsList, profile) {
 
   function filterJobs() {
     const q = document.getElementById('searchInput').value.toLowerCase();
+    
     const filtered = rawJobs.filter(job => {
+      const applied = isJobApplied(job.id) || job.isApplied;
+      
+      // Strict View Filter: If view is 'active', exclude all applied jobs!
+      if (currentView === 'active' && applied) return false;
+      if (currentView === 'applied' && !applied) return false;
+
+      // Tier Filter
+      let matchTier = true;
+      if (currentTier === 'Tier 1') matchTier = (job.companyTier === 'Tier 1');
+      else if (currentTier === 'Tier 1 & 2') matchTier = (job.companyTier === 'Tier 1' || job.companyTier === 'Tier 2');
+      else if (currentTier === 'Tier 3') matchTier = (job.companyTier === 'Tier 3');
+
+      // City Filter (Mumbai already excluded from dataset)
       const matchCity = (currentCity === 'all') ||
         (job.location.toLowerCase().includes(currentCity.toLowerCase())) ||
         (currentCity === 'Delhi' && (job.location.toLowerCase().includes('noida') || job.location.toLowerCase().includes('gurugram') || job.location.toLowerCase().includes('gurgaon')));
       
+      // Source Filter
       const matchSource = (currentSource === 'all') ||
         ((job.source || '').toLowerCase().includes(currentSource.toLowerCase()));
 
+      // Search Query
       const matchSearch = job.title.toLowerCase().includes(q) ||
         job.company.toLowerCase().includes(q) ||
         (job.matchedSkills && job.matchedSkills.some(s => s.toLowerCase().includes(q))) ||
         job.location.toLowerCase().includes(q);
 
-      return matchCity && matchSource && matchSearch;
+      return matchTier && matchCity && matchSource && matchSearch;
     });
 
     renderJobs(filtered);
@@ -518,23 +689,34 @@ function generateDashboardHtml(allJobsList, profile) {
   function renderJobs(jobs) {
     const container = document.getElementById('jobsContainer');
     if (!jobs || jobs.length === 0) {
-      container.innerHTML = '<div style="text-align:center; padding: 40px; color: #94a3b8;">No matching entry-level jobs found for this filter.</div>';
+      if (currentView === 'active') {
+        container.innerHTML = '<div style="text-align:center; padding: 60px 20px; color: #94a3b8; background: #151f32; border-radius: 12px; border: 1px dashed #24344d;"><h3 style="color:#fff; margin-bottom:8px;">No Active Jobs Found</h3><p>All matching jobs have been applied to, or no fresh roles match this specific filter.</p></div>';
+      } else {
+        container.innerHTML = '<div style="text-align:center; padding: 60px 20px; color: #94a3b8; background: #151f32; border-radius: 12px; border: 1px dashed #24344d;"><h3 style="color:#fff; margin-bottom:8px;">No Applied Jobs Yet</h3><p>Jobs marked as "Applied" will be tracked here and hidden from your active search view.</p></div>';
+      }
       return;
     }
 
-    container.innerHTML = jobs.map((job, idx) => {
+    container.innerHTML = jobs.map((job) => {
       const scoreClass = job.score >= 75 ? 'score-high' : (job.score >= 55 ? 'score-med' : 'score-fair');
       const skillsHtml = (job.matchedSkills || []).map(s => '<span class="skill-tag">' + s + '</span>').join('');
-      const applied = localStorage.getItem('applied_' + job.id) === 'true';
+      const applied = isJobApplied(job.id) || job.isApplied;
+      const tier = job.companyTier || 'Tier 3';
+      const tierBadgeClass = tier === 'Tier 1' ? 'tier-1' : (tier === 'Tier 2' ? 'tier-2' : 'tier-3');
+      const tierBadgeLabel = job.tierBadge || (tier === 'Tier 1' ? '⭐ Tier 1 Company' : (tier === 'Tier 2' ? '🏢 Tier 2 Company' : '🚀 Tier 3 Company'));
 
       return \`
         <div class="job-card" id="card_\${job.id}">
           <div class="job-header">
             <div>
               <div class="job-title">\${job.title}</div>
-              <div class="job-company">\${job.company}</div>
-              <div class="job-location">
-                📍 \${job.location} • 📅 \${job.datePosted || 'Recently posted'}
+              <div class="job-company-row">
+                <span class="job-company">\${job.company}</span>
+                <span class="tier-badge \${tierBadgeClass}">\${tierBadgeLabel}</span>
+              </div>
+              <div class="job-meta-row">
+                <span>📍 \${job.location}</span>
+                <span class="job-time-badge">⏱️ \${job.datePosted || 'Posted within 24h'}</span>
                 <span class="source-badge">\${job.source}</span>
               </div>
             </div>
@@ -544,7 +726,7 @@ function generateDashboardHtml(allJobsList, profile) {
             </div>
           </div>
 
-          <div class="match-reason">\${job.reason || 'Entry-level analytics role matching your 1-year internship profile.'}</div>
+          <div class="match-reason">\${job.reason || 'Verified entry-level role matching your 1-year internship profile.'}</div>
 
           <div class="skills-row">
             \${skillsHtml || '<span class="skill-tag">SQL</span><span class="skill-tag">Python</span><span class="skill-tag">Excel</span><span class="skill-tag">Power BI</span>'}
@@ -554,62 +736,74 @@ function generateDashboardHtml(allJobsList, profile) {
             <a href="\${job.link}" target="_blank" rel="noopener" class="btn btn-primary">
               ⚡ Apply Now
             </a>
-            <button class="btn btn-secondary" onclick="copyShortPitch(\${idx})">
-              💬 Copy Recruiter Pitch
+            <button class="btn btn-secondary" onclick="copyShortPitch('\${job.id}')">
+              💬 Recruiter Pitch
             </button>
-            <button class="btn btn-outline" onclick="openCoverModal(\${idx})">
-              📄 View Tailored Cover Letter
+            <button class="btn btn-outline" onclick="openCoverModal('\${job.id}')">
+              📄 Cover Letter
             </button>
-            <button class="btn btn-outline" onclick="openScreeningModal(\${idx})">
+            <button class="btn btn-outline" onclick="openScreeningModal('\${job.id}')">
               💡 Screening Q&A
             </button>
-            <button class="btn btn-outline" style="\${applied ? 'background: #065f46; color: #34d399; border-color: #059669;' : ''}" onclick="toggleApplied('\${job.id}', this)">
-              \${applied ? '✅ Applied' : 'Mark Applied'}
-            </button>
+            \${currentView === 'active' ? \`
+              <button class="btn btn-outline" onclick="markAsApplied('\${job.id}')">
+                ✅ Mark Applied
+              </button>
+            \` : \`
+              <button class="btn btn-applied" onclick="unmarkApplied('\${job.id}')">
+                ↩️ Move Back to Active
+              </button>
+            \`}
           </div>
         </div>
       \`;
     }).join('');
   }
 
-  function toggleApplied(jobId, btn) {
-    const isApplied = localStorage.getItem('applied_' + jobId) === 'true';
-    if (isApplied) {
-      localStorage.removeItem('applied_' + jobId);
-      btn.innerText = 'Mark Applied';
-      btn.style.background = 'transparent';
-      btn.style.color = '#cbd5e1';
-      btn.style.borderColor = 'var(--border)';
+  function markAsApplied(jobId) {
+    localStorage.setItem('applied_' + jobId, 'true');
+    const card = document.getElementById('card_' + jobId);
+    if (card) {
+      card.style.opacity = '0';
+      card.style.transform = 'scale(0.96)';
+      setTimeout(() => {
+        updateCounts();
+        filterJobs();
+      }, 250);
     } else {
-      localStorage.setItem('applied_' + jobId, 'true');
-      btn.innerText = '✅ Applied';
-      btn.style.background = '#065f46';
-      btn.style.color = '#34d399';
-      btn.style.borderColor = '#059669';
-      showToast('Marked as applied! Good luck!');
+      updateCounts();
+      filterJobs();
     }
+    showToast('✅ Job marked as applied and hidden from active view!');
   }
 
-  function copyShortPitch(idx) {
-    const job = rawJobs[idx];
+  function unmarkApplied(jobId) {
+    localStorage.removeItem('applied_' + jobId);
+    updateCounts();
+    filterJobs();
+    showToast('↩️ Job moved back to active opportunities.');
+  }
+
+  function copyShortPitch(jobId) {
+    const job = rawJobs.find(j => j.id === jobId);
     if (job && job.coverLetterData) {
       navigator.clipboard.writeText(job.coverLetterData.shortPitch);
       showToast('Copied Recruiter Pitch to clipboard!');
     }
   }
 
-  function openCoverModal(idx) {
-    const job = rawJobs[idx];
+  function openCoverModal(jobId) {
+    const job = rawJobs.find(j => j.id === jobId);
     if (!job || !job.coverLetterData) return;
-    document.getElementById('modalTitle').innerText = 'Cover Letter for ' + job.company + ' - ' + job.title;
+    document.getElementById('modalTitle').innerText = 'Cover Letter: ' + job.company + ' (' + job.title + ')';
     document.getElementById('modalText').innerText = job.coverLetterData.coverLetter;
     document.getElementById('coverModal').style.display = 'flex';
   }
 
-  function openScreeningModal(idx) {
-    const job = rawJobs[idx];
+  function openScreeningModal(jobId) {
+    const job = rawJobs.find(j => j.id === jobId);
     if (!job || !job.coverLetterData) return;
-    document.getElementById('modalTitle').innerText = 'Instant Screening Answers (' + job.company + ')';
+    document.getElementById('modalTitle').innerText = 'Screening Answers: ' + job.company;
     const answers = job.coverLetterData.screeningAnswers;
     let txt = '';
     for (const [q, a] of Object.entries(answers)) {
@@ -634,7 +828,7 @@ function generateDashboardHtml(allJobsList, profile) {
     const toast = document.getElementById('toastMsg');
     toast.innerText = msg;
     toast.style.display = 'block';
-    setTimeout(() => { toast.style.display = 'none'; }, 2500);
+    setTimeout(() => { toast.style.display = 'none'; }, 2600);
   }
 
   window.onload = init;
