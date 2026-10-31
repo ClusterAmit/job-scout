@@ -67,7 +67,7 @@ async function scrapeLinkedInJobs(keyword, location = 'India', isStartup = false
       const title = card.find('.base-search-card__title').text().trim();
       const company = card.find('.base-search-card__subtitle a').text().trim() ||
                       card.find('.base-search-card__subtitle').text().trim();
-      const jobLocation = card.find('.job-search-card__location').text().trim();
+      const jobLocation = card.find('.job-search-card__location').text().trim() || location;
       const fullLink = card.find('.base-card__full-link').attr('href');
       const dateText = card.find('time').text().trim() || 'Posted in last 24h';
 
@@ -89,17 +89,17 @@ async function scrapeLinkedInJobs(keyword, location = 'India', isStartup = false
         id,
         title,
         company: company || 'Company',
-        location: jobLocation || 'Pan-India',
+        location: jobLocation || location || 'Pan-India',
         link: cleanLink,
         datePosted: dateText,
         isPast24Hours: true,
         isStartup: Boolean(isStartup),
-        source: isStartup ? 'LinkedIn (Tech Startup)' : 'LinkedIn (Pan-India Entry Level)',
+        source: isStartup ? 'LinkedIn (Tech Startup)' : `LinkedIn (${location})`,
         description: `${title} at ${company} in ${jobLocation}. Full-time entry-level opportunity posted within 24 hours in India.`
       });
     });
   } catch (err) {
-    console.warn(`[LinkedIn Scraper] Error scraping '${keyword}':`, err.message);
+    console.warn(`[LinkedIn Scraper] Error scraping '${keyword}' in ${location}:`, err.message);
   }
   return jobs;
 }
@@ -192,6 +192,7 @@ async function fetchYCombinatorJobs() {
             link,
             datePosted: 'Posted within 24 hours',
             isPast24Hours: true,
+            isStartup: true,
             source: 'Y Combinator (YC Startup)',
             description: `${title}. Backed by Y Combinator. Direct application via YC Work at a Startup.`
           });
@@ -328,11 +329,38 @@ async function fetchAllPanIndiaJobs() {
     { q: 'operations analyst startup', isStartup: true },
     { q: 'analytics startup India', isStartup: true }
   ];
+
   for (const item of searchQueries) {
     console.log(`[JobScraper] Searching LinkedIn (24h Window): "${item.q}" in India...`);
     const results = await scrapeLinkedInJobs(item.q, 'India', item.isStartup);
     addJobs(results);
     await new Promise(r => setTimeout(r, 350));
+  }
+
+  // 1b. Specific High-Priority Target City Scrapes
+  // Lucknow, Kolkata, Indore, Bhopal, Dhanbad, Coimbatore, Kochi, Hyderabad, Chennai
+  const priorityCities = [
+    'Lucknow',
+    'Kolkata',
+    'Indore',
+    'Bhopal',
+    'Dhanbad',
+    'Coimbatore',
+    'Kochi',
+    'Hyderabad',
+    'Chennai'
+  ];
+
+  for (const city of priorityCities) {
+    console.log(`[JobScraper] Priority City Scout (24h): Data Analyst in ${city}...`);
+    const cityJobsDA = await scrapeLinkedInJobs('data analyst', city, false);
+    addJobs(cityJobsDA);
+    await new Promise(r => setTimeout(r, 250));
+
+    console.log(`[JobScraper] Priority City Scout (24h): Business Analyst in ${city}...`);
+    const cityJobsBA = await scrapeLinkedInJobs('business analyst', city, false);
+    addJobs(cityJobsBA);
+    await new Promise(r => setTimeout(r, 250));
   }
 
   // 2. Internshala (Full-Time Fresher Jobs Only - No Internships)

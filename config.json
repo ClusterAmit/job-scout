@@ -36,19 +36,45 @@
     "locations": [
       "Pan India",
       "India",
+      "Lucknow",
+      "Kolkata",
+      "Indore",
+      "Bhopal",
+      "Dhanbad",
+      "Coimbatore",
+      "Kochi",
+      "Cochin",
+      "Hyderabad",
+      "Secunderabad",
+      "Gachibowli",
+      "Madhapur",
+      "Hitec City",
+      "Chennai",
+      "Guindy",
+      "Taramani",
+      "Sholinganallur",
+      "OMR",
       "Bengaluru",
       "Bangalore",
-      "Hyderabad",
       "Pune",
       "Delhi NCR",
       "Gurugram",
       "Gurgaon",
       "Noida",
-      "Chennai",
-      "Kolkata",
       "Remote (India)"
     ],
-    "workArrangement": "Pan India (On-site / Hybrid / Remote within India - Excluding Mumbai)"
+    "priorityFocusCities": [
+      "Lucknow",
+      "Kolkata",
+      "Indore",
+      "Bhopal",
+      "Dhanbad",
+      "Coimbatore",
+      "Kochi",
+      "Hyderabad",
+      "Chennai"
+    ],
+    "workArrangement": "Pan India & Target Hubs (Lucknow, Kolkata, Indore, Bhopal, Dhanbad, Coimbatore, Kochi, Hyderabad, Chennai, BLR, Pune, NCR, Remote - Excluded Mumbai)"
   },
   "filters": {
     "strictEntryLevelOnly": true,
@@ -106,7 +132,7 @@
   },
   "settings": {
     "minMatchScore": 40,
-    "maxDailyJobs": 30,
+    "maxDailyJobs": 40,
     "saveCoverLetters": true,
     "outputDir": "./output"
   }

@@ -120,14 +120,20 @@ function evaluateJobMatch(job, profile) {
     }
   }
 
-  // 10. Tier Bonus (Tier 1: +20, Tier 2: +10, Tier 3: +5)
+  // 10. Tier Bonus (Tier 1: +20, Startup: +15, Tier 2: +10, Tier 3: +5)
   score += (tierInfo.scoreBonus || 0);
 
-  // Cap score at 100
-  score = Math.min(score, 100);
+  // Location check for remaining Pan-India hubs & Special Focus Cities
+  // Special Focus: Lucknow, Kolkata, Indore, Bhopal, Dhanbad, Coimbatore, Kochi, Hyderabad, Chennai
+  const priorityCityList = [
+    'lucknow', 'kolkata', 'indore', 'bhopal', 'dhanbad', 'coimbatore', 'kochi', 'cochin',
+    'hyderabad', 'secunderabad', 'gachibowli', 'madhapur', 'hitec', 'kondapur',
+    'chennai', 'guindy', 'taramani', 'omr', 'sholinganallur', 'siruseri',
+    'bengaluru', 'bangalore', 'pune', 'delhi', 'ncr', 'gurugram', 'noida'
+  ];
 
-  // Location check for remaining Pan-India hubs
   const isIndiaLoc = config.profile.locations.some(l => loc.includes(l.toLowerCase())) ||
+                     priorityCityList.some(pc => loc.includes(pc)) ||
                      loc.includes('india') ||
                      loc.includes('remote');
 
@@ -135,18 +141,27 @@ function evaluateJobMatch(job, profile) {
     score = Math.max(0, score - 30);
   }
 
+  // Focus City Bonus (+5 bonus for target cities requested by candidate)
+  const isSpecialFocusCity = ['lucknow', 'kolkata', 'indore', 'bhopal', 'dhanbad', 'coimbatore', 'kochi', 'cochin', 'hyderabad', 'chennai'].some(c => loc.includes(c));
+  if (isSpecialFocusCity) {
+    score += 5;
+  }
+
+  // Cap score at 100
+  score = Math.min(score, 100);
+
   const isMatched = score >= (config.settings.minMatchScore || 40);
 
   // Generate tailored highlight reason
   let reason = '';
   if (tierInfo.tier === 'Startup') {
-    reason = `[Startup] High-growth tech startup opportunity at ${job.company}. Matches your hands-on 1-year internship in ${matchedSkills.slice(0, 3).join(', ') || 'Analytics'}.`;
+    reason = `[Startup] High-growth tech startup opportunity at ${job.company} (${job.location}). Matches your 1-year internship in ${matchedSkills.slice(0, 3).join(', ') || 'Analytics'}.`;
   } else if (tierInfo.tier === 'Tier 1' || tierInfo.tier === 'Tier 2') {
-    reason = `[${tierInfo.tier}] Verified opportunity at ${job.company}. Matches your 1-year internship in ${matchedSkills.slice(0, 3).join(', ') || 'Analytics'}.`;
+    reason = `[${tierInfo.tier}] Verified opportunity at ${job.company} (${job.location}). Matches your 1-year internship in ${matchedSkills.slice(0, 3).join(', ') || 'Analytics'}.`;
   } else if (hasEntryMarker) {
-    reason = `[${tierInfo.tier}] Targeted entry-level role matching your 1-year internship profile. Matched skills: ${matchedSkills.slice(0, 4).join(', ') || 'Analytics basics'}.`;
+    reason = `[${tierInfo.tier}] Targeted entry-level role in ${job.location} matching your 1-year internship profile. Matched skills: ${matchedSkills.slice(0, 4).join(', ') || 'Analytics basics'}.`;
   } else {
-    reason = `[${tierInfo.tier}] Matches data & business analytics stack (${matchedSkills.slice(0, 4).join(', ')}). Full-time role suitable for 0-1 year experience.`;
+    reason = `[${tierInfo.tier}] Matches data & business analytics stack (${matchedSkills.slice(0, 4).join(', ')}). Full-time role in ${job.location} suitable for 0-1 year experience.`;
   }
 
   return {

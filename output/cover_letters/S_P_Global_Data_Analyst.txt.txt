@@ -1,8 +1,8 @@
 JOB: Data Analyst at S&P Global (Hyderabad, Telangana, India)
 TIER: Tier 1
 LINK: https://in.linkedin.com/jobs/view/data-analyst-at-s-p-global-4485119379
-MATCH SCORE: 70%
-SOURCE: LinkedIn (Pan-India Entry Level)
+MATCH SCORE: 75%
+SOURCE: LinkedIn (India)
 POSTED: 16 hours ago
 
 --- COVER LETTER ---

@@ -482,12 +482,12 @@ function generateDashboardHtml(allJobsList, profile) {
       <span class="badge-pill badge-date">⏱️ Posted in Last 24 Hours Only</span>
       <span class="badge-pill badge-fresher">🎯 Full-Time Entry Level (0-1 Yrs)</span>
       <span class="badge-pill badge-nointern">🚫 No Internships • No Data Science</span>
-      <span class="badge-pill badge-location">📍 Pan-India (Excl. Mumbai)</span>
+      <span class="badge-pill badge-location">📍 Lucknow, Kolkata, Indore, Bhopal, Dhanbad, Coimbatore, Kochi, HYD, CHN, BLR, Pune, NCR</span>
       <span class="badge-pill badge-user">👤 Amit Kumar Saini (Ai Variant)</span>
       <span class="badge-pill badge-user" style="background: rgba(168, 85, 247, 0.15); color: #c084fc; border-color: rgba(168, 85, 247, 0.3);">🚀 Startups & Tier 1-3 Included</span>
     </div>
     <h1>Pan-India Entry Level Data & BI Job Scout</h1>
-    <p class="subtitle">Daily automated radar tracking full-time entry-level Data Analyst and Business Analyst openings across Startups, Tier 1, 2, and 3 employers. Filtered strictly for fresh postings within 24 hours. <span style="color: #38bdf8; font-weight: 600;">Last Scouted: ${lastUpdatedStr}</span></p>
+    <p class="subtitle">Daily automated radar tracking full-time entry-level Data Analyst and Business Analyst openings across Startups, Tier 1, 2, and 3 employers. Specially tracking Lucknow, Kolkata, Indore, Bhopal, Dhanbad, Coimbatore, Kochi, Hyderabad, Chennai, and national hubs. Filtered strictly for fresh postings within 24 hours. <span style="color: #38bdf8; font-weight: 600;">Last Scouted: ${lastUpdatedStr}</span></p>
     
     <div class="stats-grid">
       <div class="stat-card">
@@ -553,7 +553,7 @@ function generateDashboardHtml(allJobsList, profile) {
 
   <div class="controls-bar">
     <div class="search-row">
-      <input type="text" id="searchInput" class="search-input" placeholder="Search by company name, role title, or skills (e.g., SQL, Power BI, Tableau, Python)..." oninput="filterJobs()">
+      <input type="text" id="searchInput" class="search-input" placeholder="Search by company name, role title, skills, or city..." oninput="filterJobs()">
     </div>
     
     <div class="filters-row">
@@ -568,8 +568,15 @@ function generateDashboardHtml(allJobsList, profile) {
     <div class="filters-row">
       <span class="filter-label">City:</span>
       <button class="filter-btn active city-btn" onclick="setCityFilter('all')">All Pan India (Excl. Mumbai)</button>
+      <button class="filter-btn city-btn" onclick="setCityFilter('Hyderabad')">Hyderabad Hubs</button>
+      <button class="filter-btn city-btn" onclick="setCityFilter('Chennai')">Chennai Hubs</button>
       <button class="filter-btn city-btn" onclick="setCityFilter('Bengaluru')">Bengaluru</button>
-      <button class="filter-btn city-btn" onclick="setCityFilter('Hyderabad')">Hyderabad</button>
+      <button class="filter-btn city-btn" onclick="setCityFilter('Kolkata')">Kolkata</button>
+      <button class="filter-btn city-btn" onclick="setCityFilter('Lucknow')">Lucknow</button>
+      <button class="filter-btn city-btn" onclick="setCityFilter('Indore')">Indore / Bhopal</button>
+      <button class="filter-btn city-btn" onclick="setCityFilter('Kochi')">Kochi / Kerala</button>
+      <button class="filter-btn city-btn" onclick="setCityFilter('Coimbatore')">Coimbatore</button>
+      <button class="filter-btn city-btn" onclick="setCityFilter('Dhanbad')">Dhanbad</button>
       <button class="filter-btn city-btn" onclick="setCityFilter('Pune')">Pune</button>
       <button class="filter-btn city-btn" onclick="setCityFilter('Delhi')">Delhi / NCR</button>
       <button class="filter-btn city-btn" onclick="setCityFilter('Remote')">Remote</button>
@@ -682,9 +689,33 @@ function generateDashboardHtml(allJobsList, profile) {
       else if (currentTier === 'Tier 3') matchTier = (job.companyTier === 'Tier 3');
 
       // City Filter (Mumbai already excluded from dataset)
-      const matchCity = (currentCity === 'all') ||
-        (job.location.toLowerCase().includes(currentCity.toLowerCase())) ||
-        (currentCity === 'Delhi' && (job.location.toLowerCase().includes('noida') || job.location.toLowerCase().includes('gurugram') || job.location.toLowerCase().includes('gurgaon')));
+      let matchCity = (currentCity === 'all');
+      const loc = (job.location || '').toLowerCase();
+      if (currentCity === 'Hyderabad') {
+        matchCity = loc.includes('hyderabad') || loc.includes('secunderabad') || loc.includes('gachibowli') || loc.includes('madhapur') || loc.includes('hitec') || loc.includes('kondapur') || loc.includes('telangana');
+      } else if (currentCity === 'Chennai') {
+        matchCity = loc.includes('chennai') || loc.includes('guindy') || loc.includes('taramani') || loc.includes('omr') || loc.includes('sholinganallur') || loc.includes('siruseri') || loc.includes('tamil nadu');
+      } else if (currentCity === 'Kolkata') {
+        matchCity = loc.includes('kolkata') || loc.includes('calcutta') || loc.includes('west bengal');
+      } else if (currentCity === 'Lucknow') {
+        matchCity = loc.includes('lucknow') || loc.includes('uttar pradesh');
+      } else if (currentCity === 'Indore') {
+        matchCity = loc.includes('indore') || loc.includes('bhopal') || loc.includes('madhya pradesh');
+      } else if (currentCity === 'Kochi') {
+        matchCity = loc.includes('kochi') || loc.includes('cochin') || loc.includes('kerala');
+      } else if (currentCity === 'Coimbatore') {
+        matchCity = loc.includes('coimbatore') || loc.includes('tamil nadu');
+      } else if (currentCity === 'Dhanbad') {
+        matchCity = loc.includes('dhanbad') || loc.includes('jharkhand');
+      } else if (currentCity === 'Delhi') {
+        matchCity = loc.includes('delhi') || loc.includes('noida') || loc.includes('gurugram') || loc.includes('gurgaon') || loc.includes('ncr') || loc.includes('haryana');
+      } else if (currentCity === 'Bengaluru') {
+        matchCity = loc.includes('bengaluru') || loc.includes('bangalore') || loc.includes('karnataka');
+      } else if (currentCity === 'Pune') {
+        matchCity = loc.includes('pune');
+      } else if (currentCity === 'Remote') {
+        matchCity = loc.includes('remote');
+      }
       
       // Source Filter
       const matchSource = (currentSource === 'all') ||
@@ -706,7 +737,7 @@ function generateDashboardHtml(allJobsList, profile) {
     const container = document.getElementById('jobsContainer');
     if (!jobs || jobs.length === 0) {
       if (currentView === 'active') {
-        container.innerHTML = '<div style="text-align:center; padding: 60px 20px; color: #94a3b8; background: #151f32; border-radius: 12px; border: 1px dashed #24344d;"><h3 style="color:#fff; margin-bottom:8px;">No Active Jobs Found</h3><p>All matching jobs have been applied to, or no fresh roles match this specific filter.</p></div>';
+        container.innerHTML = '<div style="text-align:center; padding: 60px 20px; color: #94a3b8; background: #151f32; border-radius: 12px; border: 1px dashed #24344d;"><h3 style="color:#fff; margin-bottom:8px;">No Active Jobs Found</h3><p>All matching jobs have been applied to, or no fresh roles match this specific city/category filter.</p></div>';
       } else {
         container.innerHTML = '<div style="text-align:center; padding: 60px 20px; color: #94a3b8; background: #151f32; border-radius: 12px; border: 1px dashed #24344d;"><h3 style="color:#fff; margin-bottom:8px;">No Applied Jobs Yet</h3><p>Jobs marked as "Applied" will be tracked here and hidden from your active search view.</p></div>';
       }

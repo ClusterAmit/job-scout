@@ -1,9 +1,9 @@
 JOB: Power BI Consultant at Infosys (Hyderabad, Telangana, India)
 TIER: Tier 2
 LINK: https://in.linkedin.com/jobs/view/power-bi-consultant-at-infosys-4476299416
-MATCH SCORE: 40%
-SOURCE: LinkedIn (Pan-India Entry Level)
-POSTED: 55 minutes ago
+MATCH SCORE: 45%
+SOURCE: LinkedIn (India)
+POSTED: 1 hour ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Infosys,
