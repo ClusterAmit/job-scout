@@ -1,7 +1,7 @@
 JOB: Financial Data Analyst at Flexiple (India)
 TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/financial-data-analyst-at-flexiple-4485916144
-MATCH SCORE: 65%
+MATCH SCORE: 75%
 SOURCE: LinkedIn (Tech Startup)
 POSTED: 32 minutes ago
 

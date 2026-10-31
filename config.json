@@ -2,6 +2,7 @@
   "profile": {
     "experience": "1 year of internship experience",
     "experienceLevel": "Entry Level / Junior / Associate (0-1 Years)",
+    "startupExperienceRequirement": "Entry Level or 1 Year Experience (0-1 Years)",
     "targetRoles": [
       "Data Analyst",
       "Junior Data Analyst",
@@ -79,6 +80,8 @@
   "filters": {
     "strictEntryLevelOnly": true,
     "maxYearsExperience": 1,
+    "startupMaxYearsExperience": 1,
+    "strictStartupEntryLevelOnly": true,
     "postTimeframeHours": 24,
     "excludeInternships": true,
     "excludeDataScientist": true,

@@ -484,7 +484,7 @@ function generateDashboardHtml(allJobsList, profile) {
       <span class="badge-pill badge-nointern">🚫 No Internships • No Data Science</span>
       <span class="badge-pill badge-location">📍 Lucknow, Kolkata, Indore, Bhopal, Dhanbad, Coimbatore, Kochi, HYD, CHN, BLR, Pune, NCR</span>
       <span class="badge-pill badge-user">👤 Amit Kumar Saini (Ai Variant)</span>
-      <span class="badge-pill badge-user" style="background: rgba(168, 85, 247, 0.15); color: #c084fc; border-color: rgba(168, 85, 247, 0.3);">🚀 Startups & Tier 1-3 Included</span>
+      <span class="badge-pill badge-user" style="background: rgba(168, 85, 247, 0.15); color: #c084fc; border-color: rgba(168, 85, 247, 0.3);">🚀 Startups (0-1 Yr / Entry-Level) & Tier 1-3</span>
     </div>
     <h1>Pan-India Entry Level Data & BI Job Scout</h1>
     <p class="subtitle">Daily automated radar tracking full-time entry-level Data Analyst and Business Analyst openings across Startups, Tier 1, 2, and 3 employers. Specially tracking Lucknow, Kolkata, Indore, Bhopal, Dhanbad, Coimbatore, Kochi, Hyderabad, Chennai, and national hubs. Filtered strictly for fresh postings within 24 hours. <span style="color: #38bdf8; font-weight: 600;">Last Scouted: ${lastUpdatedStr}</span></p>
@@ -751,7 +751,7 @@ function generateDashboardHtml(allJobsList, profile) {
       const tier = job.companyTier || 'Tier 3';
       const isSt = (tier === 'Startup' || job.isStartup);
       const tierBadgeClass = isSt ? 'tier-startup' : (tier === 'Tier 1' ? 'tier-1' : (tier === 'Tier 2' ? 'tier-2' : 'tier-3'));
-      const tierBadgeLabel = isSt ? '🚀 Tech Startup' : (job.tierBadge || (tier === 'Tier 1' ? '⭐ Tier 1 Company' : (tier === 'Tier 2' ? '🏢 Tier 2 Company' : '🏢 Tier 3 Company')));
+      const tierBadgeLabel = isSt ? (job.isStartupEntryVerified ? '🚀 Startup (0-1 Yr)' : '🚀 Tech Startup') : (job.tierBadge || (tier === 'Tier 1' ? '⭐ Tier 1 Company' : (tier === 'Tier 2' ? '🏢 Tier 2 Company' : '🏢 Tier 3 Company')));
 
       return \`
         <div class="job-card" id="card_\${job.id}">

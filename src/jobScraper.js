@@ -323,7 +323,14 @@ async function fetchAllPanIndiaJobs() {
     { q: 'junior business analyst', isStartup: false },
     { q: 'associate business analyst', isStartup: false },
     { q: 'business intelligence analyst fresher', isStartup: false },
-    // Dedicated Startup searches
+    // Dedicated Startup searches (Targeting Entry-Level & 1 Year Experience)
+    { q: 'junior data analyst startup', isStartup: true },
+    { q: 'entry level data analyst startup', isStartup: true },
+    { q: 'data analyst 1 year startup', isStartup: true },
+    { q: 'associate data analyst startup', isStartup: true },
+    { q: 'junior business analyst startup', isStartup: true },
+    { q: 'associate business analyst startup', isStartup: true },
+    { q: 'business analyst 1 year startup', isStartup: true },
     { q: 'data analyst startup', isStartup: true },
     { q: 'business analyst startup', isStartup: true },
     { q: 'operations analyst startup', isStartup: true },

@@ -42,6 +42,7 @@ async function main() {
         matchedSkills: match.matchedSkills,
         reason: match.reason,
         isEntryLevelVerified: match.isEntryLevelVerified,
+        isStartupEntryVerified: match.isStartupEntryVerified,
         coverLetterData
       });
     }
