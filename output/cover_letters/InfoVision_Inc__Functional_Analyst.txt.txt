@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/functional-analyst-at-infovision-inc-4354393529
 MATCH SCORE: 40%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 3 hours ago
+POSTED: 4 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at InfoVision Inc.,

@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/business-analyst-at-pricesenz-4484860423
 MATCH SCORE: 65%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 22 hours ago
+POSTED: 23 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at PriceSenz,

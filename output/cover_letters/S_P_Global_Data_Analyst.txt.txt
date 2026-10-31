@@ -3,7 +3,7 @@ TIER: Tier 1
 LINK: https://in.linkedin.com/jobs/view/data-analyst-at-s-p-global-4485119379
 MATCH SCORE: 70%
 SOURCE: LinkedIn (Pan-India Entry Level)
-POSTED: 15 hours ago
+POSTED: 16 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at S&P Global,

@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/data-analyst-cloud-development-engineering-husky-india-guindy-chennai-at-husky-technologies-4485167051
 MATCH SCORE: 65%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 2 hours ago
+POSTED: 3 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Husky Technologies,

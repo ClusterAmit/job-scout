@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/operations-analyst-at-flexiple-4485901232
 MATCH SCORE: 40%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 1 hour ago
+POSTED: 2 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Flexiple,
