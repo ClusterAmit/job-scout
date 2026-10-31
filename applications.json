@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-31T14:02:19.588Z",
+  "lastUpdated": "2026-10-31T14:03:39.983Z",
   "totalTracked": 119,
   "appliedCount": 0,
   "jobs": {
@@ -3268,7 +3268,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-10-31",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-10-31"
     },
     "li_4484860423": {
       "id": "li_4484860423",
@@ -3301,7 +3302,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-10-31",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-10-31"
     },
     "li_4484860553": {
       "id": "li_4484860553",
@@ -3334,7 +3336,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-10-31",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-10-31"
     },
     "li_4445997335": {
       "id": "li_4445997335",
@@ -3367,7 +3370,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-10-31",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-10-31"
     },
     "li_4485142701": {
       "id": "li_4485142701",
@@ -3400,7 +3404,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-10-31",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-10-31"
     },
     "li_4485901232": {
       "id": "li_4485901232",
@@ -3433,7 +3438,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-10-31",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-10-31"
     },
     "li_4354393529": {
       "id": "li_4354393529",
@@ -3466,7 +3472,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-10-31",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-10-31"
     },
     "li_4459342546": {
       "id": "li_4459342546",
@@ -3499,7 +3506,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-10-31",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-10-31"
     },
     "li_4483259270": {
       "id": "li_4483259270",
@@ -3532,7 +3540,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-10-31",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-10-31"
     },
     "li_4459897110": {
       "id": "li_4459897110",
@@ -3565,7 +3574,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-10-31",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-10-31"
     },
     "li_4485378232": {
       "id": "li_4485378232",
@@ -3598,7 +3608,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-10-31",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-10-31"
     }
   }
 }
