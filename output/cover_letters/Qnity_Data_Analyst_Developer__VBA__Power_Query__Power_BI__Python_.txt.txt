@@ -1,9 +1,9 @@
 JOB: Data Analyst/Developer (VBA, Power Query, Power BI, Python) at Qnity (Hyderabad, Telangana, India)
-TIER: Tier 3
+TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/data-analyst-developer-vba-power-query-power-bi-python-at-qnity-4485678722
-MATCH SCORE: 70%
-SOURCE: LinkedIn (Hyderabad)
-POSTED: 8 hours ago
+MATCH SCORE: 90%
+SOURCE: LinkedIn (Tech Startup)
+POSTED: 13 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Qnity,

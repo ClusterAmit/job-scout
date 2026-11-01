@@ -3,7 +3,7 @@ TIER: Tier 3
 LINK: https://in.linkedin.com/jobs/view/credit-risk-business-analyst-at-alp-computational-finance-ai-and-data-engineering-4483932877
 MATCH SCORE: 55%
 SOURCE: LinkedIn (India)
-POSTED: 8 hours ago
+POSTED: 13 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at ALP (Computational Finance, AI and Data Engineering),

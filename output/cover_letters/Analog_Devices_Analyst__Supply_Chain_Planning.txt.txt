@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/analyst-supply-chain-planning-at-analog-devices-4448038511
 MATCH SCORE: 50%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 1 hour ago
+POSTED: 5 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Analog Devices,
