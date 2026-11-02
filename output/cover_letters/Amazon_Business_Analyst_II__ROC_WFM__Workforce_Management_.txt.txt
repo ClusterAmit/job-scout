@@ -1,9 +1,9 @@
 JOB: Business Analyst II, ROC WFM (Workforce Management) at Amazon (Hyderabad, Telangana, India)
 TIER: Tier 1
 LINK: https://in.linkedin.com/jobs/view/business-analyst-ii-roc-wfm-workforce-management-at-amazon-4469213168
-MATCH SCORE: 75%
-SOURCE: LinkedIn (Hyderabad)
-POSTED: 4 hours ago
+MATCH SCORE: 85%
+SOURCE: LinkedIn (Tech Startup)
+POSTED: 9 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Amazon,

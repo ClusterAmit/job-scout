@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/data-analyst-%E2%80%93-ai-business-automation-at-indian-snack-house-4485412001
 MATCH SCORE: 80%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 9 hours ago
+POSTED: 14 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Indian Snack House,
