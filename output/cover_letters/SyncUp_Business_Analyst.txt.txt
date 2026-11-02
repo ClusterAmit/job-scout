@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/business-analyst-at-syncup-4485469098
 MATCH SCORE: 75%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 4 hours ago
+POSTED: 15 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at SyncUp,

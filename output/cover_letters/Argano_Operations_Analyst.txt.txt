@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/operations-analyst-at-argano-4484340959
 MATCH SCORE: 55%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 6 minutes ago
+POSTED: 11 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Argano,

@@ -1,9 +1,9 @@
 JOB: Associate - Custom Analytics at Intuitive (Bengaluru, Karnataka, India)
-TIER: Tier 3
+TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/associate-custom-analytics-at-intuitive-4461053650
-MATCH SCORE: 45%
-SOURCE: LinkedIn (India)
-POSTED: 2 hours ago
+MATCH SCORE: 65%
+SOURCE: LinkedIn (Tech Startup)
+POSTED: 13 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Intuitive,
