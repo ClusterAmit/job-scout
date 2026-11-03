@@ -1,7 +1,9 @@
 JOB: Analytics Associate (Analyst) at Blue Matter (Pune City, Maharashtra, India)
-LINK: https://in.linkedin.com/jobs/view/analytics-associate-analyst-at-blue-matter-4484479867
-MATCH SCORE: 40%
-SOURCE: LinkedIn (Pan-India Entry Level)
+TIER: Tier 3
+LINK: https://in.linkedin.com/jobs/view/analytics-associate-analyst-at-blue-matter-4486884978
+MATCH SCORE: 45%
+SOURCE: LinkedIn (India)
+POSTED: 4 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Blue Matter,

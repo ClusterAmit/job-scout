@@ -3,7 +3,7 @@ TIER: Tier 2
 LINK: https://in.linkedin.com/jobs/view/data-analyst-l3-at-wipro-4486475863
 MATCH SCORE: 65%
 SOURCE: LinkedIn (Hyderabad)
-POSTED: 10 hours ago
+POSTED: 20 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Wipro,

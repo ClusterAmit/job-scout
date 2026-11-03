@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/data-analyst-at-kite-4486480906
 MATCH SCORE: 75%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 10 hours ago
+POSTED: 20 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Kite,

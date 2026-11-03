@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/business-operations-analyst-ii-at-jobgether-4486041299
 MATCH SCORE: 50%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 17 minutes ago
+POSTED: 10 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Jobgether,

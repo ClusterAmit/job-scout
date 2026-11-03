@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/data-analyst-at-adroit-india-4484651821
 MATCH SCORE: 80%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 39 minutes ago
+POSTED: 10 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Adroit India,
