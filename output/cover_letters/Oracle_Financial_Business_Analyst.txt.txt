@@ -3,7 +3,7 @@ TIER: Tier 1
 LINK: https://in.linkedin.com/jobs/view/financial-business-analyst-at-oracle-4484663730
 MATCH SCORE: 70%
 SOURCE: LinkedIn (India)
-POSTED: 13 hours ago
+POSTED: 23 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Oracle,

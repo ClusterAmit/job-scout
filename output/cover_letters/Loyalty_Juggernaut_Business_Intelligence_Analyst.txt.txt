@@ -3,7 +3,7 @@ TIER: Tier 3
 LINK: https://in.linkedin.com/jobs/view/business-intelligence-analyst-at-loyalty-juggernaut-4486069176
 MATCH SCORE: 60%
 SOURCE: LinkedIn (India)
-POSTED: 9 hours ago
+POSTED: 19 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Loyalty Juggernaut,
