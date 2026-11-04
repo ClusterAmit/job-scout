@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/business-analyst-i-at-navi-4486362187
 MATCH SCORE: 75%
 SOURCE: LinkedIn (India)
-POSTED: 2 hours ago
+POSTED: 12 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Navi,

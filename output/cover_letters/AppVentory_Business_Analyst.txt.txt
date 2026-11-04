@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/business-analyst-at-appventory-4485054676
 MATCH SCORE: 75%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 5 hours ago
+POSTED: 15 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at AppVentory,
