@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/business-analyst-at-travclan-4486055023
 MATCH SCORE: 75%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 3 hours ago
+POSTED: 8 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at TravClan,

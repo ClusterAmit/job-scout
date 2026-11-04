@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-03T21:12:59.442Z",
-  "totalTracked": 267,
+  "lastUpdated": "2026-11-04T01:34:54.170Z",
+  "totalTracked": 269,
   "appliedCount": 0,
   "jobs": {
     "li_4483233380": {
@@ -249,7 +249,7 @@
       "status": "New",
       "dateDiscovered": "2026-10-29",
       "notes": "",
-      "lastSeen": "2026-11-03"
+      "lastSeen": "2026-11-04"
     },
     "li_4366454534": {
       "id": "li_4366454534",
@@ -3717,7 +3717,7 @@
       "status": "New",
       "dateDiscovered": "2026-10-31",
       "notes": "",
-      "lastSeen": "2026-11-03"
+      "lastSeen": "2026-11-04"
     },
     "li_4485916144": {
       "id": "li_4485916144",
@@ -7145,7 +7145,7 @@
       "status": "New",
       "dateDiscovered": "2026-11-03",
       "notes": "",
-      "lastSeen": "2026-11-03"
+      "lastSeen": "2026-11-04"
     },
     "li_4486017807": {
       "id": "li_4486017807",
@@ -7286,7 +7286,7 @@
       "status": "New",
       "dateDiscovered": "2026-11-03",
       "notes": "",
-      "lastSeen": "2026-11-03"
+      "lastSeen": "2026-11-04"
     },
     "li_4484636578": {
       "id": "li_4484636578",
@@ -7321,7 +7321,7 @@
       "status": "New",
       "dateDiscovered": "2026-11-03",
       "notes": "",
-      "lastSeen": "2026-11-03"
+      "lastSeen": "2026-11-04"
     },
     "li_4486842774": {
       "id": "li_4486842774",
@@ -7458,7 +7458,7 @@
       "status": "New",
       "dateDiscovered": "2026-11-03",
       "notes": "",
-      "lastSeen": "2026-11-03"
+      "lastSeen": "2026-11-04"
     },
     "li_152367": {
       "id": "li_152367",
@@ -7493,7 +7493,7 @@
       "status": "New",
       "dateDiscovered": "2026-11-03",
       "notes": "",
-      "lastSeen": "2026-11-03"
+      "lastSeen": "2026-11-04"
     },
     "li_4477916749": {
       "id": "li_4477916749",
@@ -7528,7 +7528,7 @@
       "status": "New",
       "dateDiscovered": "2026-11-03",
       "notes": "",
-      "lastSeen": "2026-11-03"
+      "lastSeen": "2026-11-04"
     },
     "li_4486028079": {
       "id": "li_4486028079",
@@ -7597,7 +7597,7 @@
       "status": "New",
       "dateDiscovered": "2026-11-03",
       "notes": "",
-      "lastSeen": "2026-11-03"
+      "lastSeen": "2026-11-04"
     },
     "li_4486845302": {
       "id": "li_4486845302",
@@ -7632,7 +7632,7 @@
       "status": "New",
       "dateDiscovered": "2026-11-03",
       "notes": "",
-      "lastSeen": "2026-11-03"
+      "lastSeen": "2026-11-04"
     },
     "li_4478780104": {
       "id": "li_4478780104",
@@ -7667,7 +7667,7 @@
       "status": "New",
       "dateDiscovered": "2026-11-03",
       "notes": "",
-      "lastSeen": "2026-11-03"
+      "lastSeen": "2026-11-04"
     },
     "li_4486023964": {
       "id": "li_4486023964",
@@ -7702,7 +7702,7 @@
       "status": "New",
       "dateDiscovered": "2026-11-03",
       "notes": "",
-      "lastSeen": "2026-11-03"
+      "lastSeen": "2026-11-04"
     },
     "li_4486842435": {
       "id": "li_4486842435",
@@ -7737,7 +7737,7 @@
       "status": "New",
       "dateDiscovered": "2026-11-03",
       "notes": "",
-      "lastSeen": "2026-11-03"
+      "lastSeen": "2026-11-04"
     },
     "li_4484650492": {
       "id": "li_4484650492",
@@ -7806,7 +7806,7 @@
       "status": "New",
       "dateDiscovered": "2026-11-03",
       "notes": "",
-      "lastSeen": "2026-11-03"
+      "lastSeen": "2026-11-04"
     },
     "li_4486041299": {
       "id": "li_4486041299",
@@ -7841,7 +7841,7 @@
       "status": "New",
       "dateDiscovered": "2026-11-03",
       "notes": "",
-      "lastSeen": "2026-11-03"
+      "lastSeen": "2026-11-04"
     },
     "li_4486828790": {
       "id": "li_4486828790",
@@ -7876,7 +7876,7 @@
       "status": "New",
       "dateDiscovered": "2026-11-03",
       "notes": "",
-      "lastSeen": "2026-11-03"
+      "lastSeen": "2026-11-04"
     },
     "li_4486026900": {
       "id": "li_4486026900",
@@ -7913,7 +7913,7 @@
       "status": "New",
       "dateDiscovered": "2026-11-03",
       "notes": "",
-      "lastSeen": "2026-11-03"
+      "lastSeen": "2026-11-04"
     },
     "li_4486046341": {
       "id": "li_4486046341",
@@ -7950,7 +7950,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-11-03",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-11-04"
     },
     "li_4478560826": {
       "id": "li_4478560826",
@@ -7984,7 +7985,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-11-03",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-11-04"
     },
     "li_4486055023": {
       "id": "li_4486055023",
@@ -8018,7 +8020,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-11-03",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-11-04"
     },
     "li_4486888272": {
       "id": "li_4486888272",
@@ -8052,7 +8055,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-11-03",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-11-04"
     },
     "li_4486066541": {
       "id": "li_4486066541",
@@ -8086,7 +8090,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-11-03",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-11-04"
     },
     "li_4484663730": {
       "id": "li_4484663730",
@@ -8120,7 +8125,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-11-03",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-11-04"
     },
     "li_4486067904": {
       "id": "li_4486067904",
@@ -8154,7 +8160,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-11-03",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-11-04"
     },
     "li_4487004709": {
       "id": "li_4487004709",
@@ -8188,7 +8195,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-11-03",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-11-04"
     },
     "li_4486069176": {
       "id": "li_4486069176",
@@ -8222,7 +8230,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-11-03",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-11-04"
     },
     "li_4484670610": {
       "id": "li_4484670610",
@@ -8256,7 +8265,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-11-03",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-11-04"
     },
     "li_4476464537": {
       "id": "li_4476464537",
@@ -8290,7 +8300,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-11-03",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-11-04"
     },
     "li_4486851888": {
       "id": "li_4486851888",
@@ -8324,7 +8335,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-11-03",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-11-04"
     },
     "li_4465627736": {
       "id": "li_4465627736",
@@ -8358,7 +8370,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-11-03",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-11-04"
     },
     "li_4486059727": {
       "id": "li_4486059727",
@@ -8392,7 +8405,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-11-03",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-11-04"
     },
     "li_4486067777": {
       "id": "li_4486067777",
@@ -8494,7 +8508,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-11-03",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-11-04"
     },
     "li_4484682970": {
       "id": "li_4484682970",
@@ -8528,7 +8543,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-11-03",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-11-04"
     },
     "li_4467197655": {
       "id": "li_4467197655",
@@ -8562,7 +8578,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-11-03",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-11-04"
     },
     "li_4486866289": {
       "id": "li_4486866289",
@@ -8596,7 +8613,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-11-03",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-11-04"
     },
     "li_4486880160": {
       "id": "li_4486880160",
@@ -8630,7 +8648,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-11-03",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-11-04"
     },
     "li_4487018016": {
       "id": "li_4487018016",
@@ -8664,7 +8683,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-11-03",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-11-04"
     },
     "li_4486884978": {
       "id": "li_4486884978",
@@ -8698,7 +8718,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-11-03",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-11-04"
     },
     "li_4486873048": {
       "id": "li_4486873048",
@@ -8732,6 +8753,75 @@
       },
       "status": "New",
       "dateDiscovered": "2026-11-03",
+      "notes": "",
+      "lastSeen": "2026-11-04"
+    },
+    "li_4486315288": {
+      "id": "li_4486315288",
+      "title": "Data Analyst - Cloud (Development Engineering)- Husky (India) Guindy, Chennai",
+      "company": "Husky Technologies",
+      "location": "Chennai, Tamil Nadu, India",
+      "link": "https://in.linkedin.com/jobs/view/data-analyst-cloud-development-engineering-husky-india-guindy-chennai-at-husky-technologies-4486315288",
+      "datePosted": "2 hours ago",
+      "isPast24Hours": true,
+      "isStartup": false,
+      "source": "LinkedIn (Chennai)",
+      "description": "Data Analyst - Cloud (Development Engineering)- Husky (India) Guindy, Chennai at Husky Technologies in Chennai, Tamil Nadu, India. Full-time entry-level opportunity posted within 24 hours in India.",
+      "score": 60,
+      "companyTier": "Tier 3",
+      "tierBadge": "🚀 Tier 3 Company",
+      "tierLabel": "Tier 3 (Verified Corporate)",
+      "matchedSkills": [],
+      "reason": "[Tier 3] Matches data & business analytics stack (). Full-time role in Chennai, Tamil Nadu, India suitable for 0-1 year experience.",
+      "isEntryLevelVerified": false,
+      "isStartupEntryVerified": false,
+      "coverLetterData": {
+        "coverLetter": "Dear Hiring Team at Husky Technologies,\n\nI am writing to express my strong enthusiasm for the Data Analyst - Cloud (Development Engineering)- Husky (India) Guindy, Chennai opportunity at Husky Technologies. As a data-driven professional with 1 year of hands-on internship experience at Ai Variant (Bengaluru), I specialize in translating complex business processes into actionable dashboards and analytical solutions.\n\nDuring my 1-year internship, I delivered measurable results across business intelligence and data operations:\n• Built and deployed 12+ interactive Power BI and Tableau dashboards, reducing manual reporting cycles by 40%.\n• Wrote optimized MySQL queries (leveraging CTEs, joins, and window functions) across 50,000+ transactional records, boosting data validation accuracy by 25%.\n• Spearheaded requirement gathering sessions, authored comprehensive BRDs/FRDs, and guided User Acceptance Testing (UAT) cycles in Agile sprints.\n• Conducted exploratory data analysis (EDA) using Python (Pandas, NumPy) and Advanced Excel (Pivot Tables, XLOOKUP).\n\nYour Data Analyst - Cloud (Development Engineering)- Husky (India) Guindy, Chennai opening aligns perfectly with my background in SQL (CTEs, Window functions), Power BI (DAX), Tableau, and Advanced Excel. Having completed end-to-end projects in financial risk monitoring, healthcare analytics, and retail intelligence, I can ramp up quickly and contribute from day one. I am currently based in Bengaluru, fully open to Pan-India opportunities (On-site, Hybrid, or Remote), and available to join immediately.\n\nThank you for your time and consideration. I would love the opportunity to discuss how my analytical skills and dedication can support Husky Technologies's growth.\n\nWarm regards,\n\nAMIT KUMAR SAINI\nPhone: +91 7903838926\nEmail: clusterdistracted@gmail.com\nLinkedIn: https://linkedin.com/in/amitsaini-business-analyst\nGitHub: https://github.com/ClusterAmit\n",
+        "shortPitch": "Hi Hiring Team, I came across your opening for Data Analyst - Cloud (Development Engineering)- Husky (India) Guindy, Chennai at Husky Technologies. I have 1 year of hands-on internship experience in data & business analytics (Ai Variant), where I built 12+ Power BI/Tableau dashboards and wrote optimized MySQL/Python queries. I am based in India, open to Pan-India/Hybrid/Remote setups, and available to join immediately. Would love to connect!",
+        "screeningAnswers": {
+          "Total Experience": "1 Year (Hands-on Business & Data Analytics Internship at Ai Variant)",
+          "Notice Period": "Immediate / 0 Days (Ready to join immediately)",
+          "Current Location & Mobility": "Bengaluru, Karnataka (Flexible for Pan-India relocation / Hybrid / Remote)",
+          "Primary Technical Skills": "SQL (MySQL, CTEs, Window Functions), Power BI (DAX), Tableau, Advanced Excel (XLOOKUP, Pivot Tables), Python (Pandas, NumPy)",
+          "Why should we hire you?": "During my 1-year internship, I didn't just study data—I automated reports, authored BRD/FRD documents, and improved reporting accuracy by 25%. I bring practical, production-level SQL and dashboarding skills with a relentless desire to learn and deliver."
+        }
+      },
+      "status": "New",
+      "dateDiscovered": "2026-11-04",
+      "notes": ""
+    },
+    "li_4486304562": {
+      "id": "li_4486304562",
+      "title": "DST Business Analyst and Business Intelligence Developer - Husky (Guindy,Chennai)",
+      "company": "Husky Technologies",
+      "location": "Chennai, Tamil Nadu, India",
+      "link": "https://in.linkedin.com/jobs/view/dst-business-analyst-and-business-intelligence-developer-husky-guindy-chennai-at-husky-technologies-4486304562",
+      "datePosted": "2 hours ago",
+      "isPast24Hours": true,
+      "isStartup": false,
+      "source": "LinkedIn (Chennai)",
+      "description": "DST Business Analyst and Business Intelligence Developer - Husky (Guindy,Chennai) at Husky Technologies in Chennai, Tamil Nadu, India. Full-time entry-level opportunity posted within 24 hours in India.",
+      "score": 60,
+      "companyTier": "Tier 3",
+      "tierBadge": "🚀 Tier 3 Company",
+      "tierLabel": "Tier 3 (Verified Corporate)",
+      "matchedSkills": [],
+      "reason": "[Tier 3] Matches data & business analytics stack (). Full-time role in Chennai, Tamil Nadu, India suitable for 0-1 year experience.",
+      "isEntryLevelVerified": false,
+      "isStartupEntryVerified": false,
+      "coverLetterData": {
+        "coverLetter": "Dear Hiring Team at Husky Technologies,\n\nI am writing to express my strong enthusiasm for the DST Business Analyst and Business Intelligence Developer - Husky (Guindy,Chennai) opportunity at Husky Technologies. As a data-driven professional with 1 year of hands-on internship experience at Ai Variant (Bengaluru), I specialize in translating complex business processes into actionable dashboards and analytical solutions.\n\nDuring my 1-year internship, I delivered measurable results across business intelligence and data operations:\n• Built and deployed 12+ interactive Power BI and Tableau dashboards, reducing manual reporting cycles by 40%.\n• Wrote optimized MySQL queries (leveraging CTEs, joins, and window functions) across 50,000+ transactional records, boosting data validation accuracy by 25%.\n• Spearheaded requirement gathering sessions, authored comprehensive BRDs/FRDs, and guided User Acceptance Testing (UAT) cycles in Agile sprints.\n• Conducted exploratory data analysis (EDA) using Python (Pandas, NumPy) and Advanced Excel (Pivot Tables, XLOOKUP).\n\nYour DST Business Analyst and Business Intelligence Developer - Husky (Guindy,Chennai) opening aligns perfectly with my background in SQL (CTEs, Window functions), Power BI (DAX), Tableau, and Advanced Excel. Having completed end-to-end projects in financial risk monitoring, healthcare analytics, and retail intelligence, I can ramp up quickly and contribute from day one. I am currently based in Bengaluru, fully open to Pan-India opportunities (On-site, Hybrid, or Remote), and available to join immediately.\n\nThank you for your time and consideration. I would love the opportunity to discuss how my analytical skills and dedication can support Husky Technologies's growth.\n\nWarm regards,\n\nAMIT KUMAR SAINI\nPhone: +91 7903838926\nEmail: clusterdistracted@gmail.com\nLinkedIn: https://linkedin.com/in/amitsaini-business-analyst\nGitHub: https://github.com/ClusterAmit\n",
+        "shortPitch": "Hi Hiring Team, I came across your opening for DST Business Analyst and Business Intelligence Developer - Husky (Guindy,Chennai) at Husky Technologies. I have 1 year of hands-on internship experience in data & business analytics (Ai Variant), where I built 12+ Power BI/Tableau dashboards and wrote optimized MySQL/Python queries. I am based in India, open to Pan-India/Hybrid/Remote setups, and available to join immediately. Would love to connect!",
+        "screeningAnswers": {
+          "Total Experience": "1 Year (Hands-on Business & Data Analytics Internship at Ai Variant)",
+          "Notice Period": "Immediate / 0 Days (Ready to join immediately)",
+          "Current Location & Mobility": "Bengaluru, Karnataka (Flexible for Pan-India relocation / Hybrid / Remote)",
+          "Primary Technical Skills": "SQL (MySQL, CTEs, Window Functions), Power BI (DAX), Tableau, Advanced Excel (XLOOKUP, Pivot Tables), Python (Pandas, NumPy)",
+          "Why should we hire you?": "During my 1-year internship, I didn't just study data—I automated reports, authored BRD/FRD documents, and improved reporting accuracy by 25%. I bring practical, production-level SQL and dashboarding skills with a relentless desire to learn and deliver."
+        }
+      },
+      "status": "New",
+      "dateDiscovered": "2026-11-04",
       "notes": ""
     }
   }

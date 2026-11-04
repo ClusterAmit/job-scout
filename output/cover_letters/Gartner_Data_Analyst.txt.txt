@@ -3,7 +3,7 @@ TIER: Tier 1
 LINK: https://in.linkedin.com/jobs/view/data-analyst-at-gartner-4486066541
 MATCH SCORE: 70%
 SOURCE: LinkedIn (India)
-POSTED: 4 hours ago
+POSTED: 8 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Gartner,

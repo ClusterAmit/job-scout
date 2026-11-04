@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/financial-data-analyst-at-flexiple-4486888272
 MATCH SCORE: 75%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 5 hours ago
+POSTED: 10 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Flexiple,

@@ -3,7 +3,7 @@ TIER: Tier 3
 LINK: https://in.linkedin.com/jobs/view/data-analyst-i-at-tekion-corp-4487004709
 MATCH SCORE: 60%
 SOURCE: LinkedIn (India)
-POSTED: 3 hours ago
+POSTED: 8 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Tekion Corp,

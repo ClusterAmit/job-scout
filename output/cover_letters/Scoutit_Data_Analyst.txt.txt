@@ -3,7 +3,7 @@ TIER: Tier 3
 LINK: https://in.linkedin.com/jobs/view/data-analyst-at-scoutit-4486845302
 MATCH SCORE: 55%
 SOURCE: LinkedIn (India)
-POSTED: 11 hours ago
+POSTED: 15 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Scoutit,
