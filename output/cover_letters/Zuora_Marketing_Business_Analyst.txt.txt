@@ -3,7 +3,7 @@ TIER: Tier 3
 LINK: https://in.linkedin.com/jobs/view/marketing-business-analyst-at-zuora-4479565939
 MATCH SCORE: 60%
 SOURCE: LinkedIn (Chennai)
-POSTED: 2 hours ago
+POSTED: 12 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Zuora,

@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/sr-data-analyst-sql-job-at-yash-technologies-4486581793
 MATCH SCORE: 80%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 1 hour ago
+POSTED: 11 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at YASH Technologies,

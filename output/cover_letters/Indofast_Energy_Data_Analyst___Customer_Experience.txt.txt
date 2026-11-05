@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/data-analyst-customer-experience-at-indofast-energy-4487745024
 MATCH SCORE: 75%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 1 hour ago
+POSTED: 11 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Indofast Energy,

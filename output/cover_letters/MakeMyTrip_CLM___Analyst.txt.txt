@@ -1,9 +1,9 @@
 JOB: CLM - Analyst at MakeMyTrip (Bengaluru, Karnataka, India)
 TIER: Tier 1
 LINK: https://in.linkedin.com/jobs/view/clm-analyst-at-makemytrip-4487723101
-MATCH SCORE: 45%
-SOURCE: LinkedIn (India)
-POSTED: 5 hours ago
+MATCH SCORE: 55%
+SOURCE: LinkedIn (Tech Startup)
+POSTED: 15 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at MakeMyTrip,
