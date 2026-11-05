@@ -3,7 +3,7 @@ TIER: Tier 1
 LINK: https://in.linkedin.com/jobs/view/business-intelligence-engineer-i-global-reporting-standards-grs-at-amazon-4479063747
 MATCH SCORE: 50%
 SOURCE: LinkedIn (Hyderabad)
-POSTED: 7 hours ago
+POSTED: 11 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Amazon,

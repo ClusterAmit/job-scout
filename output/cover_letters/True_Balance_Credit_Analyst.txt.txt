@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/credit-analyst-at-true-balance-4485051962
 MATCH SCORE: 50%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 13 hours ago
+POSTED: 18 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at True Balance,

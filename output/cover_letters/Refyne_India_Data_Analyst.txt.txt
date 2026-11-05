@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/data-analyst-at-refyne-india-4485059875
 MATCH SCORE: 75%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 13 hours ago
+POSTED: 17 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Refyne India,

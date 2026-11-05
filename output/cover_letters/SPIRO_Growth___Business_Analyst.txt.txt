@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/growth-business-analyst-at-spiro-4486361293
 MATCH SCORE: 75%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 12 hours ago
+POSTED: 16 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at SPIRO,
