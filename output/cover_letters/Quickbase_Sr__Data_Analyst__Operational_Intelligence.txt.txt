@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/sr-data-analyst-operational-intelligence-at-quickbase-4459949744
 MATCH SCORE: 75%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 8 hours ago
+POSTED: 22 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Quickbase,

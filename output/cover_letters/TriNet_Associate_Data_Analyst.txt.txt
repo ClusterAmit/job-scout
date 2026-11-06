@@ -3,7 +3,7 @@ TIER: Tier 3
 LINK: https://in.linkedin.com/jobs/view/associate-data-analyst-at-trinet-4487742847
 MATCH SCORE: 75%
 SOURCE: LinkedIn (India)
-POSTED: 9 hours ago
+POSTED: 23 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at TriNet,

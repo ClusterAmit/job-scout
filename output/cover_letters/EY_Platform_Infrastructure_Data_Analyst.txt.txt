@@ -3,7 +3,7 @@ TIER: Tier 1
 LINK: https://in.linkedin.com/jobs/view/platform-infrastructure-data-analyst-at-ey-4478810850
 MATCH SCORE: 75%
 SOURCE: LinkedIn (Kochi)
-POSTED: 2 hours ago
+POSTED: 16 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at EY,

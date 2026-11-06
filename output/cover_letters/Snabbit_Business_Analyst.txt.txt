@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/business-analyst-at-snabbit-4487755635
 MATCH SCORE: 75%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 8 hours ago
+POSTED: 22 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Snabbit,
