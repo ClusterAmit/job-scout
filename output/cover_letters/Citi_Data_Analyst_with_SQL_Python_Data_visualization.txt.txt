@@ -3,7 +3,7 @@ TIER: Tier 1
 LINK: https://in.linkedin.com/jobs/view/data-analyst-with-sql-python-data-visualization-at-citi-4486945842
 MATCH SCORE: 80%
 SOURCE: LinkedIn (India)
-POSTED: 5 hours ago
+POSTED: 15 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Citi,

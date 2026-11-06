@@ -3,7 +3,7 @@ TIER: Tier 3
 LINK: https://in.linkedin.com/jobs/view/associate-analytics-at-scoutit-4486957938
 MATCH SCORE: 50%
 SOURCE: LinkedIn (India)
-POSTED: 1 hour ago
+POSTED: 10 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Scoutit,

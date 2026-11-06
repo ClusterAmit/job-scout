@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/services-operations-analyst-at-seismic-4486963927
 MATCH SCORE: 55%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 17 minutes ago
+POSTED: 9 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Seismic,
