@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/vendor-performance-and-operations-analyst-at-ventra-health-4486398432
 MATCH SCORE: 50%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 23 hours ago
+POSTED: 3 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Ventra Health,

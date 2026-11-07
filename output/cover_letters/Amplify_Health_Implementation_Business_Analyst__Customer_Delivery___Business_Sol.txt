@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/implementation-business-analyst-customer-delivery-business-solution-at-amplify-health-4475742980
 MATCH SCORE: 75%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 4 hours ago
+POSTED: 18 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Amplify Health,

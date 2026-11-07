@@ -3,7 +3,7 @@ TIER: Tier 3
 LINK: https://in.linkedin.com/jobs/view/data-analyst-power-bi-job-at-yash-technologies-4486938627
 MATCH SCORE: 60%
 SOURCE: LinkedIn (India)
-POSTED: 16 hours ago
+POSTED: 20 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at YASH Technologies,
