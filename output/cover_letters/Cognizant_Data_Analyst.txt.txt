@@ -3,7 +3,7 @@ TIER: Tier 2
 LINK: https://in.linkedin.com/jobs/view/data-analyst-at-cognizant-4479381495
 MATCH SCORE: 65%
 SOURCE: LinkedIn (Chennai)
-POSTED: 5 hours ago
+POSTED: 15 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Cognizant,

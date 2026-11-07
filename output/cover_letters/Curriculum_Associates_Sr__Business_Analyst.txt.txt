@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/sr-business-analyst-at-curriculum-associates-4486230590
 MATCH SCORE: 90%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 13 hours ago
+POSTED: 22 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Curriculum Associates,

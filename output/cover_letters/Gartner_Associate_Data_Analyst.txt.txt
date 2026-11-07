@@ -3,7 +3,7 @@ TIER: Tier 1
 LINK: https://in.linkedin.com/jobs/view/associate-data-analyst-at-gartner-4486964929
 MATCH SCORE: 85%
 SOURCE: LinkedIn (India)
-POSTED: 14 hours ago
+POSTED: 23 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Gartner,
