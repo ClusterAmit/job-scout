@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/cloud-operations-analyst-at-insurity-4452922141
 MATCH SCORE: 50%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 13 hours ago
+POSTED: 23 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Insurity,

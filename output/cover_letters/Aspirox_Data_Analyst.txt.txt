@@ -1,9 +1,9 @@
 JOB: Data Analyst at Aspirox (India)
-TIER: Startup
-LINK: https://in.linkedin.com/jobs/view/data-analyst-at-aspirox-4487700099
-MATCH SCORE: 75%
-SOURCE: LinkedIn (Tech Startup)
-POSTED: 7 hours ago
+TIER: Tier 3
+LINK: https://in.linkedin.com/jobs/view/data-analyst-at-aspirox-4488764413
+MATCH SCORE: 55%
+SOURCE: LinkedIn (India)
+POSTED: 5 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Aspirox,
