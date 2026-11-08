@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/data-analyst-at-r-insights-research-company-4488757914
 MATCH SCORE: 75%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 3 hours ago
+POSTED: 12 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at R-Insights Research Company,

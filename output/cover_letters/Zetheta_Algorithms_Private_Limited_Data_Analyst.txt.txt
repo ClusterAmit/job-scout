@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/data-analyst-at-zetheta-algorithms-private-limited-4487642551
 MATCH SCORE: 75%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 1 hour ago
+POSTED: 10 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Zetheta Algorithms Private Limited,
