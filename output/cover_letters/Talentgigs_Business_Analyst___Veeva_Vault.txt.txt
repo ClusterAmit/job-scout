@@ -1,9 +1,9 @@
 JOB: Business Analyst – Veeva Vault at Talentgigs (Hyderabad, Telangana, India)
-TIER: Startup
-LINK: https://in.linkedin.com/jobs/view/business-analyst-%E2%80%93-veeva-vault-at-talentgigs-4487380918
-MATCH SCORE: 80%
-SOURCE: LinkedIn (Tech Startup)
-POSTED: 13 hours ago
+TIER: Tier 3
+LINK: https://in.linkedin.com/jobs/view/business-analyst-%E2%80%93-veeva-vault-at-talentgigs-4487696066
+MATCH SCORE: 60%
+SOURCE: LinkedIn (Hyderabad)
+POSTED: 4 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Talentgigs,
