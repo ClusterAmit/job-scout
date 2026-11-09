@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/data-analyst-programmatic-at-rzr-4405468143
 MATCH SCORE: 75%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 31 minutes ago
+POSTED: 12 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at RZR,

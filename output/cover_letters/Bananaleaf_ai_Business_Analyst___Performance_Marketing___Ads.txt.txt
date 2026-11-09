@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/business-analyst-performance-marketing-ads-at-bananaleaf-ai-4487135855
 MATCH SCORE: 80%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 1 hour ago
+POSTED: 13 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Bananaleaf.ai,
