@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/business-analyst-at-flexiple-4488787802
 MATCH SCORE: 75%
 SOURCE: LinkedIn (India)
-POSTED: 2 hours ago
+POSTED: 8 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Flexiple,

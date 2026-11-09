@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/data-analyst-spreadsheet-specialist-macbook-required-%2450-%2460-hour-at-hirely-4486656922
 MATCH SCORE: 75%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 14 hours ago
+POSTED: 19 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Hirely,
