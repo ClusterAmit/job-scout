@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/eor-operations-analyst-at-rippling-4489158934
 MATCH SCORE: 50%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 10 minutes ago
+POSTED: 5 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Rippling,

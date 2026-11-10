@@ -3,7 +3,7 @@ TIER: Tier 1
 LINK: https://in.linkedin.com/jobs/view/cdd-data-analyst-at-natwest-group-4488890889
 MATCH SCORE: 70%
 SOURCE: LinkedIn (India)
-POSTED: 6 hours ago
+POSTED: 18 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at NatWest Group,
