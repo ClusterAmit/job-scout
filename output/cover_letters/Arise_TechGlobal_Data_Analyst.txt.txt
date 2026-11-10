@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/data-analyst-at-arise-techglobal-4487461082
 MATCH SCORE: 75%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 4 hours ago
+POSTED: 14 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Arise TechGlobal,

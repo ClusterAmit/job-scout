@@ -1,9 +1,9 @@
 JOB: Business Analyst (Russian Language) at Joblet-AI (India)
-TIER: Tier 3
-LINK: https://in.linkedin.com/jobs/view/business-analyst-russian-language-at-joblet-ai-4487636230
-MATCH SCORE: 55%
-SOURCE: LinkedIn (India)
-POSTED: 21 hours ago
+TIER: Startup
+LINK: https://in.linkedin.com/jobs/view/business-analyst-russian-language-at-joblet-ai-4487991311
+MATCH SCORE: 75%
+SOURCE: LinkedIn (Tech Startup)
+POSTED: 18 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Joblet-AI,

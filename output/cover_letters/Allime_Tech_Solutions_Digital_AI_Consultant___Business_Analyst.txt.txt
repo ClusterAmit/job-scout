@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/digital-ai-consultant-business-analyst-at-allime-tech-solutions-4487470086
 MATCH SCORE: 75%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 3 hours ago
+POSTED: 12 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Allime Tech Solutions,

@@ -1,9 +1,9 @@
 JOB: Data Analyst at Appinventiv (India)
-TIER: Tier 3
+TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/data-analyst-at-appinventiv-4487440677
-MATCH SCORE: 55%
-SOURCE: LinkedIn (India)
-POSTED: 5 hours ago
+MATCH SCORE: 75%
+SOURCE: LinkedIn (Tech Startup)
+POSTED: 15 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Appinventiv,

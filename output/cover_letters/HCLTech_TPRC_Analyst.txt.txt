@@ -3,7 +3,7 @@ TIER: Tier 2
 LINK: https://in.linkedin.com/jobs/view/tprc-analyst-at-hcltech-4487454587
 MATCH SCORE: 40%
 SOURCE: LinkedIn (India)
-POSTED: 3 hours ago
+POSTED: 13 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at HCLTech,
