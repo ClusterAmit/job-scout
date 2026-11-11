@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/product-analyst-intelligence-at-osome-4489456767
 MATCH SCORE: 50%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 9 hours ago
+POSTED: 13 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at OSOME,

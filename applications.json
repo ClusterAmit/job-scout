@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-11-10T21:23:32.973Z",
-  "totalTracked": 549,
+  "lastUpdated": "2026-11-11T01:23:06.019Z",
+  "totalTracked": 555,
   "appliedCount": 0,
   "jobs": {
     "li_4483233380": {
@@ -249,7 +249,7 @@
       "status": "New",
       "dateDiscovered": "2026-10-29",
       "notes": "",
-      "lastSeen": "2026-11-10"
+      "lastSeen": "2026-11-11"
     },
     "li_4366454534": {
       "id": "li_4366454534",
@@ -3821,7 +3821,7 @@
       "status": "New",
       "dateDiscovered": "2026-10-31",
       "notes": "",
-      "lastSeen": "2026-11-07"
+      "lastSeen": "2026-11-11"
     },
     "li_4485643288": {
       "id": "li_4485643288",
@@ -4886,7 +4886,7 @@
       "status": "New",
       "dateDiscovered": "2026-11-01",
       "notes": "",
-      "lastSeen": "2026-11-01"
+      "lastSeen": "2026-11-11"
     },
     "li_4485189295": {
       "id": "li_4485189295",
@@ -6929,7 +6929,7 @@
       "status": "New",
       "dateDiscovered": "2026-11-02",
       "notes": "",
-      "lastSeen": "2026-11-10"
+      "lastSeen": "2026-11-11"
     },
     "li_4485486014": {
       "id": "li_4485486014",
@@ -11793,7 +11793,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-11-05",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-11-11"
     },
     "li_4485837621": {
       "id": "li_4485837621",
@@ -14343,7 +14344,7 @@
       "status": "New",
       "dateDiscovered": "2026-11-07",
       "notes": "",
-      "lastSeen": "2026-11-10"
+      "lastSeen": "2026-11-11"
     },
     "li_4488497111": {
       "id": "li_4488497111",
@@ -17236,7 +17237,7 @@
       "status": "New",
       "dateDiscovered": "2026-11-10",
       "notes": "",
-      "lastSeen": "2026-11-10"
+      "lastSeen": "2026-11-11"
     },
     "li_4488325392": {
       "id": "li_4488325392",
@@ -17305,7 +17306,7 @@
       "status": "New",
       "dateDiscovered": "2026-11-10",
       "notes": "",
-      "lastSeen": "2026-11-10"
+      "lastSeen": "2026-11-11"
     },
     "li_4488310205": {
       "id": "li_4488310205",
@@ -17374,7 +17375,7 @@
       "status": "New",
       "dateDiscovered": "2026-11-10",
       "notes": "",
-      "lastSeen": "2026-11-10"
+      "lastSeen": "2026-11-11"
     },
     "li_4487980428": {
       "id": "li_4487980428",
@@ -17444,7 +17445,7 @@
       "status": "New",
       "dateDiscovered": "2026-11-10",
       "notes": "",
-      "lastSeen": "2026-11-10"
+      "lastSeen": "2026-11-11"
     },
     "li_4489419709": {
       "id": "li_4489419709",
@@ -17583,7 +17584,7 @@
       "status": "New",
       "dateDiscovered": "2026-11-10",
       "notes": "",
-      "lastSeen": "2026-11-10"
+      "lastSeen": "2026-11-11"
     },
     "li_4487456099": {
       "id": "li_4487456099",
@@ -17652,7 +17653,7 @@
       "status": "New",
       "dateDiscovered": "2026-11-10",
       "notes": "",
-      "lastSeen": "2026-11-10"
+      "lastSeen": "2026-11-11"
     },
     "li_4444374004": {
       "id": "li_4444374004",
@@ -17687,7 +17688,7 @@
       "status": "New",
       "dateDiscovered": "2026-11-10",
       "notes": "",
-      "lastSeen": "2026-11-10"
+      "lastSeen": "2026-11-11"
     },
     "li_4487454587": {
       "id": "li_4487454587",
@@ -17722,7 +17723,7 @@
       "status": "New",
       "dateDiscovered": "2026-11-10",
       "notes": "",
-      "lastSeen": "2026-11-10"
+      "lastSeen": "2026-11-11"
     },
     "li_4488600397": {
       "id": "li_4488600397",
@@ -17790,7 +17791,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-11-10",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-11-11"
     },
     "li_4487991311": {
       "id": "li_4487991311",
@@ -17892,7 +17894,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-11-10",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-11-11"
     },
     "li_4472716585": {
       "id": "li_4472716585",
@@ -17926,7 +17929,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-11-10",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-11-11"
     },
     "li_40": {
       "id": "li_40",
@@ -17960,7 +17964,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-11-10",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-11-11"
     },
     "li_4455209046": {
       "id": "li_4455209046",
@@ -17994,7 +17999,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-11-10",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-11-11"
     },
     "li_4489462337": {
       "id": "li_4489462337",
@@ -18198,7 +18204,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-11-10",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-11-11"
     },
     "li_4489493216": {
       "id": "li_4489493216",
@@ -18232,7 +18239,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-11-10",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-11-11"
     },
     "li_4487813710": {
       "id": "li_4487813710",
@@ -18266,7 +18274,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-11-10",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-11-11"
     },
     "li_4488326188": {
       "id": "li_4488326188",
@@ -18368,7 +18377,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-11-10",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-11-11"
     },
     "li_4471378930": {
       "id": "li_4471378930",
@@ -18402,7 +18412,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-11-10",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-11-11"
     },
     "li_4471393422": {
       "id": "li_4471393422",
@@ -18436,7 +18447,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-11-10",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-11-11"
     },
     "li_4473216498": {
       "id": "li_4473216498",
@@ -18470,7 +18482,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-11-10",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-11-11"
     },
     "li_4489456767": {
       "id": "li_4489456767",
@@ -18504,7 +18517,8 @@
       },
       "status": "New",
       "dateDiscovered": "2026-11-10",
-      "notes": ""
+      "notes": "",
+      "lastSeen": "2026-11-11"
     },
     "li_4481299543": {
       "id": "li_4481299543",
@@ -18575,6 +18589,210 @@
       },
       "status": "New",
       "dateDiscovered": "2026-11-10",
+      "notes": ""
+    },
+    "li_4489672699": {
+      "id": "li_4489672699",
+      "title": "Product Owner / Business Analyst",
+      "company": "Isha LIFE Health Solutions",
+      "location": "Chennai, Tamil Nadu, India",
+      "link": "https://in.linkedin.com/jobs/view/product-owner-business-analyst-at-isha-life-health-solutions-4489672699",
+      "datePosted": "53 minutes ago",
+      "isPast24Hours": true,
+      "isStartup": true,
+      "source": "LinkedIn (Tech Startup)",
+      "description": "Product Owner / Business Analyst at Isha LIFE Health Solutions in Chennai, Tamil Nadu, India. Full-time entry-level opportunity posted within 24 hours in India.",
+      "score": 80,
+      "companyTier": "Startup",
+      "tierBadge": "🚀 Tech Startup",
+      "tierLabel": "YC / Tech Startup",
+      "matchedSkills": [],
+      "reason": "[Startup: 0-1 Yr] High-growth tech startup opportunity at Isha LIFE Health Solutions (Chennai, Tamil Nadu, India) strictly matching entry-level / 1-year experience. Tailored to your 1-year analytics background in Analytics.",
+      "isEntryLevelVerified": true,
+      "isStartupEntryVerified": true,
+      "coverLetterData": {
+        "coverLetter": "Dear Hiring Team at Isha LIFE Health Solutions,\n\nI am writing to express my strong enthusiasm for the Product Owner / Business Analyst opportunity at Isha LIFE Health Solutions. As a data-driven professional with 1 year of hands-on internship experience at Ai Variant (Bengaluru), I specialize in translating complex business processes into actionable dashboards and analytical solutions.\n\nDuring my 1-year internship, I delivered measurable results across business intelligence and data operations:\n• Built and deployed 12+ interactive Power BI and Tableau dashboards, reducing manual reporting cycles by 40%.\n• Wrote optimized MySQL queries (leveraging CTEs, joins, and window functions) across 50,000+ transactional records, boosting data validation accuracy by 25%.\n• Spearheaded requirement gathering sessions, authored comprehensive BRDs/FRDs, and guided User Acceptance Testing (UAT) cycles in Agile sprints.\n• Conducted exploratory data analysis (EDA) using Python (Pandas, NumPy) and Advanced Excel (Pivot Tables, XLOOKUP).\n\nYour Product Owner / Business Analyst opening aligns perfectly with my background in SQL (CTEs, Window functions), Power BI (DAX), Tableau, and Advanced Excel. Having completed end-to-end projects in financial risk monitoring, healthcare analytics, and retail intelligence, I can ramp up quickly and contribute from day one. I am currently based in Bengaluru, fully open to Pan-India opportunities (On-site, Hybrid, or Remote), and available to join immediately.\n\nThank you for your time and consideration. I would love the opportunity to discuss how my analytical skills and dedication can support Isha LIFE Health Solutions's growth.\n\nWarm regards,\n\nAMIT KUMAR SAINI\nPhone: +91 7903838926\nEmail: clusterdistracted@gmail.com\nLinkedIn: https://linkedin.com/in/amitsaini-business-analyst\nGitHub: https://github.com/ClusterAmit\n",
+        "shortPitch": "Hi Hiring Team, I came across your opening for Product Owner / Business Analyst at Isha LIFE Health Solutions. I have 1 year of hands-on internship experience in data & business analytics (Ai Variant), where I built 12+ Power BI/Tableau dashboards and wrote optimized MySQL/Python queries. I am based in India, open to Pan-India/Hybrid/Remote setups, and available to join immediately. Would love to connect!",
+        "screeningAnswers": {
+          "Total Experience": "1 Year (Hands-on Business & Data Analytics Internship at Ai Variant)",
+          "Notice Period": "Immediate / 0 Days (Ready to join immediately)",
+          "Current Location & Mobility": "Bengaluru, Karnataka (Flexible for Pan-India relocation / Hybrid / Remote)",
+          "Primary Technical Skills": "SQL (MySQL, CTEs, Window Functions), Power BI (DAX), Tableau, Advanced Excel (XLOOKUP, Pivot Tables), Python (Pandas, NumPy)",
+          "Why should we hire you?": "During my 1-year internship, I didn't just study data—I automated reports, authored BRD/FRD documents, and improved reporting accuracy by 25%. I bring practical, production-level SQL and dashboarding skills with a relentless desire to learn and deliver."
+        }
+      },
+      "status": "New",
+      "dateDiscovered": "2026-11-11",
+      "notes": ""
+    },
+    "li_4489661173": {
+      "id": "li_4489661173",
+      "title": "Data Analyst - Cloud (Development Engineering)- Husky (India) Guindy, Chennai",
+      "company": "Husky Technologies",
+      "location": "Chennai, Tamil Nadu, India",
+      "link": "https://in.linkedin.com/jobs/view/data-analyst-cloud-development-engineering-husky-india-guindy-chennai-at-husky-technologies-4489661173",
+      "datePosted": "1 hour ago",
+      "isPast24Hours": true,
+      "isStartup": true,
+      "source": "LinkedIn (Tech Startup)",
+      "description": "Data Analyst - Cloud (Development Engineering)- Husky (India) Guindy, Chennai at Husky Technologies in Chennai, Tamil Nadu, India. Full-time entry-level opportunity posted within 24 hours in India.",
+      "score": 80,
+      "companyTier": "Startup",
+      "tierBadge": "🚀 Tech Startup",
+      "tierLabel": "YC / Tech Startup",
+      "matchedSkills": [],
+      "reason": "[Startup: 0-1 Yr] High-growth tech startup opportunity at Husky Technologies (Chennai, Tamil Nadu, India) strictly matching entry-level / 1-year experience. Tailored to your 1-year analytics background in Analytics.",
+      "isEntryLevelVerified": true,
+      "isStartupEntryVerified": true,
+      "coverLetterData": {
+        "coverLetter": "Dear Hiring Team at Husky Technologies,\n\nI am writing to express my strong enthusiasm for the Data Analyst - Cloud (Development Engineering)- Husky (India) Guindy, Chennai opportunity at Husky Technologies. As a data-driven professional with 1 year of hands-on internship experience at Ai Variant (Bengaluru), I specialize in translating complex business processes into actionable dashboards and analytical solutions.\n\nDuring my 1-year internship, I delivered measurable results across business intelligence and data operations:\n• Built and deployed 12+ interactive Power BI and Tableau dashboards, reducing manual reporting cycles by 40%.\n• Wrote optimized MySQL queries (leveraging CTEs, joins, and window functions) across 50,000+ transactional records, boosting data validation accuracy by 25%.\n• Spearheaded requirement gathering sessions, authored comprehensive BRDs/FRDs, and guided User Acceptance Testing (UAT) cycles in Agile sprints.\n• Conducted exploratory data analysis (EDA) using Python (Pandas, NumPy) and Advanced Excel (Pivot Tables, XLOOKUP).\n\nYour Data Analyst - Cloud (Development Engineering)- Husky (India) Guindy, Chennai opening aligns perfectly with my background in SQL (CTEs, Window functions), Power BI (DAX), Tableau, and Advanced Excel. Having completed end-to-end projects in financial risk monitoring, healthcare analytics, and retail intelligence, I can ramp up quickly and contribute from day one. I am currently based in Bengaluru, fully open to Pan-India opportunities (On-site, Hybrid, or Remote), and available to join immediately.\n\nThank you for your time and consideration. I would love the opportunity to discuss how my analytical skills and dedication can support Husky Technologies's growth.\n\nWarm regards,\n\nAMIT KUMAR SAINI\nPhone: +91 7903838926\nEmail: clusterdistracted@gmail.com\nLinkedIn: https://linkedin.com/in/amitsaini-business-analyst\nGitHub: https://github.com/ClusterAmit\n",
+        "shortPitch": "Hi Hiring Team, I came across your opening for Data Analyst - Cloud (Development Engineering)- Husky (India) Guindy, Chennai at Husky Technologies. I have 1 year of hands-on internship experience in data & business analytics (Ai Variant), where I built 12+ Power BI/Tableau dashboards and wrote optimized MySQL/Python queries. I am based in India, open to Pan-India/Hybrid/Remote setups, and available to join immediately. Would love to connect!",
+        "screeningAnswers": {
+          "Total Experience": "1 Year (Hands-on Business & Data Analytics Internship at Ai Variant)",
+          "Notice Period": "Immediate / 0 Days (Ready to join immediately)",
+          "Current Location & Mobility": "Bengaluru, Karnataka (Flexible for Pan-India relocation / Hybrid / Remote)",
+          "Primary Technical Skills": "SQL (MySQL, CTEs, Window Functions), Power BI (DAX), Tableau, Advanced Excel (XLOOKUP, Pivot Tables), Python (Pandas, NumPy)",
+          "Why should we hire you?": "During my 1-year internship, I didn't just study data—I automated reports, authored BRD/FRD documents, and improved reporting accuracy by 25%. I bring practical, production-level SQL and dashboarding skills with a relentless desire to learn and deliver."
+        }
+      },
+      "status": "New",
+      "dateDiscovered": "2026-11-11",
+      "notes": ""
+    },
+    "li_8": {
+      "id": "li_8",
+      "title": "Business Analyst",
+      "company": "Algo8 AI [CSE: AIOS]",
+      "location": "Chennai, Tamil Nadu, India",
+      "link": "https://in.linkedin.com/jobs/view/business-analyst-at-algo8-ai-cse-aios-4488623660",
+      "datePosted": "3 hours ago",
+      "isPast24Hours": true,
+      "isStartup": true,
+      "source": "LinkedIn (Tech Startup)",
+      "description": "Business Analyst at Algo8 AI [CSE: AIOS] in Chennai, Tamil Nadu, India. Full-time entry-level opportunity posted within 24 hours in India.",
+      "score": 80,
+      "companyTier": "Startup",
+      "tierBadge": "🚀 Tech Startup",
+      "tierLabel": "YC / Tech Startup",
+      "matchedSkills": [],
+      "reason": "[Startup: 0-1 Yr] High-growth tech startup opportunity at Algo8 AI [CSE: AIOS] (Chennai, Tamil Nadu, India) strictly matching entry-level / 1-year experience. Tailored to your 1-year analytics background in Analytics.",
+      "isEntryLevelVerified": true,
+      "isStartupEntryVerified": true,
+      "coverLetterData": {
+        "coverLetter": "Dear Hiring Team at Algo8 AI [CSE: AIOS],\n\nI am writing to express my strong enthusiasm for the Business Analyst opportunity at Algo8 AI [CSE: AIOS]. As a data-driven professional with 1 year of hands-on internship experience at Ai Variant (Bengaluru), I specialize in translating complex business processes into actionable dashboards and analytical solutions.\n\nDuring my 1-year internship, I delivered measurable results across business intelligence and data operations:\n• Built and deployed 12+ interactive Power BI and Tableau dashboards, reducing manual reporting cycles by 40%.\n• Wrote optimized MySQL queries (leveraging CTEs, joins, and window functions) across 50,000+ transactional records, boosting data validation accuracy by 25%.\n• Spearheaded requirement gathering sessions, authored comprehensive BRDs/FRDs, and guided User Acceptance Testing (UAT) cycles in Agile sprints.\n• Conducted exploratory data analysis (EDA) using Python (Pandas, NumPy) and Advanced Excel (Pivot Tables, XLOOKUP).\n\nYour Business Analyst opening aligns perfectly with my background in SQL (CTEs, Window functions), Power BI (DAX), Tableau, and Advanced Excel. Having completed end-to-end projects in financial risk monitoring, healthcare analytics, and retail intelligence, I can ramp up quickly and contribute from day one. I am currently based in Bengaluru, fully open to Pan-India opportunities (On-site, Hybrid, or Remote), and available to join immediately.\n\nThank you for your time and consideration. I would love the opportunity to discuss how my analytical skills and dedication can support Algo8 AI [CSE: AIOS]'s growth.\n\nWarm regards,\n\nAMIT KUMAR SAINI\nPhone: +91 7903838926\nEmail: clusterdistracted@gmail.com\nLinkedIn: https://linkedin.com/in/amitsaini-business-analyst\nGitHub: https://github.com/ClusterAmit\n",
+        "shortPitch": "Hi Hiring Team, I came across your opening for Business Analyst at Algo8 AI [CSE: AIOS]. I have 1 year of hands-on internship experience in data & business analytics (Ai Variant), where I built 12+ Power BI/Tableau dashboards and wrote optimized MySQL/Python queries. I am based in India, open to Pan-India/Hybrid/Remote setups, and available to join immediately. Would love to connect!",
+        "screeningAnswers": {
+          "Total Experience": "1 Year (Hands-on Business & Data Analytics Internship at Ai Variant)",
+          "Notice Period": "Immediate / 0 Days (Ready to join immediately)",
+          "Current Location & Mobility": "Bengaluru, Karnataka (Flexible for Pan-India relocation / Hybrid / Remote)",
+          "Primary Technical Skills": "SQL (MySQL, CTEs, Window Functions), Power BI (DAX), Tableau, Advanced Excel (XLOOKUP, Pivot Tables), Python (Pandas, NumPy)",
+          "Why should we hire you?": "During my 1-year internship, I didn't just study data—I automated reports, authored BRD/FRD documents, and improved reporting accuracy by 25%. I bring practical, production-level SQL and dashboarding skills with a relentless desire to learn and deliver."
+        }
+      },
+      "status": "New",
+      "dateDiscovered": "2026-11-11",
+      "notes": ""
+    },
+    "li_4489664337": {
+      "id": "li_4489664337",
+      "title": "Associate Business Analyst",
+      "company": "ClixLogix",
+      "location": "Noida, Uttar Pradesh, India",
+      "link": "https://in.linkedin.com/jobs/view/associate-business-analyst-at-clixlogix-4489664337",
+      "datePosted": "1 hour ago",
+      "isPast24Hours": true,
+      "isStartup": false,
+      "source": "LinkedIn (India)",
+      "description": "Associate Business Analyst at ClixLogix in Noida, Uttar Pradesh, India. Full-time entry-level opportunity posted within 24 hours in India.",
+      "score": 70,
+      "companyTier": "Tier 3",
+      "tierBadge": "🚀 Tier 3 Company",
+      "tierLabel": "Tier 3 (Verified Corporate)",
+      "matchedSkills": [],
+      "reason": "[Tier 3] Targeted entry-level role in Noida, Uttar Pradesh, India matching your 1-year internship profile. Matched skills: Analytics basics.",
+      "isEntryLevelVerified": true,
+      "isStartupEntryVerified": false,
+      "coverLetterData": {
+        "coverLetter": "Dear Hiring Team at ClixLogix,\n\nI am writing to express my strong enthusiasm for the Associate Business Analyst opportunity at ClixLogix. As a data-driven professional with 1 year of hands-on internship experience at Ai Variant (Bengaluru), I specialize in translating complex business processes into actionable dashboards and analytical solutions.\n\nDuring my 1-year internship, I delivered measurable results across business intelligence and data operations:\n• Built and deployed 12+ interactive Power BI and Tableau dashboards, reducing manual reporting cycles by 40%.\n• Wrote optimized MySQL queries (leveraging CTEs, joins, and window functions) across 50,000+ transactional records, boosting data validation accuracy by 25%.\n• Spearheaded requirement gathering sessions, authored comprehensive BRDs/FRDs, and guided User Acceptance Testing (UAT) cycles in Agile sprints.\n• Conducted exploratory data analysis (EDA) using Python (Pandas, NumPy) and Advanced Excel (Pivot Tables, XLOOKUP).\n\nYour Associate Business Analyst opening aligns perfectly with my background in SQL (CTEs, Window functions), Power BI (DAX), Tableau, and Advanced Excel. Having completed end-to-end projects in financial risk monitoring, healthcare analytics, and retail intelligence, I can ramp up quickly and contribute from day one. I am currently based in Bengaluru, fully open to Pan-India opportunities (On-site, Hybrid, or Remote), and available to join immediately.\n\nThank you for your time and consideration. I would love the opportunity to discuss how my analytical skills and dedication can support ClixLogix's growth.\n\nWarm regards,\n\nAMIT KUMAR SAINI\nPhone: +91 7903838926\nEmail: clusterdistracted@gmail.com\nLinkedIn: https://linkedin.com/in/amitsaini-business-analyst\nGitHub: https://github.com/ClusterAmit\n",
+        "shortPitch": "Hi Hiring Team, I came across your opening for Associate Business Analyst at ClixLogix. I have 1 year of hands-on internship experience in data & business analytics (Ai Variant), where I built 12+ Power BI/Tableau dashboards and wrote optimized MySQL/Python queries. I am based in India, open to Pan-India/Hybrid/Remote setups, and available to join immediately. Would love to connect!",
+        "screeningAnswers": {
+          "Total Experience": "1 Year (Hands-on Business & Data Analytics Internship at Ai Variant)",
+          "Notice Period": "Immediate / 0 Days (Ready to join immediately)",
+          "Current Location & Mobility": "Bengaluru, Karnataka (Flexible for Pan-India relocation / Hybrid / Remote)",
+          "Primary Technical Skills": "SQL (MySQL, CTEs, Window Functions), Power BI (DAX), Tableau, Advanced Excel (XLOOKUP, Pivot Tables), Python (Pandas, NumPy)",
+          "Why should we hire you?": "During my 1-year internship, I didn't just study data—I automated reports, authored BRD/FRD documents, and improved reporting accuracy by 25%. I bring practical, production-level SQL and dashboarding skills with a relentless desire to learn and deliver."
+        }
+      },
+      "status": "New",
+      "dateDiscovered": "2026-11-11",
+      "notes": ""
+    },
+    "li_4489672568": {
+      "id": "li_4489672568",
+      "title": "Business Analyst - SAP Finance",
+      "company": "RandomTrees",
+      "location": "Hyderabad, Telangana, India",
+      "link": "https://in.linkedin.com/jobs/view/business-analyst-sap-finance-at-randomtrees-4489672568",
+      "datePosted": "1 hour ago",
+      "isPast24Hours": true,
+      "isStartup": false,
+      "source": "LinkedIn (Hyderabad)",
+      "description": "Business Analyst - SAP Finance at RandomTrees in Hyderabad, Telangana, India. Full-time entry-level opportunity posted within 24 hours in India.",
+      "score": 60,
+      "companyTier": "Tier 3",
+      "tierBadge": "🚀 Tier 3 Company",
+      "tierLabel": "Tier 3 (Verified Corporate)",
+      "matchedSkills": [],
+      "reason": "[Tier 3] Matches data & business analytics stack (). Full-time role in Hyderabad, Telangana, India suitable for 0-1 year experience.",
+      "isEntryLevelVerified": false,
+      "isStartupEntryVerified": false,
+      "coverLetterData": {
+        "coverLetter": "Dear Hiring Team at RandomTrees,\n\nI am writing to express my strong enthusiasm for the Business Analyst - SAP Finance opportunity at RandomTrees. As a data-driven professional with 1 year of hands-on internship experience at Ai Variant (Bengaluru), I specialize in translating complex business processes into actionable dashboards and analytical solutions.\n\nDuring my 1-year internship, I delivered measurable results across business intelligence and data operations:\n• Built and deployed 12+ interactive Power BI and Tableau dashboards, reducing manual reporting cycles by 40%.\n• Wrote optimized MySQL queries (leveraging CTEs, joins, and window functions) across 50,000+ transactional records, boosting data validation accuracy by 25%.\n• Spearheaded requirement gathering sessions, authored comprehensive BRDs/FRDs, and guided User Acceptance Testing (UAT) cycles in Agile sprints.\n• Conducted exploratory data analysis (EDA) using Python (Pandas, NumPy) and Advanced Excel (Pivot Tables, XLOOKUP).\n\nYour Business Analyst - SAP Finance opening aligns perfectly with my background in SQL (CTEs, Window functions), Power BI (DAX), Tableau, and Advanced Excel. Having completed end-to-end projects in financial risk monitoring, healthcare analytics, and retail intelligence, I can ramp up quickly and contribute from day one. I am currently based in Bengaluru, fully open to Pan-India opportunities (On-site, Hybrid, or Remote), and available to join immediately.\n\nThank you for your time and consideration. I would love the opportunity to discuss how my analytical skills and dedication can support RandomTrees's growth.\n\nWarm regards,\n\nAMIT KUMAR SAINI\nPhone: +91 7903838926\nEmail: clusterdistracted@gmail.com\nLinkedIn: https://linkedin.com/in/amitsaini-business-analyst\nGitHub: https://github.com/ClusterAmit\n",
+        "shortPitch": "Hi Hiring Team, I came across your opening for Business Analyst - SAP Finance at RandomTrees. I have 1 year of hands-on internship experience in data & business analytics (Ai Variant), where I built 12+ Power BI/Tableau dashboards and wrote optimized MySQL/Python queries. I am based in India, open to Pan-India/Hybrid/Remote setups, and available to join immediately. Would love to connect!",
+        "screeningAnswers": {
+          "Total Experience": "1 Year (Hands-on Business & Data Analytics Internship at Ai Variant)",
+          "Notice Period": "Immediate / 0 Days (Ready to join immediately)",
+          "Current Location & Mobility": "Bengaluru, Karnataka (Flexible for Pan-India relocation / Hybrid / Remote)",
+          "Primary Technical Skills": "SQL (MySQL, CTEs, Window Functions), Power BI (DAX), Tableau, Advanced Excel (XLOOKUP, Pivot Tables), Python (Pandas, NumPy)",
+          "Why should we hire you?": "During my 1-year internship, I didn't just study data—I automated reports, authored BRD/FRD documents, and improved reporting accuracy by 25%. I bring practical, production-level SQL and dashboarding skills with a relentless desire to learn and deliver."
+        }
+      },
+      "status": "New",
+      "dateDiscovered": "2026-11-11",
+      "notes": ""
+    },
+    "li_4487445529": {
+      "id": "li_4487445529",
+      "title": "Executive Research and Analytics",
+      "company": "InfoVision Inc.",
+      "location": "Bengaluru, Karnataka, India",
+      "link": "https://in.linkedin.com/jobs/view/executive-research-and-analytics-at-infovision-inc-4487445529",
+      "datePosted": "18 hours ago",
+      "isPast24Hours": true,
+      "isStartup": true,
+      "source": "LinkedIn (Tech Startup)",
+      "description": "Executive Research and Analytics at InfoVision Inc. in Bengaluru, Karnataka, India. Full-time entry-level opportunity posted within 24 hours in India.",
+      "score": 50,
+      "companyTier": "Startup",
+      "tierBadge": "🚀 Tech Startup",
+      "tierLabel": "High-Growth Tech Startup",
+      "matchedSkills": [],
+      "reason": "[Startup: 0-1 Yr] High-growth tech startup opportunity at InfoVision Inc. (Bengaluru, Karnataka, India) strictly matching entry-level / 1-year experience. Tailored to your 1-year analytics background in Analytics.",
+      "isEntryLevelVerified": true,
+      "isStartupEntryVerified": true,
+      "coverLetterData": {
+        "coverLetter": "Dear Hiring Team at InfoVision Inc.,\n\nI am writing to express my strong enthusiasm for the Executive Research and Analytics opportunity at InfoVision Inc.. As a data-driven professional with 1 year of hands-on internship experience at Ai Variant (Bengaluru), I specialize in translating complex business processes into actionable dashboards and analytical solutions.\n\nDuring my 1-year internship, I delivered measurable results across business intelligence and data operations:\n• Built and deployed 12+ interactive Power BI and Tableau dashboards, reducing manual reporting cycles by 40%.\n• Wrote optimized MySQL queries (leveraging CTEs, joins, and window functions) across 50,000+ transactional records, boosting data validation accuracy by 25%.\n• Spearheaded requirement gathering sessions, authored comprehensive BRDs/FRDs, and guided User Acceptance Testing (UAT) cycles in Agile sprints.\n• Conducted exploratory data analysis (EDA) using Python (Pandas, NumPy) and Advanced Excel (Pivot Tables, XLOOKUP).\n\nYour Executive Research and Analytics opening aligns perfectly with my background in SQL (CTEs, Window functions), Power BI (DAX), Tableau, and Advanced Excel. Having completed end-to-end projects in financial risk monitoring, healthcare analytics, and retail intelligence, I can ramp up quickly and contribute from day one. I am currently based in Bengaluru, fully open to Pan-India opportunities (On-site, Hybrid, or Remote), and available to join immediately.\n\nThank you for your time and consideration. I would love the opportunity to discuss how my analytical skills and dedication can support InfoVision Inc.'s growth.\n\nWarm regards,\n\nAMIT KUMAR SAINI\nPhone: +91 7903838926\nEmail: clusterdistracted@gmail.com\nLinkedIn: https://linkedin.com/in/amitsaini-business-analyst\nGitHub: https://github.com/ClusterAmit\n",
+        "shortPitch": "Hi Hiring Team, I came across your opening for Executive Research and Analytics at InfoVision Inc.. I have 1 year of hands-on internship experience in data & business analytics (Ai Variant), where I built 12+ Power BI/Tableau dashboards and wrote optimized MySQL/Python queries. I am based in India, open to Pan-India/Hybrid/Remote setups, and available to join immediately. Would love to connect!",
+        "screeningAnswers": {
+          "Total Experience": "1 Year (Hands-on Business & Data Analytics Internship at Ai Variant)",
+          "Notice Period": "Immediate / 0 Days (Ready to join immediately)",
+          "Current Location & Mobility": "Bengaluru, Karnataka (Flexible for Pan-India relocation / Hybrid / Remote)",
+          "Primary Technical Skills": "SQL (MySQL, CTEs, Window Functions), Power BI (DAX), Tableau, Advanced Excel (XLOOKUP, Pivot Tables), Python (Pandas, NumPy)",
+          "Why should we hire you?": "During my 1-year internship, I didn't just study data—I automated reports, authored BRD/FRD documents, and improved reporting accuracy by 25%. I bring practical, production-level SQL and dashboarding skills with a relentless desire to learn and deliver."
+        }
+      },
+      "status": "New",
+      "dateDiscovered": "2026-11-11",
       "notes": ""
     }
   }
