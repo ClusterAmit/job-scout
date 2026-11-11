@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/business-analyst-at-algo8-ai-cse-aios-4488623660
 MATCH SCORE: 80%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 3 hours ago
+POSTED: 13 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Algo8 AI [CSE: AIOS],

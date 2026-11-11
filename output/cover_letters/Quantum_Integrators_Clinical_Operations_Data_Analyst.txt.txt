@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/clinical-operations-data-analyst-at-quantum-integrators-4486346684
 MATCH SCORE: 75%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 9 hours ago
+POSTED: 3 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Quantum Integrators,

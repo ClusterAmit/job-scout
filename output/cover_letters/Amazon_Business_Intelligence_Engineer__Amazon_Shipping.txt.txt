@@ -3,7 +3,7 @@ TIER: Tier 1
 LINK: https://in.linkedin.com/jobs/view/business-intelligence-engineer-amazon-shipping-at-amazon-4481299543
 MATCH SCORE: 50%
 SOURCE: LinkedIn (Hyderabad)
-POSTED: 4 hours ago
+POSTED: 18 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Amazon,

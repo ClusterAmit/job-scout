@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/data-analyst-at-puffy-4487473580
 MATCH SCORE: 75%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 14 hours ago
+POSTED: 23 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Puffy,
