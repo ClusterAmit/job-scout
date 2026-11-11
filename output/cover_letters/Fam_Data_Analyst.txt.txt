@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/data-analyst-at-fam-4489917204
 MATCH SCORE: 75%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 5 hours ago
+POSTED: 15 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Fam,

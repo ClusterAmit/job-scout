@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/business-analyst-at-tap-growth-ai-4488665926
 MATCH SCORE: 75%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 2 hours ago
+POSTED: 12 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Tap Growth ai,

@@ -1,9 +1,9 @@
 JOB: Data Analyst - Revenue Operations at Clearwater Analytics (Noida, Uttar Pradesh, India)
-TIER: Tier 3
+TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/data-analyst-revenue-operations-at-clearwater-analytics-4478696031
-MATCH SCORE: 55%
-SOURCE: LinkedIn (India)
-POSTED: 2 hours ago
+MATCH SCORE: 75%
+SOURCE: LinkedIn (Tech Startup)
+POSTED: 12 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Clearwater Analytics,
