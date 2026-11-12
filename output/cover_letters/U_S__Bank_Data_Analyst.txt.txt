@@ -3,7 +3,7 @@ TIER: Tier 3
 LINK: https://in.linkedin.com/jobs/view/data-analyst-at-u-s-bank-4489966559
 MATCH SCORE: 60%
 SOURCE: LinkedIn (Chennai)
-POSTED: 5 hours ago
+POSTED: 19 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at U.S. Bank,

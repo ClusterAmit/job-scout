@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/data-analyst-at-indium-4489019098
 MATCH SCORE: 75%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 6 hours ago
+POSTED: 19 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Indium,

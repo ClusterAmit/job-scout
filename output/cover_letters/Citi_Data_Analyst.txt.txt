@@ -1,9 +1,9 @@
-JOB: Data Analyst at Citi (Haryana, India)
+JOB: Data Analyst at Citi (Chennai, Tamil Nadu, India)
 TIER: Tier 1
-LINK: https://in.linkedin.com/jobs/view/data-analyst-at-citi-4486991005
-MATCH SCORE: 70%
-SOURCE: LinkedIn (India)
-POSTED: 23 hours ago
+LINK: https://in.linkedin.com/jobs/view/data-analyst-at-citi-4489216068
+MATCH SCORE: 75%
+SOURCE: LinkedIn (Chennai)
+POSTED: 9 minutes ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Citi,

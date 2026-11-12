@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/data-analyst-at-certifyos-4489028081
 MATCH SCORE: 75%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 4 hours ago
+POSTED: 18 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at CertifyOS,

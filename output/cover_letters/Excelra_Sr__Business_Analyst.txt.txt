@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/sr-business-analyst-at-excelra-4488230498
 MATCH SCORE: 75%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 6 hours ago
+POSTED: 20 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Excelra,
