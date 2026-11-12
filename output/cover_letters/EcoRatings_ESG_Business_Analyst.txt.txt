@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/esg-business-analyst-at-ecoratings-4489076721
 MATCH SCORE: 75%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 1 hour ago
+POSTED: 12 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at EcoRatings,

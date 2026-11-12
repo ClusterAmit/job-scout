@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/business-analyst-at-edstem-technologies-4489201004
 MATCH SCORE: 75%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 4 hours ago
+POSTED: 14 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Edstem Technologies,

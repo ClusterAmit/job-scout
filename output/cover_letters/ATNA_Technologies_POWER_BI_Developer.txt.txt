@@ -3,7 +3,7 @@ TIER: Tier 3
 LINK: https://in.linkedin.com/jobs/view/power-bi-developer-at-atna-technologies-4489085450
 MATCH SCORE: 40%
 SOURCE: LinkedIn (Coimbatore)
-POSTED: 1 hour ago
+POSTED: 11 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at ATNA Technologies,
