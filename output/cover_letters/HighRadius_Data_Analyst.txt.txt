@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/data-analyst-at-highradius-4488516778
 MATCH SCORE: 80%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 8 hours ago
+POSTED: 21 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at HighRadius,

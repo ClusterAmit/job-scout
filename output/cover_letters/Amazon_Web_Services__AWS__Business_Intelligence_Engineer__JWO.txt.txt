@@ -3,7 +3,7 @@ TIER: Tier 1
 LINK: https://in.linkedin.com/jobs/view/business-intelligence-engineer-jwo-at-amazon-web-services-aws-4455778958
 MATCH SCORE: 50%
 SOURCE: LinkedIn (Hyderabad)
-POSTED: 9 hours ago
+POSTED: 22 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Amazon Web Services (AWS),
