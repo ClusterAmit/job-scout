@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/business-analyst-at-nutrabay-4489564190
 MATCH SCORE: 75%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 15 hours ago
+POSTED: 1 day ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Nutrabay,

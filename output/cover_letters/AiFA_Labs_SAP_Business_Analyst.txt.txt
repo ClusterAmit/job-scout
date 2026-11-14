@@ -1,9 +1,9 @@
 JOB: SAP Business Analyst at AiFA Labs (Hyderabad, Telangana, India)
-TIER: Startup
+TIER: Tier 3
 LINK: https://in.linkedin.com/jobs/view/sap-business-analyst-at-aifa-labs-4489559187
-MATCH SCORE: 80%
-SOURCE: LinkedIn (Tech Startup)
-POSTED: 15 hours ago
+MATCH SCORE: 60%
+SOURCE: LinkedIn (Hyderabad)
+POSTED: 1 day ago
 
 --- COVER LETTER ---
 Dear Hiring Team at AiFA Labs,

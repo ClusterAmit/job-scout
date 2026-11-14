@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/business-strategy-ai-analyst-at-zavya-4489536972
 MATCH SCORE: 50%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 11 hours ago
+POSTED: 20 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Zavya,
