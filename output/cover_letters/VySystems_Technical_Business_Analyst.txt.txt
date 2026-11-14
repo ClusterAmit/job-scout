@@ -3,7 +3,7 @@ TIER: Tier 3
 LINK: https://in.linkedin.com/jobs/view/technical-business-analyst-at-vysystems-4491049227
 MATCH SCORE: 60%
 SOURCE: LinkedIn (Hyderabad)
-POSTED: 5 hours ago
+POSTED: 14 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at VySystems,
