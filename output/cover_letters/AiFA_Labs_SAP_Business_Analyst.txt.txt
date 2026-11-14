@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/sap-business-analyst-at-aifa-labs-4489559187
 MATCH SCORE: 80%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 11 hours ago
+POSTED: 15 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at AiFA Labs,

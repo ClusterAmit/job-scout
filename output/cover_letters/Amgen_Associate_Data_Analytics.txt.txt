@@ -3,7 +3,7 @@ TIER: Tier 3
 LINK: https://in.linkedin.com/jobs/view/associate-data-analytics-at-amgen-4490750517
 MATCH SCORE: 50%
 SOURCE: LinkedIn (India)
-POSTED: 4 hours ago
+POSTED: 8 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Amgen,

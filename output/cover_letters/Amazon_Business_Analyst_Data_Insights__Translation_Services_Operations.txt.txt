@@ -3,7 +3,7 @@ TIER: Tier 1
 LINK: https://in.linkedin.com/jobs/view/business-analyst-data-insights-translation-services-operations-at-amazon-4455935218
 MATCH SCORE: 75%
 SOURCE: LinkedIn (Hyderabad)
-POSTED: 7 hours ago
+POSTED: 11 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Amazon,

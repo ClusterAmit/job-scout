@@ -3,7 +3,7 @@ TIER: Tier 3
 LINK: https://in.linkedin.com/jobs/view/workday-data-analyst-at-danaher-4488933999
 MATCH SCORE: 60%
 SOURCE: LinkedIn (Kolkata)
-POSTED: 5 hours ago
+POSTED: 9 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Danaher,

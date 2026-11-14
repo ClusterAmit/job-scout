@@ -3,7 +3,7 @@ TIER: Tier 3
 LINK: https://in.linkedin.com/jobs/view/data-analyst-at-zenithbyte-4489814812
 MATCH SCORE: 55%
 SOURCE: LinkedIn (India)
-POSTED: 31 minutes ago
+POSTED: 4 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Zenithbyte,
