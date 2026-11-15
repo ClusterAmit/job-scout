@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/healthcare-analyst-at-undisclosed-4489340494
 MATCH SCORE: 50%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 13 hours ago
+POSTED: 23 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Undisclosed,

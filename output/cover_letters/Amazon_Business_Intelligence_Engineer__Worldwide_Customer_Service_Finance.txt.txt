@@ -3,7 +3,7 @@ TIER: Tier 1
 LINK: https://in.linkedin.com/jobs/view/business-intelligence-engineer-worldwide-customer-service-finance-at-amazon-4474558227
 MATCH SCORE: 50%
 SOURCE: LinkedIn (Hyderabad)
-POSTED: 12 hours ago
+POSTED: 22 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Amazon,

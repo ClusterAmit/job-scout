@@ -1,9 +1,9 @@
-JOB: Data Analyst at EXL (Chennai, Tamil Nadu, India)
+JOB: Data Analyst at EXL (Gurugram, Haryana, India)
 TIER: Tier 1
-LINK: https://in.linkedin.com/jobs/view/data-analyst-at-exl-4488224616
-MATCH SCORE: 75%
-SOURCE: LinkedIn (Chennai)
-POSTED: 21 hours ago
+LINK: https://in.linkedin.com/jobs/view/data-analyst-at-exl-4446727273
+MATCH SCORE: 70%
+SOURCE: LinkedIn (India)
+POSTED: 22 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at EXL,

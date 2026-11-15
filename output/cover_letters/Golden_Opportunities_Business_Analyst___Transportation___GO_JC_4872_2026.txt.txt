@@ -1,9 +1,9 @@
 JOB: Business Analyst - Transportation - GO/JC/4872/2026 at Golden Opportunities (Greater Chennai Area)
-TIER: Tier 3
+TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/business-analyst-transportation-go-jc-4872-2026-at-golden-opportunities-4481690839
-MATCH SCORE: 60%
-SOURCE: LinkedIn (Chennai)
-POSTED: 13 hours ago
+MATCH SCORE: 80%
+SOURCE: LinkedIn (Tech Startup)
+POSTED: 23 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Golden Opportunities,
