@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/data-analyst-cyber-security-microsoft-technology-at-techbaton-4487459645
 MATCH SCORE: 75%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 11 hours ago
+POSTED: 17 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at TechBaton,

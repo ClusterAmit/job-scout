@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/data-analyst-power-bi-job-at-yash-technologies-middle-east-4488986963
 MATCH SCORE: 80%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 18 hours ago
+POSTED: 23 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at YASH Technologies Middle East,
