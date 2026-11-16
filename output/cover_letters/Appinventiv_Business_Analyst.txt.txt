@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/business-analyst-at-appinventiv-4489750046
 MATCH SCORE: 75%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 1 minute ago
+POSTED: 11 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Appinventiv,

@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/product-analyst-at-nutrabay-4481193772
 MATCH SCORE: 50%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 55 minutes ago
+POSTED: 12 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Nutrabay,

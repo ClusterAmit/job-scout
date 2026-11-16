@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/business-operations-data-analyst-at-wisdom-square-technologies-4490267243
 MATCH SCORE: 75%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 7 hours ago
+POSTED: 19 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Wisdom Square Technologies,
