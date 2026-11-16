@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/financial-operations-analyst-at-kapital-wisdom-4490227657
 MATCH SCORE: 50%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 7 hours ago
+POSTED: 12 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Kapital Wisdom,

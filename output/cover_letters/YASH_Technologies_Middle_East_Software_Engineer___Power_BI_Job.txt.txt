@@ -3,7 +3,7 @@ TIER: Tier 3
 LINK: https://in.linkedin.com/jobs/view/software-engineer-power-bi-job-at-yash-technologies-middle-east-4489365486
 MATCH SCORE: 40%
 SOURCE: LinkedIn (Hyderabad)
-POSTED: 19 hours ago
+POSTED: 23 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at YASH Technologies Middle East,

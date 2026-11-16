@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/digital-factory-global-application-analyst-at-kidde-global-solutions-4408432750
 MATCH SCORE: 55%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 8 hours ago
+POSTED: 13 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Kidde Global Solutions,

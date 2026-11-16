@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/sr-business-analyst-rpa-ba-job-at-yash-technologies-middle-east-4489354783
 MATCH SCORE: 75%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 19 hours ago
+POSTED: 23 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at YASH Technologies Middle East,
