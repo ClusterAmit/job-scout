@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/product-analyst-at-stitch-4491153201
 MATCH SCORE: 55%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 1 hour ago
+POSTED: 12 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Stitch,
