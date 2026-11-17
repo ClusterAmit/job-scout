@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/business-analyst-at-tipsons-group-4490611118
 MATCH SCORE: 75%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 11 hours ago
+POSTED: 23 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Tipsons Group,

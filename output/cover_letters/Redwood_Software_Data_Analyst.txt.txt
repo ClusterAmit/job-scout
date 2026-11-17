@@ -1,9 +1,9 @@
 JOB: Data Analyst at Redwood Software (Hyderabad, Telangana, India)
-TIER: Tier 3
+TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/data-analyst-at-redwood-software-4490690840
-MATCH SCORE: 60%
-SOURCE: LinkedIn (Hyderabad)
-POSTED: 6 hours ago
+MATCH SCORE: 80%
+SOURCE: LinkedIn (Tech Startup)
+POSTED: 18 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Redwood Software,
