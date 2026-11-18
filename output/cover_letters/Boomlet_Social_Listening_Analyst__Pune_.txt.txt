@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/social-listening-analyst-pune-at-boomlet-4490886153
 MATCH SCORE: 50%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 1 hour ago
+POSTED: 11 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Boomlet,

@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/data-analyst-at-msx-international-4492008557
 MATCH SCORE: 80%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 41 minutes ago
+POSTED: 11 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at MSX International,

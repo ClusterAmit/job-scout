@@ -1,8 +1,8 @@
 JOB: Data Analyst at Talent to Job (India)
-TIER: Tier 3
-LINK: https://in.linkedin.com/jobs/view/data-analyst-at-talent-to-job-4491794567
-MATCH SCORE: 55%
-SOURCE: LinkedIn (India)
+TIER: Startup
+LINK: https://in.linkedin.com/jobs/view/data-analyst-at-talent-to-job-4492081733
+MATCH SCORE: 75%
+SOURCE: LinkedIn (Tech Startup)
 POSTED: 3 hours ago
 
 --- COVER LETTER ---

@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/operations-analyst-at-intouchcx-4491433783
 MATCH SCORE: 55%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 12 hours ago
+POSTED: 23 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at IntouchCX,
