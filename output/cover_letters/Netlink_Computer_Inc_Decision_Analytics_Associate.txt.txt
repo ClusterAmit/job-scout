@@ -1,9 +1,9 @@
 JOB: Decision Analytics Associate at Netlink Computer Inc (Gurgaon, Haryana, India)
-TIER: Tier 3
+TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/decision-analytics-associate-at-netlink-computer-inc-4491189016
-MATCH SCORE: 45%
-SOURCE: LinkedIn (India)
-POSTED: 7 hours ago
+MATCH SCORE: 65%
+SOURCE: LinkedIn (Tech Startup)
+POSTED: 20 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Netlink Computer Inc,

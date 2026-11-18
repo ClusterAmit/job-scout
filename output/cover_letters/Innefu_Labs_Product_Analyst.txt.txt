@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/product-analyst-at-innefu-labs-4491171335
 MATCH SCORE: 50%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 10 hours ago
+POSTED: 23 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Innefu Labs,
