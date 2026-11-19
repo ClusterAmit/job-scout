@@ -3,7 +3,7 @@ TIER: Tier 3
 LINK: https://in.linkedin.com/jobs/view/junior-data-analyst-at-statusneo-4492138058
 MATCH SCORE: 70%
 SOURCE: LinkedIn (India)
-POSTED: 2 hours ago
+POSTED: 13 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at StatusNeo,

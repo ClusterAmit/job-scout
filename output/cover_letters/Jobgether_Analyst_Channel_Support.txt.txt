@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/analyst-channel-support-at-jobgether-4492117539
 MATCH SCORE: 50%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 8 hours ago
+POSTED: 19 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Jobgether,

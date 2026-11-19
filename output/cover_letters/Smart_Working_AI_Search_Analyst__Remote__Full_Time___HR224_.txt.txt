@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/ai-search-analyst-remote-full-time-hr224-at-smart-working-4491386715
 MATCH SCORE: 55%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 2 hours ago
+POSTED: 13 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Smart Working,

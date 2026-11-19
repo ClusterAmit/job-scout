@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/business-operations-fp-a-analyst-at-machinify-4491350991
 MATCH SCORE: 50%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 9 hours ago
+POSTED: 20 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Machinify,
