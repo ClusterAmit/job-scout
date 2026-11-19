@@ -1,7 +1,7 @@
 JOB: Data Analyst at Indium Software (Bangalore)
 TIER: Startup
-LINK: https://www.instahyre.com/job-448304-data-analyst-at-indium-software-bangalore/
-MATCH SCORE: 80%
+LINK: https://www.instahyre.com/job-448525-data-analyst-at-indium-software-bangalore/
+MATCH SCORE: 75%
 SOURCE: Instahyre (Tech Startup)
 POSTED: Fresh active listing
 
@@ -16,7 +16,7 @@ During my 1-year internship, I delivered measurable results across business inte
 • Spearheaded requirement gathering sessions, authored comprehensive BRDs/FRDs, and guided User Acceptance Testing (UAT) cycles in Agile sprints.
 • Conducted exploratory data analysis (EDA) using Python (Pandas, NumPy) and Advanced Excel (Pivot Tables, XLOOKUP).
 
-Your Data Analyst opening aligns perfectly with my background in SQL, Power BI, Tableau. Having completed end-to-end projects in financial risk monitoring, healthcare analytics, and retail intelligence, I can ramp up quickly and contribute from day one. I am currently based in Bengaluru, fully open to Pan-India opportunities (On-site, Hybrid, or Remote), and available to join immediately.
+Your Data Analyst opening aligns perfectly with my background in SQL, Python. Having completed end-to-end projects in financial risk monitoring, healthcare analytics, and retail intelligence, I can ramp up quickly and contribute from day one. I am currently based in Bengaluru, fully open to Pan-India opportunities (On-site, Hybrid, or Remote), and available to join immediately.
 
 Thank you for your time and consideration. I would love the opportunity to discuss how my analytical skills and dedication can support Indium Software's growth.
 
