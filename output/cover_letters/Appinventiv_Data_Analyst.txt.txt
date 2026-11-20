@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/data-analyst-at-appinventiv-4491907898
 MATCH SCORE: 75%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 2 minutes ago
+POSTED: 10 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Appinventiv,

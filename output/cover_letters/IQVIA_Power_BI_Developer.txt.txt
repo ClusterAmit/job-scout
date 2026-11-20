@@ -3,7 +3,7 @@ TIER: Tier 3
 LINK: https://in.linkedin.com/jobs/view/power-bi-developer-at-iqvia-4492145727
 MATCH SCORE: 40%
 SOURCE: LinkedIn (Kochi)
-POSTED: 6 hours ago
+POSTED: 16 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at IQVIA,
