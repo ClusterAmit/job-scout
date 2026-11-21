@@ -1,9 +1,9 @@
 JOB: Business Analyst at Expleo Group (Chennai, Tamil Nadu, India)
-TIER: Tier 3
+TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/business-analyst-at-expleo-group-4491905698
-MATCH SCORE: 60%
-SOURCE: LinkedIn (Chennai)
-POSTED: 1 hour ago
+MATCH SCORE: 80%
+SOURCE: LinkedIn (Tech Startup)
+POSTED: 22 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Expleo Group,

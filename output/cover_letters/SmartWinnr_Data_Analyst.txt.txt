@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/data-analyst-at-smartwinnr-4491924874
 MATCH SCORE: 80%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 6 hours ago
+POSTED: 19 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at SmartWinnr,
