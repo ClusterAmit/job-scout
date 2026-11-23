@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/data-analyst-at-anunta-4493512225
 MATCH SCORE: 75%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 3 hours ago
+POSTED: 8 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Anunta,
