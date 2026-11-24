@@ -1,9 +1,9 @@
 JOB: Portfolio Data Analyst (Coimbatore) at Arcana (Greater Coimbatore Area)
-TIER: Tier 3
+TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/portfolio-data-analyst-coimbatore-at-arcana-4383226757
-MATCH SCORE: 60%
-SOURCE: LinkedIn (Coimbatore)
-POSTED: 39 minutes ago
+MATCH SCORE: 80%
+SOURCE: LinkedIn (Tech Startup)
+POSTED: 13 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Arcana,

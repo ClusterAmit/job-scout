@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/associate-custom-analytics-at-intuitive-4461053650
 MATCH SCORE: 65%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 13 hours ago
+POSTED: 17 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Intuitive,
