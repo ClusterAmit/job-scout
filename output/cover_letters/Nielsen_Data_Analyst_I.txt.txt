@@ -3,7 +3,7 @@ TIER: Tier 2
 LINK: https://in.linkedin.com/jobs/view/data-analyst-i-at-nielsen-4492636170
 MATCH SCORE: 60%
 SOURCE: LinkedIn (India)
-POSTED: 9 hours ago
+POSTED: 21 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Nielsen,

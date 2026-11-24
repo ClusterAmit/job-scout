@@ -1,14 +1,14 @@
-JOB: Product Analyst(Product Owner) with US based Product Company, Pune(Hybrid) at Seventh Contact Hiring Solutions (Pune District, Maharashtra, India)
+JOB: Product Analyst(Product Owner) with US based Product Company, Pune(Hybrid), (NICMAR, CEPT, RICS, IIT, NIT- Preffered) at Seventh Contact Hiring Solutions (Pune District, Maharashtra, India)
 TIER: Startup
-LINK: https://in.linkedin.com/jobs/view/product-analyst-product-owner-with-us-based-product-company-pune-hybrid-at-seventh-contact-hiring-solutions-4493646042
+LINK: https://in.linkedin.com/jobs/view/product-analyst-product-owner-with-us-based-product-company-pune-hybrid-nicmar-cept-rics-iit-nit-preffered-at-seventh-contact-hiring-solutions-4494111037
 MATCH SCORE: 50%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 1 hour ago
+POSTED: 6 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Seventh Contact Hiring Solutions,
 
-I am writing to express my strong enthusiasm for the Product Analyst(Product Owner) with US based Product Company, Pune(Hybrid) opportunity at Seventh Contact Hiring Solutions. As a data-driven professional with 1 year of hands-on internship experience at Ai Variant (Bengaluru), I specialize in translating complex business processes into actionable dashboards and analytical solutions.
+I am writing to express my strong enthusiasm for the Product Analyst(Product Owner) with US based Product Company, Pune(Hybrid), (NICMAR, CEPT, RICS, IIT, NIT- Preffered) opportunity at Seventh Contact Hiring Solutions. As a data-driven professional with 1 year of hands-on internship experience at Ai Variant (Bengaluru), I specialize in translating complex business processes into actionable dashboards and analytical solutions.
 
 During my 1-year internship, I delivered measurable results across business intelligence and data operations:
 • Built and deployed 12+ interactive Power BI and Tableau dashboards, reducing manual reporting cycles by 40%.
@@ -16,7 +16,7 @@ During my 1-year internship, I delivered measurable results across business inte
 • Spearheaded requirement gathering sessions, authored comprehensive BRDs/FRDs, and guided User Acceptance Testing (UAT) cycles in Agile sprints.
 • Conducted exploratory data analysis (EDA) using Python (Pandas, NumPy) and Advanced Excel (Pivot Tables, XLOOKUP).
 
-Your Product Analyst(Product Owner) with US based Product Company, Pune(Hybrid) opening aligns perfectly with my background in SQL (CTEs, Window functions), Power BI (DAX), Tableau, and Advanced Excel. Having completed end-to-end projects in financial risk monitoring, healthcare analytics, and retail intelligence, I can ramp up quickly and contribute from day one. I am currently based in Bengaluru, fully open to Pan-India opportunities (On-site, Hybrid, or Remote), and available to join immediately.
+Your Product Analyst(Product Owner) with US based Product Company, Pune(Hybrid), (NICMAR, CEPT, RICS, IIT, NIT- Preffered) opening aligns perfectly with my background in SQL (CTEs, Window functions), Power BI (DAX), Tableau, and Advanced Excel. Having completed end-to-end projects in financial risk monitoring, healthcare analytics, and retail intelligence, I can ramp up quickly and contribute from day one. I am currently based in Bengaluru, fully open to Pan-India opportunities (On-site, Hybrid, or Remote), and available to join immediately.
 
 Thank you for your time and consideration. I would love the opportunity to discuss how my analytical skills and dedication can support Seventh Contact Hiring Solutions's growth.
 
@@ -30,7 +30,7 @@ GitHub: https://github.com/ClusterAmit
 
 
 --- RECRUITER PITCH ---
-Hi Hiring Team, I came across your opening for Product Analyst(Product Owner) with US based Product Company, Pune(Hybrid) at Seventh Contact Hiring Solutions. I have 1 year of hands-on internship experience in data & business analytics (Ai Variant), where I built 12+ Power BI/Tableau dashboards and wrote optimized MySQL/Python queries. I am based in India, open to Pan-India/Hybrid/Remote setups, and available to join immediately. Would love to connect!
+Hi Hiring Team, I came across your opening for Product Analyst(Product Owner) with US based Product Company, Pune(Hybrid), (NICMAR, CEPT, RICS, IIT, NIT- Preffered) at Seventh Contact Hiring Solutions. I have 1 year of hands-on internship experience in data & business analytics (Ai Variant), where I built 12+ Power BI/Tableau dashboards and wrote optimized MySQL/Python queries. I am based in India, open to Pan-India/Hybrid/Remote setups, and available to join immediately. Would love to connect!
 
 --- SCREENING ANSWERS ---
 {

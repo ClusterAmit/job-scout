@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/alpha-nodus-business-amp-product-analyst-at-alpha-nodus-4493944729
 MATCH SCORE: 50%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 2 hours ago
+POSTED: 13 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Alpha Nodus,
