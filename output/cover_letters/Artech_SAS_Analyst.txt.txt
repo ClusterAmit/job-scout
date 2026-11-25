@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/sas-analyst-at-artech-4494773558
 MATCH SCORE: 55%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 8 hours ago
+POSTED: 19 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Artech,

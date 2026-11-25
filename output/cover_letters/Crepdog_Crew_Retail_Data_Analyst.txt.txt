@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/retail-data-analyst-at-crepdog-crew-4494794273
 MATCH SCORE: 75%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 5 hours ago
+POSTED: 15 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Crepdog Crew,

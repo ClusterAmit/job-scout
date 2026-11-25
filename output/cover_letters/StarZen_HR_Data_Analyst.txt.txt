@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/hr-data-analyst-at-starzen-4494617140
 MATCH SCORE: 75%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 3 hours ago
+POSTED: 13 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at StarZen,

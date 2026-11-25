@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/junior-product-analyst-at-olx-india-4493083897
 MATCH SCORE: 65%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 7 hours ago
+POSTED: 17 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at OLX India,
