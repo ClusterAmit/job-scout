@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/business-analyst-at-cloud-atler-4494323304
 MATCH SCORE: 75%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 6 hours ago
+POSTED: 16 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Cloud Atler,
