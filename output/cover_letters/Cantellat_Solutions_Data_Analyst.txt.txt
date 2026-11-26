@@ -1,9 +1,9 @@
 JOB: Data Analyst at Cantellat Solutions (Hyderabad, Telangana, India)
-TIER: Tier 3
+TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/data-analyst-at-cantellat-solutions-4493402131
-MATCH SCORE: 60%
-SOURCE: LinkedIn (Hyderabad)
-POSTED: 4 hours ago
+MATCH SCORE: 80%
+SOURCE: LinkedIn (Tech Startup)
+POSTED: 14 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Cantellat Solutions,

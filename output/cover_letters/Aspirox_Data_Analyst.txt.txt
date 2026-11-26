@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/data-analyst-at-aspirox-4495258957
 MATCH SCORE: 75%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 5 hours ago
+POSTED: 16 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Aspirox,

@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/workflow-automation-analyst-at-ethos-4495295652
 MATCH SCORE: 50%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 7 minutes ago
+POSTED: 5 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Ethos,
