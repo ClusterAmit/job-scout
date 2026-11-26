@@ -1,9 +1,9 @@
-JOB: Data Analyst at Scoutit (Gurugram, Haryana, India)
-TIER: Tier 3
-LINK: https://in.linkedin.com/jobs/view/data-analyst-at-scoutit-4486845302
-MATCH SCORE: 55%
-SOURCE: LinkedIn (India)
-POSTED: 15 hours ago
+JOB: Data Analyst at Scoutit (Pune City, Maharashtra, India)
+TIER: Startup
+LINK: https://in.linkedin.com/jobs/view/data-analyst-at-scoutit-4495003643
+MATCH SCORE: 75%
+SOURCE: LinkedIn (Tech Startup)
+POSTED: 2 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Scoutit,

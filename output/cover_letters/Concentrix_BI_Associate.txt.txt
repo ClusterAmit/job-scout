@@ -1,7 +1,9 @@
-JOB: BI Associate at Concentrix (Gurugram, Haryana, India)
-LINK: https://in.linkedin.com/jobs/view/bi-associate-at-concentrix-4481454135
-MATCH SCORE: 40%
-SOURCE: LinkedIn (Pan-India Entry Level)
+JOB: BI Associate at Concentrix (Bengaluru East, Karnataka, India)
+TIER: Tier 3
+LINK: https://in.linkedin.com/jobs/view/bi-associate-at-concentrix-4493804946
+MATCH SCORE: 45%
+SOURCE: LinkedIn (India)
+POSTED: 1 hour ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Concentrix,

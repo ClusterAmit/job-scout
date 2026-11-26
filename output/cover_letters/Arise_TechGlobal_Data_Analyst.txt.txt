@@ -1,9 +1,9 @@
-JOB: Data Analyst at Arise TechGlobal (Hyderabad, Telangana, India)
+JOB: Data Analyst at Arise TechGlobal (India)
 TIER: Tier 3
-LINK: https://in.linkedin.com/jobs/view/data-analyst-at-arise-techglobal-4492871882
-MATCH SCORE: 60%
+LINK: https://in.linkedin.com/jobs/view/data-analyst-at-arise-techglobal-4493800237
+MATCH SCORE: 55%
 SOURCE: LinkedIn (India)
-POSTED: 17 hours ago
+POSTED: 5 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Arise TechGlobal,
