@@ -1,9 +1,9 @@
 JOB: Junior Data Quality Analyst at StatusNeo (India)
-TIER: Tier 3
+TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/junior-data-quality-analyst-at-statusneo-4495070757
-MATCH SCORE: 45%
-SOURCE: LinkedIn (India)
-POSTED: 6 hours ago
+MATCH SCORE: 65%
+SOURCE: LinkedIn (Tech Startup)
+POSTED: 17 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at StatusNeo,

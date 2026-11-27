@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/sap-business-analyst-at-volto-consulting-4495092344
 MATCH SCORE: 80%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 2 hours ago
+POSTED: 12 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at VOLTO Consulting,

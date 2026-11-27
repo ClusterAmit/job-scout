@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/partner-operations-analyst-at-redwood-software-4479140287
 MATCH SCORE: 55%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 17 hours ago
+POSTED: 6 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Redwood Software,

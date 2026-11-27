@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/sr-product-analyst-agency-operating-system-at-highlevel-4493886452
 MATCH SCORE: 50%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 1 hour ago
+POSTED: 12 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at HighLevel,

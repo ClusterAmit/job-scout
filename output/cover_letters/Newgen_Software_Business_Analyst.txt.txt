@@ -1,9 +1,9 @@
 JOB: Business Analyst at Newgen Software (Noida, Uttar Pradesh, India)
-TIER: Startup
+TIER: Tier 3
 LINK: https://in.linkedin.com/jobs/view/business-analyst-at-newgen-software-4493874325
-MATCH SCORE: 75%
-SOURCE: LinkedIn (Tech Startup)
-POSTED: 5 hours ago
+MATCH SCORE: 55%
+SOURCE: LinkedIn (India)
+POSTED: 16 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Newgen Software,
