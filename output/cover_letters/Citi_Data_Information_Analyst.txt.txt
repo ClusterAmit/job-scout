@@ -3,7 +3,7 @@ TIER: Tier 1
 LINK: https://in.linkedin.com/jobs/view/data-information-analyst-at-citi-4495041394
 MATCH SCORE: 50%
 SOURCE: LinkedIn (Chennai)
-POSTED: 6 hours ago
+POSTED: 19 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Citi,

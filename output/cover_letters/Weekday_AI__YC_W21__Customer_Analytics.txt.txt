@@ -3,7 +3,7 @@ TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/customer-analytics-at-weekday-ai-yc-w21-4495510282
 MATCH SCORE: 50%
 SOURCE: LinkedIn (Tech Startup)
-POSTED: 9 hours ago
+POSTED: 22 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Weekday AI (YC W21),
