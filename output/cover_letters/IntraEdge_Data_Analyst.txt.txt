@@ -3,7 +3,7 @@ TIER: Tier 3
 LINK: https://in.linkedin.com/jobs/view/data-analyst-at-intraedge-4495091848
 MATCH SCORE: 60%
 SOURCE: LinkedIn (Hyderabad)
-POSTED: 7 hours ago
+POSTED: 20 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at IntraEdge,

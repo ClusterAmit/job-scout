@@ -1,9 +1,9 @@
 JOB: Data Analyst at Rylestate (Greater Delhi Area)
-TIER: Tier 3
+TIER: Startup
 LINK: https://in.linkedin.com/jobs/view/data-analyst-at-rylestate-4493877526
-MATCH SCORE: 55%
-SOURCE: LinkedIn (India)
-POSTED: 10 hours ago
+MATCH SCORE: 75%
+SOURCE: LinkedIn (Tech Startup)
+POSTED: 22 hours ago
 
 --- COVER LETTER ---
 Dear Hiring Team at Rylestate,
